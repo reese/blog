@@ -3,14 +3,21 @@ import moment from "moment";
 import React, { useEffect } from "react";
 import styles from "./Feed.module.scss";
 
-const AlbumWidget = ({ currentSong: { albumTitle, title } }) => {
+const AlbumWidget = ({ currentSong: { albumTitle, artist, title } }) => {
   const [trackList, setTrackList] = useState([]);
+  const [artistMetadata, setArtistMetadata] = useState();
 
   useEffect(() => {
-    fetch(`https://yourapi.com/albums/${albumTitle}`).then(({ trackList }) =>
-      setTrackList(trackList)
+    fetch(`https://yourapi.com/albums/${albumTitle}`).then((tracks) =>
+      setTrackList(tracks)
     );
   }, [albumTitle]);
+
+  useEffect(() => {
+    fetch(`https://yourapi.com/artists/${artist}`).then(({ metadata }) =>
+      setArtistMetadata(metadata)
+    );
+  });
 
   return (
     <div>

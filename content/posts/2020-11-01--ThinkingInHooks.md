@@ -36,7 +36,7 @@ But the whole formula of `UI = app(State)` is _incredibly_ important, because it
 Side effects are often the most important bits of your application: they're the requests that upload cute puppy photos, charge credit cards, or send important messages.
 When our side effects are out-of-sync with our application state, users start seeing through the cracks of our application.
 
-More important to this discussion, Hooks offer a different set of tools that more accurately convey this formula by better syncing the disparate parts of our applications.
+Hooks offer a different set of tools that more accurately convey this formula by better syncing the disparate parts of our applications.
 But before we get there, we need to talk about class components.
 
 ## Thinking in Classes
@@ -66,7 +66,7 @@ We don't _care_ about the state of the DOM when thinking of this -- we only want
 When does the lifecycle model fail here?
 Let's take this component as an example:
 
-```js
+```jsx
 class AlbumWidget extends React.Component {
   state = {
     trackList: [],
@@ -75,14 +75,14 @@ class AlbumWidget extends React.Component {
   componentDidMount() {
     fetch(
       `https://yourapi.com/albums/${this.props.currentSong.albumTitle}`
-    ).then(({ trackList }) => this.setState({ trackList }));
+    ).then(trackList=> this.setState({ trackList }));
   }
 
   render() {
     return (
       <div>
         <p>Now Playing: {this.state.currentSong.title}</p>
-        {trackList.map((track) => (
+        {trackList.map(track => (
           <TrackListing track={track} />
         ))}
       </div>
@@ -97,7 +97,7 @@ But what happens when we pick a song in a different album?
 Our `this.props.currentSong` has changed.
 So we need to fetch the album's track listing again:
 
-```js{6-16}
+```jsx{6-16}
 class AlbumWidget extends React.Component {
   state = {
     trackList: [],
@@ -118,14 +118,14 @@ class AlbumWidget extends React.Component {
   fetchTrackList() {
     fetch(
       `https://yourapi.com/albums/${this.props.currentSong.albumTitle}`
-    ).then(({ trackList }) => this.setState({ trackList }));
+    ).then(trackList => this.setState({ trackList }));
   }
 
   render() {
     return (
       <div>
         <p>Now Playing: {this.state.currentSong.title}</p>
-        {trackList.map((track) => (
+        {trackList.map(track => (
           <TrackListing track={track} />
         ))}
       </div>
@@ -140,7 +140,7 @@ We could add another fetch to `componentDidMount` and then another check for pro
 
 Okay, keeping track of these state changes might start getting tricky soon.
 We're checking for changes in multiple places now, and someone learning this codebase in the future might miss one of them.
-Even future-you might forget about it in the future, especially when more complex components handle state changes at various parts of their lifecycle.
+Even future-you might forget about it, especially when more complex components handle state changes at various parts of their lifecycle.
 How can we catch ourselves from letting things get out of sync?
 
 ## Thinking in Hooks
@@ -148,27 +148,26 @@ How can we catch ourselves from letting things get out of sync?
 Alright, it's finally time to shine some light on Hooks.
 Earlier, I mentioned that React apps -- or really, _any_ user interface -- really consist of interactions between elements, effects, and state.
 What Hooks allow us to do is to declaratively handle the first two _only_ based on our application state.
-In fact, function components using Hooks perform _all_ of their logic in their render phases, meaning we don't have to think about lifecycle changes anymore.
 
 Hooks, as their name implies, let us "hook into" React state from our function components.
 Broadly speaking, Hooks let us describe the circumstances under which we synchronize our effects and state by declaring a set of dependencies.
 
 Let's look at a concrete example:
 
-```js
+```jsx
 const AlbumWidget = ({ currentSong: { albumTitle, title } }) => {
   const [trackList, setTrackList] = useState([]);
 
   useEffect(() => {
-    fetch(`https://yourapi.com/albums/${albumTitle}`).then(({ trackList }) =>
-      setTrackList(trackList)
+    fetch(`https://yourapi.com/albums/${albumTitle}`).then(tracks =>
+      setTrackList(tracks)
     );
-  }, [albumTitle]);
+  }, [albumTitle])
 
   return (
     <div>
       <p>Now Playing: {title}</p>
-      {trackList.map((track) => (
+      {trackList.map(track => (
         <TrackListing track={track} />
       ))}
     </div>
@@ -180,5 +179,63 @@ This is our `AlbumWidget` example from before.
 Remember that we had a bit of trouble making sure that we fetched the album every time our album title changed because we had to be sure to fetch both in our `componentDidMount` and `componentDidUpdate` methods.
 But here, all we had to do was put our `albumTitle` in the dependency array -- and we're done.
 We can simply tell React _hey, whenever this variable changes, run this function again_.
+Hooks allow us to push the logic of _when_ to run effects into React itself so that we don't have to think about lifecycle changes anymore.
+
+One important thing to note here is that "state" in function components can essentially be any value, regardless of whether or not it's the result of a call to `useState`.
+We can pass anything to our dependency array and have it count as a dependency.
+The `this.state` versus `this.props` distinction of class components is irrelevant here -- data is data, and Hooks respond to any value change the same way.
+
+Earlier, I also noted that our earlier implementation would be somewhat tricky to extend, since if we added _another effect_ with _another condition_, we would have to mix the effects together as part of the lifecycle components.
+With `useEffect`, we can group our effects and their dependencies together so that effects will remain completely independent.
+Adding an additional effect like fetching artist metadata is as simple as adding another call to `useEffect`:
+
+```jsx{11-15}
+const AlbumWidget = ({ currentSong: { albumTitle, artist, title } }) => {
+  const [trackList, setTrackList] = useState([]);
+  const [artistMetadata, setArtistMetadata] = useState();
+
+  useEffect(() => {
+    fetch(`https://yourapi.com/albums/${albumTitle}`).then(tracks =>
+      setTrackList(tracks)
+    );
+  }, [albumTitle]);
+
+  useEffect(() => {
+    fetch(`https://yourapi.com/artists/${artist}`).then(({ metadata }) =>
+      setArtistMetadata(metadata)
+    );
+  }, [artist]);
+
+  return (
+    <div>
+      <p>Now Playing: {title}</p>
+      <p>Artist: {artistMetadata.name}</p>
+      {trackList.map(track => (
+        <TrackListing track={track} />
+      ))}
+    </div>
+  );
+};
+```
+
+It's tempting when looking at different versions of this component side-by-side to try and re-invent lifecycle methods[^2], but framing `useEffect` in this light fails to capture the distinction between the two tools.
+`useEffect` allows us to schedule effects during the render phase without requiring us to think about when in the component's lifecycle it will run.
+This more directly ties our effects to our application state and closer to the React programming model.
+
+Tying effects to state is really the core conceit of Hooks.
+There are several different built-in Hooks that have various use cases, but broadly speaking they either allow us to either define and access stateful values or to schedule effects or expensive computations _based_ on those stateful values.
+
+## Wrapping up
+
+Tying our application more closely to its state means that our mental model is one centered around data flow.
+Functional components with Hooks guarantee that our components successfully stay in sync with any data coming into it.
+This is what "thinking in Hooks" means: to write components in terms of pure state without respect to what that data _was_ or _will be_.
+
+Of course, this way of thinking doesn't _only_ apply to Hooks.
+Hooks are just this one particular trick, but the important part is the trick behind the trick.
+Hooks represent just one solution to a whole class of difficult problems[^3] related to sharing state and reasoning about side-effects.
+No matter the implementation, it's clear that being able to pair effects with state changes make them easier to reason about and more effective at modeling domains within our applications.
 
 [^1]: What’s more, some folks like Rich Harris (whose talk [“Metaphysics and JavaScript”](https://docs.google.com/presentation/d/1_aeM_UkwS9qaSzHDz87zC9bmtvbuLbPof7RnN96SJKE/edit#slide=id.g33e09941c5_1_0) does an _amazing_ job covering this) argue that it’s an incomplete abstraction, but I won’t dive too much into that here.
+[^2]: Jason Miller, creator of [Preact](https://preactjs.com/), expressed something similar when he [mentioned](https://twitter.com/_developit/status/1124857230149312513) always recreating a `useMount` hook that mirrored the functionality of `componentDidMount`.
+[^3]: There are a lot of fantastic resources in the [documentation on the prior art for Hooks](https://reactjs.org/docs/hooks-faq.html#what-is-the-prior-art-for-hooks). For applications outside of React and user interfaces more generally, the documentation on [RxJS Subscriptions](http://reactivex.io/rxjs/class/es6/Subscription.js~Subscription.html) and [Algebraic Effects in OCaml](https://github.com/ocamllabs/ocaml-effects-tutorial#2-effectful-computations-in-a-pure-setting) are fantastic reads.
