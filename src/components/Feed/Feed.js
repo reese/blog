@@ -1,7 +1,26 @@
-import React from "react";
-import moment from "moment";
 import { Link } from "gatsby";
+import moment from "moment";
+import React, { useEffect } from "react";
 import styles from "./Feed.module.scss";
+
+const AlbumWidget = ({ currentSong: { albumTitle, title } }) => {
+  const [trackList, setTrackList] = useState([]);
+
+  useEffect(() => {
+    fetch(`https://yourapi.com/albums/${albumTitle}`).then(({ trackList }) =>
+      setTrackList(trackList)
+    );
+  }, [albumTitle]);
+
+  return (
+    <div>
+      <p>Now Playing: {title}</p>
+      {trackList.map((track) => (
+        <TrackListing track={track} />
+      ))}
+    </div>
+  );
+};
 
 const Feed = ({ edges }) => (
   <div className={styles["feed"]}>
