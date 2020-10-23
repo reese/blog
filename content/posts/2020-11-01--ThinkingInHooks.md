@@ -2,7 +2,7 @@
 title: Thinking in Hooks
 date: "2020-11-01"
 template: "post"
-draft: false
+draft: true
 slug: "thinking-in-hooks"
 category: "React"
 description: "How Hooks change our mental models"
