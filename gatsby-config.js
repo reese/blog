@@ -80,6 +80,9 @@ module.exports = {
                       html
                       fields {
                         slug
+                        readingTime {
+                          text
+                        }
                       }
                       frontmatter {
                         title
@@ -105,6 +108,22 @@ module.exports = {
         plugins: [
           "gatsby-remark-relative-images",
           "gatsby-plugin-robots-txt",
+          "gatsby-remark-reading-time",
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                danger: {
+                  classes: "danger",
+                  title: "optional",
+                },
+                info: {
+                  classes: "info",
+                  title: "optional",
+                },
+              },
+            },
+          },
           {
             resolve: "gatsby-remark-images",
             options: {

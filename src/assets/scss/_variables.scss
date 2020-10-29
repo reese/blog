@@ -3,10 +3,12 @@
  */
 
 // Colors
-$color-base: rgb(244, 244, 244);
-$color-primary: #6095ff;
-$color-secondary: #ffa84b;
-$background-color: rgb(38, 38, 38);
+// https://coolors.co/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
+$color-base: #e0fbfc;
+$color-primary: #ee6c4d;
+$color-secondary: #e7b4a5;
+$color-ternary: #98c1d9;
+$background-color: #293241;
 
 $color-white: #fff;
 $color-gray: lighten($color-base, 30%);
@@ -18,7 +20,7 @@ $typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 $typographic-root-font-size: 100;
-$typographic-base-font-size: 14px;
+$typographic-base-font-size: 16px;
 $typographic-small-font-size: 12px;
 
 $typographic-base-line-height: 1.625;

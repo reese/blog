@@ -1,6 +1,6 @@
 ---
 title: "Cascading the Technical Interview"
-date: "2020-10-31"
+date: "2020-10-25"
 template: "post"
 draft: false
 slug: "cascading-the-technical-interview"

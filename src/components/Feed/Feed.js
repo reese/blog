@@ -1,33 +1,7 @@
 import { Link } from "gatsby";
 import moment from "moment";
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./Feed.module.scss";
-
-const AlbumWidget = ({ currentSong: { albumTitle, artist, title } }) => {
-  const [trackList, setTrackList] = useState([]);
-  const [artistMetadata, setArtistMetadata] = useState();
-
-  useEffect(() => {
-    fetch(`https://yourapi.com/albums/${albumTitle}`).then((tracks) =>
-      setTrackList(tracks)
-    );
-  }, [albumTitle]);
-
-  useEffect(() => {
-    fetch(`https://yourapi.com/artists/${artist}`).then(({ metadata }) =>
-      setArtistMetadata(metadata)
-    );
-  });
-
-  return (
-    <div>
-      <p>Now Playing: {title}</p>
-      {trackList.map((track) => (
-        <TrackListing track={track} />
-      ))}
-    </div>
-  );
-};
 
 const Feed = ({ edges }) => (
   <div className={styles["feed"]}>
@@ -49,6 +23,10 @@ const Feed = ({ edges }) => (
               {edge.node.frontmatter.category}
             </Link>
           </span>
+          <span className={styles["feed__item-meta-divider"]} />
+          <time className={styles["feed__item-meta-time"]}>
+            {edge.node.fields.readingTime.text}
+          </time>
         </div>
         <h2 className={styles["feed__item-title"]}>
           <Link

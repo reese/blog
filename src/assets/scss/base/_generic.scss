@@ -173,3 +173,27 @@ figcaption {
     float: left;
   }
 }
+
+.custom-block {
+  &.info {
+    background-color: $color-ternary;
+    border: 2px solid $color-base;
+    color: #293241;
+    padding: 20px 0;
+    border-radius: 10px;
+
+    .custom-block-heading {
+      font-size: $typographic-base-font-size * 1.5;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .custom-block-body {
+      padding: 10px 20px;
+
+      & > p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
