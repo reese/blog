@@ -1,11 +1,11 @@
 // @flow strict
-import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import Sidebar from "../components/Sidebar";
+import React from "react";
 import Feed from "../components/Feed";
+import Layout from "../components/Layout";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
+import Sidebar from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
 const TagTemplate = ({ data, pageContext }) => {
@@ -67,6 +67,9 @@ export const query = graphql`
           fields {
             slug
             categorySlug
+            readingTime {
+              text
+            }
           }
           frontmatter {
             title

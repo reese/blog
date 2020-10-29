@@ -7,7 +7,6 @@ module.exports = {
   subtitle: "A personal blog by Reese Williams.",
   copyright: "© Reese Williams - All rights reserved.",
   postsPerPage: 10,
-  googleAnalyticsId: "UA-131463253-1",
   menu: [
     {
       label: "Articles",
