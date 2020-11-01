@@ -4,15 +4,14 @@ date: "2020-10-25"
 template: "post"
 draft: false
 slug: "cascading-the-technical-interview"
-category: "Weird"
+category: "CSS"
 description: "Grokking the whiteboard interview, even when the ancient gods have turned their backs on you."
 tags:
-    - "Weird"
+    - "CSS"
     - "Fiction"
     - "Web Technologies"
     - "Technical Interviews"
     - "JavaScript"
-    - "CSS"
 socialImage: "/media/Schylla-and-Charybdis.png"
 ---
 
