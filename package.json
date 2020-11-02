@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "blog.reesew.io",
+  "name": "reesew.io",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.24.91",
