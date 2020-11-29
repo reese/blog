@@ -7,15 +7,15 @@ slug: "cascading-the-technical-interview"
 category: "CSS"
 description: "Grokking the whiteboard interview, even when the ancient gods have turned their backs on you."
 tags:
-    - "CSS"
-    - "Fiction"
-    - "Web Technologies"
-    - "Technical Interviews"
-    - "JavaScript"
+  - "CSS"
+  - "Fiction"
+  - "Web Technologies"
+  - "Technical Interviews"
+  - "JavaScript"
 socialImage: "/media/Schylla-and-Charybdis.png"
 ---
 
-Introducing... *drum roll*... [whiteboard.guide](https://whiteboard.guide)!
+Introducing... _drum roll_... [whiteboard.guide](https://whiteboard.guide)!
 You should check it out!
 
 You _could_ say that it's a guide to whiteboard interviews.

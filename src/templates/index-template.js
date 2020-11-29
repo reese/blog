@@ -1,11 +1,10 @@
-// @flow strict
 import { graphql } from "gatsby";
 import React from "react";
 import Feed from "../components/Feed";
 import Layout from "../components/Layout";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
-import Sidebar from "../components/Sidebar";
+import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
 const IndexTemplate = ({ data, pageContext }) => {
@@ -25,7 +24,7 @@ const IndexTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
-      <Sidebar isIndex />
+      <NavigationWrapper />
       <Page>
         <Feed edges={edges} />
         <Pagination
@@ -44,7 +43,9 @@ export const query = graphql`
     allMarkdownRemark(
       limit: $postsLimit
       skip: $postsOffset
-      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+      filter: {
+        frontmatter: { template: { eq: "post" }, draft: { eq: false } }
+      }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

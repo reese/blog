@@ -1,9 +1,8 @@
-// @flow strict
-import React from "react";
 import { graphql } from "gatsby";
+import React from "react";
 import Layout from "../components/Layout";
-import Sidebar from "../components/Sidebar";
 import Page from "../components/Page";
+import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
 const PageTemplate = ({ data }) => {
@@ -24,7 +23,7 @@ const PageTemplate = ({ data }) => {
       description={metaDescription}
       socialImage={socialImage}
     >
-      <Sidebar />
+      <NavigationWrapper />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>

@@ -1,11 +1,10 @@
-// @flow strict
-import React from 'react';
-import { Link } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
-import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
-import Page from '../components/Page';
-import { useSiteMetadata, useTagsList } from '../hooks';
+import { Link } from "gatsby";
+import kebabCase from "lodash/kebabCase";
+import React from "react";
+import Layout from "../components/Layout";
+import Page from "../components/Page";
+import { NavigationWrapper } from "../components/Sidebar";
+import { useSiteMetadata, useTagsList } from "../hooks";
 
 const TagsListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
@@ -13,7 +12,7 @@ const TagsListTemplate = () => {
 
   return (
     <Layout title={`Tags - ${title}`} description={subtitle}>
-      <Sidebar />
+      <NavigationWrapper />
       <Page title="Tags">
         <ul>
           {tags.map((tag) => (

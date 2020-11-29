@@ -5,7 +5,7 @@ import Feed from "../components/Feed";
 import Layout from "../components/Layout";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
-import Sidebar from "../components/Sidebar";
+import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
 const CategoryTemplate = ({ data, pageContext }) => {
@@ -28,7 +28,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
-      <Sidebar />
+      <NavigationWrapper />
       <Page title={category}>
         <Feed edges={edges} />
         <Pagination

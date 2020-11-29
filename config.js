@@ -18,9 +18,7 @@ module.exports = {
     },
   ],
   author: {
-    name: "Reese Williams",
-    photo: "/headshot.jpg",
-    bio: "",
+    photo: "/full-logo.png",
     contacts: {
       email: "reese@reesew.io",
       twitter: "_reesew",

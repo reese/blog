@@ -1,11 +1,10 @@
-// @flow strict
 import { graphql } from "gatsby";
 import React from "react";
 import Feed from "../components/Feed";
 import Layout from "../components/Layout";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
-import Sidebar from "../components/Sidebar";
+import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
 const TagTemplate = ({ data, pageContext }) => {
@@ -28,7 +27,7 @@ const TagTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
-      <Sidebar />
+      <NavigationWrapper />
       <Page title={tag}>
         <Feed edges={edges} />
         <Pagination
