@@ -1,8 +1,8 @@
 "use strict";
 
-const _ = require("lodash");
 const path = require("path");
 const siteConfig = require("../../config.js");
+const kebabCase = require("../utils/kebabCase");
 
 module.exports = async (graphql, actions) => {
   const { createPage } = actions;
@@ -23,9 +23,9 @@ module.exports = async (graphql, actions) => {
     }
   `);
 
-  _.each(result.data.allMarkdownRemark.group, (category) => {
+  result.data.allMarkdownRemark.group.forEach((category) => {
     const numPages = Math.ceil(category.totalCount / postsPerPage);
-    const categorySlug = `/category/${_.kebabCase(category.fieldValue)}`;
+    const categorySlug = `/category/${kebabCase(category.fieldValue)}`;
 
     for (let i = 0; i < numPages; i += 1) {
       createPage({

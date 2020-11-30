@@ -1,10 +1,10 @@
 import { Link } from "gatsby";
-import kebabCase from "lodash/kebabCase";
 import React from "react";
 import Layout from "../components/Layout";
 import Page from "../components/Page";
 import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata, useTagsList } from "../hooks";
+import { kebabCase } from "../utils/kebabCase";
 
 const TagsListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();

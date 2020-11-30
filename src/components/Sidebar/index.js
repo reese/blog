@@ -1,23 +1,31 @@
 import React from "react";
 import { useSiteMetadata } from "../../hooks";
-import { Author } from "./Author";
+import Layout from "../Layout";
 import Contacts from "./Contacts";
 import Copyright from "./Copyright";
 import Menu from "./Menu";
 import styles from "./Sidebar.module.scss";
 
-export const NavigationWrapper = ({ children }) => {
+export const NavigationWrapper = ({
+  title,
+  description,
+  socialImage,
+  children,
+}) => {
   const { author, copyright, menu } = useSiteMetadata();
 
   return (
-    <div className={styles["sidebar"]}>
-      <div className={styles["sidebar__inner"]}>
-        <Author author={author} />
-        <Menu menu={menu} />
-        {children}
-        <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
+    <Layout title={title} description={description} socialImage={socialImage}>
+      <div className={styles["sidebar"]}>
+        <div className={styles["sidebar__inner"]}>
+          <Menu menu={menu} />
+          {children}
+          <div>
+            <Contacts contacts={author.contacts} />
+            <Copyright copyright={copyright} />
+          </div>
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };

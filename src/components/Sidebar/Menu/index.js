@@ -1,23 +1,29 @@
 import { Link } from "gatsby";
 import React from "react";
+import { useSiteMetadata } from "../../../hooks";
+import { Author } from "../Author";
 import styles from "./Menu.module.scss";
 
-const Menu = ({ menu }) => (
-  <nav className={styles["menu"]}>
-    <ul className={styles["menu__list"]}>
-      {menu.map((item) => (
-        <li className={styles["menu__list-item"]} key={item.path}>
+const Menu = ({ menu }) => {
+  const { author } = useSiteMetadata();
+
+  return (
+    <nav className={styles["menu"]}>
+      <Author author={author} />
+      <div>
+        {menu.map((item) => (
           <Link
             to={item.path}
-            className={styles["menu__list-item-link"]}
-            activeClassName={styles["menu__list-item-link--active"]}
+            className={styles["menu-item"]}
+            activeClassName={styles["menu-item--active"]}
+            key={item.path}
           >
             {item.label}
           </Link>
-        </li>
-      ))}
-    </ul>
-  </nav>
-);
+        ))}
+      </div>
+    </nav>
+  );
+};
 
 export default Menu;

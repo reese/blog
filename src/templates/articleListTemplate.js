@@ -1,34 +1,29 @@
 import { graphql } from "gatsby";
 import React from "react";
 import Feed from "../components/Feed";
-import Layout from "../components/Layout";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
 import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
-const CategoryTemplate = ({ data, pageContext }) => {
+const ArticleListTemplate = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
-    category,
     currentPage,
+    hasNextPage,
+    hasPrevPage,
     prevPagePath,
     nextPagePath,
-    hasPrevPage,
-    hasNextPage,
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle =
-    currentPage > 0
-      ? `${category} - Page ${currentPage} - ${siteTitle}`
-      : `${category} - ${siteTitle}`;
+    currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
-      <NavigationWrapper />
-      <Page title={category}>
+    <NavigationWrapper title={pageTitle} description={siteSubtitle}>
+      <Page>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
@@ -37,38 +32,34 @@ const CategoryTemplate = ({ data, pageContext }) => {
           hasNextPage={hasNextPage}
         />
       </Page>
-    </Layout>
+    </NavigationWrapper>
   );
 };
 
 export const query = graphql`
-  query CategoryPage($category: String, $postsLimit: Int!, $postsOffset: Int!) {
+  query ArticleListTemplate($postsLimit: Int!, $postsOffset: Int!) {
     allMarkdownRemark(
       limit: $postsLimit
       skip: $postsOffset
       filter: {
-        frontmatter: {
-          category: { eq: $category }
-          template: { eq: "post" }
-          draft: { ne: true }
-        }
+        frontmatter: { template: { eq: "post" }, draft: { eq: false } }
       }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
           fields {
-            categorySlug
             slug
+            categorySlug
             readingTime {
               text
             }
           }
           frontmatter {
-            date
-            description
-            category
             title
+            date
+            category
+            description
           }
         }
       }
@@ -76,4 +67,4 @@ export const query = graphql`
   }
 `;
 
-export default CategoryTemplate;
+export default ArticleListTemplate;

@@ -31,7 +31,6 @@
     "gatsby-transformer-remark": "^2.7.1",
     "gatsby-transformer-sharp": "^2.4.4",
     "invariant": "^2.2.4",
-    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "normalize-scss": "^7.0.1",

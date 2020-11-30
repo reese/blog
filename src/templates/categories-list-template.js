@@ -1,18 +1,16 @@
 import { Link } from "gatsby";
-import kebabCase from "lodash/kebabCase";
 import React from "react";
-import Layout from "../components/Layout";
 import Page from "../components/Page";
 import { NavigationWrapper } from "../components/Sidebar";
 import { useCategoriesList, useSiteMetadata } from "../hooks";
+import { kebabCase } from "../utils/kebabCase";
 
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
   const categories = useCategoriesList();
 
   return (
-    <Layout title={`Categories - ${title}`} description={subtitle}>
-      <NavigationWrapper />
+    <NavigationWrapper title={`Categories - ${title}`} description={subtitle}>
       <Page title="Categories">
         <ul>
           {categories.map((category) => (
@@ -24,7 +22,7 @@ const CategoriesListTemplate = () => {
           ))}
         </ul>
       </Page>
-    </Layout>
+    </NavigationWrapper>
   );
 };
 

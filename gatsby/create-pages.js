@@ -1,13 +1,17 @@
 "use strict";
 
 const path = require("path");
-const _ = require("lodash");
 const createCategoriesPages = require("./pagination/create-categories-pages.js");
 const createTagsPages = require("./pagination/create-tags-pages.js");
 const createPostsPages = require("./pagination/create-posts-pages.js");
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
+
+  createPage({
+    path: "/",
+    component: path.resolve("./src/templates/index-template.js"),
+  });
 
   // 404
   createPage({
@@ -50,18 +54,22 @@ const createPages = async ({ graphql, actions }) => {
 
   const { edges } = result.data.allMarkdownRemark;
 
-  _.each(edges, (edge) => {
-    if (_.get(edge, "node.frontmatter.template") === "page") {
+  edges.forEach((edge) => {
+    const {
+      frontmatter: { template },
+      fields: { slug },
+    } = edge.node;
+    if (template === "page") {
       createPage({
-        path: edge.node.fields.slug,
+        path: slug,
         component: path.resolve("./src/templates/page-template.js"),
-        context: { slug: edge.node.fields.slug },
+        context: { slug },
       });
-    } else if (_.get(edge, "node.frontmatter.template") === "post") {
+    } else if (template === "post") {
       createPage({
-        path: edge.node.fields.slug,
+        path: slug,
         component: path.resolve("./src/templates/post-template.js"),
-        context: { slug: edge.node.fields.slug },
+        context: { slug },
       });
     }
   });

@@ -1,40 +1,31 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Feed from "../components/Feed";
-import Layout from "../components/Layout";
-import Page from "../components/Page";
-import Pagination from "../components/Pagination";
+import styled from "styled-components";
+import { IndexHeader } from "../components/IndexHeader";
 import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
-const IndexTemplate = ({ data, pageContext }) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+const PostsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+`;
 
-  const {
-    currentPage,
-    hasNextPage,
-    hasPrevPage,
-    prevPagePath,
-    nextPagePath,
-  } = pageContext;
-
-  const { edges } = data.allMarkdownRemark;
-  const pageTitle =
-    currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+const IndexTemplate = ({ data }) => {
+  const { subtitle: siteSubtitle } = useSiteMetadata();
+  console.log(data);
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
-      <NavigationWrapper />
-      <Page>
-        <Feed edges={edges} />
-        <Pagination
-          prevPagePath={prevPagePath}
-          nextPagePath={nextPagePath}
-          hasPrevPage={hasPrevPage}
-          hasNextPage={hasNextPage}
-        />
-      </Page>
-    </Layout>
+    <NavigationWrapper
+      title="Reese Williams - Software Engineer"
+      description={siteSubtitle}
+    >
+      <IndexHeader />
+      <PostsContainer>
+        <div>"Left"</div>
+        <div>"Right"</div>
+      </PostsContainer>
+    </NavigationWrapper>
   );
 };
 
