@@ -1,7 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
 import Feed from "../components/Feed";
-import Layout from "../components/Layout";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
 import { NavigationWrapper } from "../components/Sidebar";
@@ -26,8 +25,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
       : `${category} - ${siteTitle}`;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
-      <NavigationWrapper />
+    <NavigationWrapper title={pageTitle} description={siteSubtitle}>
       <Page title={category}>
         <Feed edges={edges} />
         <Pagination
@@ -37,7 +35,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
           hasNextPage={hasNextPage}
         />
       </Page>
-    </Layout>
+    </NavigationWrapper>
   );
 };
 

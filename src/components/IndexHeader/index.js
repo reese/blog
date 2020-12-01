@@ -40,7 +40,18 @@ export const IndexHeader = () => {
     <Header>
       <h1>Reese Williams</h1>
       <h2>
-        {action} <RefreshIcon src={RefreshSymbol} onClick={onClick} />
+        {action}{" "}
+        <button
+          style={{
+            backgroundColor: "inherit",
+            fontSize: "100%",
+            fontFamily: "inherit",
+            border: 0,
+            padding: 0,
+          }}
+        >
+          <RefreshIcon src={RefreshSymbol} onClick={onClick} />
+        </button>
       </h2>
       <h4>
         Senior Software Engineer, professional question-asker, usually up to no

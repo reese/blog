@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Layout from "../components/Layout";
 import Page from "../components/Page";
 import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
@@ -18,16 +17,15 @@ const PageTemplate = ({ data }) => {
     pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (
-    <Layout
+    <NavigationWrapper
       title={`${pageTitle} - ${siteTitle}`}
       description={metaDescription}
       socialImage={socialImage}
     >
-      <NavigationWrapper />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
-    </Layout>
+    </NavigationWrapper>
   );
 };
 

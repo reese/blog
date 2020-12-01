@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import React from "react";
-import Layout from "../components/Layout";
 import Page from "../components/Page";
 import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata, useTagsList } from "../hooks";
@@ -11,8 +10,7 @@ const TagsListTemplate = () => {
   const tags = useTagsList();
 
   return (
-    <Layout title={`Tags - ${title}`} description={subtitle}>
-      <NavigationWrapper />
+    <NavigationWrapper title={`Tags - ${title}`} description={subtitle}>
       <Page title="Tags">
         <ul>
           {tags.map((tag) => (
@@ -24,7 +22,7 @@ const TagsListTemplate = () => {
           ))}
         </ul>
       </Page>
-    </Layout>
+    </NavigationWrapper>
   );
 };
 

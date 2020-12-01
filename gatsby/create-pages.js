@@ -8,11 +8,6 @@ const createPostsPages = require("./pagination/create-posts-pages.js");
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  createPage({
-    path: "/",
-    component: path.resolve("./src/templates/index-template.js"),
-  });
-
   // 404
   createPage({
     path: "/404",
@@ -53,6 +48,11 @@ const createPages = async ({ graphql, actions }) => {
   `);
 
   const { edges } = result.data.allMarkdownRemark;
+
+  createPage({
+    path: "/",
+    component: path.resolve("./src/templates/index-template.js"),
+  });
 
   edges.forEach((edge) => {
     const {
