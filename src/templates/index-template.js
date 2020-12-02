@@ -101,7 +101,6 @@ const Posts = ({ posts: { edges } }) => (
 const IndexTemplate = () => {
   const { subtitle: siteSubtitle } = useSiteMetadata();
   const { posts, notes } = useStaticQuery(query);
-  console.log(posts);
 
   return (
     <NavigationWrapper
