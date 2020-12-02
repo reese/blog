@@ -1,11 +1,10 @@
-// @flow strict
-import React from "react";
 import { Link } from "gatsby";
+import React from "react";
 import { Author } from "./Author";
 import Content from "./Content";
 import Meta from "./Meta";
-import Tags from "./Tags";
 import styles from "./Post.module.scss";
+import Tags from "./Tags";
 
 const Post = ({ post }) => {
   const { html } = post;

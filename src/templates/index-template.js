@@ -1,13 +1,9 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
 import styled from "styled-components";
+import { HoverContainer } from "../components/HoverContainer";
 import { IndexHeader } from "../components/IndexHeader";
-import { NavigationWrapper } from "../components/Sidebar";
-import {
-  BACKGROUND_COLOR,
-  COLOR_BASE,
-  COLOR_PRIMARY,
-} from "../constants/colors";
+import { NavigationWrapper } from "../components/NavigationWrapper";
 import { useSiteMetadata } from "../hooks";
 
 const query = graphql`
@@ -59,35 +55,6 @@ const DualColumnContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-`;
-
-const HoverContainer = styled.div`
-  background-color: ${BACKGROUND_COLOR};
-  border-radius: 10px;
-  border: 1px lightgray solid;
-  margin: 30px 10px 30px 0;
-  padding: 15px 0 15px 10px;
-  transition: all 0.1s ease-in-out;
-  width: 90%;
-  z-index: 1;
-
-  & * {
-    color: ${COLOR_BASE};
-  }
-
-  & h5 {
-    color: ${COLOR_PRIMARY};
-  }
-
-  & h5:hover,
-  & a:hover {
-    color: ${COLOR_PRIMARY};
-  }
-
-  &:hover {
-    border-left: 3px ${COLOR_PRIMARY} solid;
-    transform: scale(1.05);
-  }
 `;
 
 const Notes = ({ notes: { edges } }) => {

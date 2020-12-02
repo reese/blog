@@ -49,11 +49,6 @@ const createPages = async ({ graphql, actions }) => {
 
   const { edges } = result.data.allMarkdownRemark;
 
-  createPage({
-    path: "/",
-    component: path.resolve("./src/templates/index-template.js"),
-  });
-
   edges.forEach((edge) => {
     const {
       frontmatter: { template },
@@ -71,6 +66,12 @@ const createPages = async ({ graphql, actions }) => {
         component: path.resolve("./src/templates/post-template.js"),
         context: { slug },
       });
+    } else if (template === "note") {
+      createPage({
+        path: slug,
+        component: path.resolve("./src/templates/noteTemplate.js"),
+        context: { slug },
+      });
     }
   });
 
@@ -78,6 +79,14 @@ const createPages = async ({ graphql, actions }) => {
   await createTagsPages(graphql, actions);
   await createCategoriesPages(graphql, actions);
   await createPostsPages(graphql, actions);
+  createPage({
+    path: "/",
+    component: path.resolve("./src/templates/index-template.js"),
+  });
+  createPage({
+    path: "/notes",
+    component: path.resolve("./src/templates/digitalGardenTemplate.js"),
+  });
 };
 
 module.exports = createPages;

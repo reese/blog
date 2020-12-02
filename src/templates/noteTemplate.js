@@ -1,47 +1,49 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Page from "../components/Page";
+import { Note } from "../components/Note";
 import { NavigationWrapper } from "../components/NavigationWrapper";
 import { useSiteMetadata } from "../hooks";
 
-const PageTemplate = ({ data }) => {
+const PostTemplate = ({ data }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
-  const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
   const {
-    title: pageTitle,
-    description: pageDescription,
+    title: postTitle,
+    description: postDescription,
     socialImage,
   } = frontmatter;
   const metaDescription =
-    pageDescription !== null ? pageDescription : siteSubtitle;
+    postDescription !== null ? postDescription : siteSubtitle;
 
   return (
     <NavigationWrapper
-      title={`${pageTitle} - ${siteTitle}`}
+      title={`${postTitle} - ${siteTitle}`}
       description={metaDescription}
       socialImage={socialImage}
     >
-      <Page title={pageTitle}>
-        <div dangerouslySetInnerHTML={{ __html: pageBody }} />
-      </Page>
+      <Note note={data.markdownRemark} />
     </NavigationWrapper>
   );
 };
 
 export const query = graphql`
-  query PageBySlug($slug: String!) {
+  query NoteBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+        tagSlugs
+      }
       frontmatter {
-        title
         date
         description
+        tags
+        title
         socialImage
       }
     }
   }
 `;
 
-export default PageTemplate;
+export default PostTemplate;

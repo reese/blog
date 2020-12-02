@@ -1,7 +1,7 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
-.sidebar {
+.navigation {
   width: 100%;
   &__inner {
     display: flex;
@@ -12,13 +12,13 @@
 }
 
 @include breakpoint-sm {
-  .sidebar_inner {
+  .navigation_inner {
     padding: 30px 20px 0;
   }
 }
 
 @include breakpoint-md {
-  .sidebar__inner {
+  .navigation__inner {
     padding: 40px;
   }
 }

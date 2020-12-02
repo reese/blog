@@ -1,9 +1,9 @@
 import { graphql } from "gatsby";
 import React from "react";
 import Feed from "../components/Feed";
+import { NavigationWrapper } from "../components/NavigationWrapper";
 import Page from "../components/Page";
 import Pagination from "../components/Pagination";
-import { NavigationWrapper } from "../components/Sidebar";
 import { useSiteMetadata } from "../hooks";
 
 const ArticleListTemplate = ({ data, pageContext }) => {

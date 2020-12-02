@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../components/Page";
-import { NavigationWrapper } from "../components/Sidebar";
+import { NavigationWrapper } from "../components/NavigationWrapper";
 import { useSiteMetadata } from "../hooks";
 
 const NotFoundTemplate = () => {

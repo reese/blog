@@ -4,7 +4,7 @@ import Layout from "../Layout";
 import Contacts from "./Contacts";
 import Copyright from "./Copyright";
 import Menu from "./Menu";
-import styles from "./Sidebar.module.scss";
+import styles from "./NavigationWrapper.module.scss";
 
 export const NavigationWrapper = ({
   title,
@@ -16,14 +16,20 @@ export const NavigationWrapper = ({
 
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
-      <div className={styles["sidebar"]}>
-        <div className={styles["sidebar__inner"]}>
+      <div className={styles["navigation"]}>
+        <div className={styles["navigation__inner"]}>
           <Menu menu={menu} />
           {children}
-          <div>
-            <Contacts contacts={author.contacts} />
+          <footer
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
             <Copyright copyright={copyright} />
-          </div>
+            <Contacts contacts={author.contacts} />
+          </footer>
         </div>
       </div>
     </Layout>

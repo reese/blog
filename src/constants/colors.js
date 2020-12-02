@@ -12,12 +12,13 @@ export const FONT_FAMILY =
   'Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif';
 
 export const HEADER_FONT_FAMILY = '"Raleway", ' + FONT_FAMILY;
+export const ROOT_FONT_SIZE = 100;
+export const BASE_FONT_SIZE = "16px";
+export const SMALL_FONT_SIZE = "12px";
+export const BASE_LINE_HEIGHT = 1.625;
 
-// $typographic-root-font-size: 100;
-// $typographic-base-font-size: 16px;
-// $typographic-small-font-size: 12px;
-
-// $typographic-base-line-height: 1.625;
+export const BUTTON_HEIGHT = "35px";
+export const BUTTON_BORDER_RADIUS = "20px";
 
 // $typographic-base-font-color: $color-base;
 // $typographic-link-p-font-color: $color-primary;
@@ -26,10 +27,6 @@ export const HEADER_FONT_FAMILY = '"Raleway", ' + FONT_FAMILY;
 // $typographic-leading: round(
 //   16 * ($typographic-root-font-size / 100) * $typographic-base-line-height
 // );
-
-// // Buttons
-// $button-height: 35px;
-// $button-border-radius: 20px;
 
 // // Layout
 // $layout-post-single-width: 940px;

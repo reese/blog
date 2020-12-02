@@ -11,7 +11,7 @@ const Header = styled.div`
     margin: 5px;
   }
 
-  margin: 5rem 0;
+  margin: 5rem auto;
 `;
 
 const RefreshIcon = styled.img`
