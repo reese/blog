@@ -22,6 +22,7 @@ module.exports = {
     },
   ],
   author: {
+    name: "Reese Williams",
     photo: "/full-logo.png",
     contacts: {
       email: "reese@reesew.io",

@@ -179,8 +179,7 @@ figcaption {
 .custom-block {
   &.info {
     background-color: $color-ternary;
-    border: 2px solid $color-base;
-    color: #293241;
+    color: $color-base;
     padding: 20px 0;
     border-radius: 10px;
 
