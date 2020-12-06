@@ -20,18 +20,18 @@ const FeedWrapper = styled.div`
       margin-top: 0;
       margin-bottom: 4px;
 
-      ${Link} {
+      a {
         color: ${COLOR_BASE};
       }
 
-      ${Link}:hover,
-      ${Link}:focus {
+      a:hover,
+      a:focus {
         color: ${COLOR_BASE};
         border-bottom: 1px solid ${COLOR_BASE};
       }
     }
 
-    ${Link}.category {
+    a.category {
       font-size: ${SMALL_FONT_SIZE};
       color: ${COLOR_SECONDARY};
       font-weight: 600;

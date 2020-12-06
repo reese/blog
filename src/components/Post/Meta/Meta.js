@@ -1,11 +1,9 @@
-// @flow strict
-import React from "react";
 import moment from "moment";
-import styles from "./Meta.module.scss";
+import React from "react";
 
 const Meta = ({ date }) => (
-  <div className={styles["meta"]}>
-    <p className={styles["meta__date"]}>
+  <div>
+    <p style={{ fontStyle: "italic" }}>
       Published {moment(date).format("D MMM YYYY")}
     </p>
   </div>

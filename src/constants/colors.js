@@ -28,7 +28,7 @@ export const TYPOGRAHIC_LEADING = Math.floor(
   16 * (ROOT_FONT_SIZE / 100) * BASE_LINE_HEIGHT
 );
 
-export const LAYOUT_POST_SINGLE_WIDTH = "940px";
+export const LAYOUT_POST_SINGLE_WIDTH = "650px";
 export const LAYOUT_POST_WIDTH = `${LAYOUT_POST_SINGLE_WIDTH} - 305px`;
 
 export const LAYOUT_WIDTH = "1070px";

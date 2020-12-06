@@ -30,7 +30,7 @@ const PaginationWrapper = styled.div`
     color: ${COLOR_GRAY};
   }
 
-  ${Link} {
+  a {
     color: ${COLOR_SECONDARY};
     font-size: 26px;
     font-weight: bold;
