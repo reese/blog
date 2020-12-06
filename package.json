@@ -2,7 +2,6 @@
   "version": "0.0.1",
   "name": "reesew.io",
   "dependencies": {
-    "classnames": "^2.2.6",
     "gatsby": "^2.27.4",
     "gatsby-link": "^2.6.1",
     "gatsby-plugin-catch-links": "^2.5.0",
@@ -14,7 +13,6 @@
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-react-helmet": "^3.5.0",
     "gatsby-plugin-robots-txt": "^1.5.3",
-    "gatsby-plugin-sass": "^2.6.0",
     "gatsby-plugin-sharp": "^2.9.1",
     "gatsby-plugin-sitemap": "^2.7.0",
     "gatsby-remark-autolink-headers": "^2.6.0",
@@ -32,8 +30,6 @@
     "gatsby-transformer-sharp": "^2.7.0",
     "invariant": "^2.2.4",
     "moment": "^2.29.1",
-    "node-sass": "^4.13.1",
-    "normalize-scss": "^7.0.1",
     "prismjs": "^1.22.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -47,7 +43,6 @@
     "@babel/plugin-transform-flow-strip-types": "^7.12.1",
     "@babel/preset-env": "7.9.5",
     "@babel/preset-react": "7.9.4",
-    "autoprefixer": "9.7.6",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.0.0",
@@ -63,11 +58,6 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-watch": "6.0.1",
     "identity-obj-proxy": "3.0.0",
-    "jest": "26.0.0",
-    "jest-cli": "26.0.0",
-    "lost": "8.3.1",
-    "postcss-pxtorem": "5.1.1",
-    "prettier": "^2.2.1",
-    "react-test-renderer": "16.13.1"
+    "prettier": "^2.2.1"
   }
 }
