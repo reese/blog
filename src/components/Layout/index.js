@@ -7,7 +7,7 @@ import { useSiteMetadata } from "../../hooks";
 
 const LayoutContainer = styled.div`
   max-width: ${LAYOUT_WIDTH};
-  margin: auto;
+  margin: auto 0;
 `;
 
 export const Layout = ({ children, title, description, socialImage }) => {

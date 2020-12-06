@@ -1,7 +1,7 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Page from "../components/Page";
 import { NavigationWrapper } from "../components/NavigationWrapper";
+import { Page } from "../components/Page";
 import { useSiteMetadata } from "../hooks";
 
 const PageTemplate = ({ data }) => {

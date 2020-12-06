@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
-import Page from "../components/Page";
 import { NavigationWrapper } from "../components/NavigationWrapper";
+import { Page } from "../components/Page";
 import { useCategoriesList, useSiteMetadata } from "../hooks";
 import { kebabCase } from "../utils/kebabCase";
 

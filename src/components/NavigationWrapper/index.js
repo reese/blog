@@ -16,7 +16,7 @@ const Navigation = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 25px 20px 0;
+  padding: 0;
 
   ${media(LAYOUT_BREAKPOINT_SM)} {
     padding: 30px 20px 0;

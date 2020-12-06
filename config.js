@@ -13,7 +13,7 @@ module.exports = {
       path: "/articles",
     },
     {
-      label: "Digital Garden",
+      label: "Digital garden",
       path: "/notes",
     },
     {

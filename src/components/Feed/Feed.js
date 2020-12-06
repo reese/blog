@@ -1,53 +1,110 @@
 import { Link } from "gatsby";
 import moment from "moment";
 import React from "react";
-import styles from "./Feed.module.scss";
+import styled from "styled-components";
+import {
+  BASE_FONT_SIZE,
+  COLOR_BASE,
+  COLOR_PRIMARY,
+  COLOR_SECONDARY,
+  SMALL_FONT_SIZE,
+} from "../../constants/colors";
+
+const FeedWrapper = styled.div`
+  .item {
+    margin-bottom: 35px;
+
+    h2 {
+      font-size: ${BASE_FONT_SIZE} * 1.6875;
+      line-height: 40px;
+      margin-top: 0;
+      margin-bottom: 4px;
+
+      ${Link} {
+        color: ${COLOR_BASE};
+      }
+
+      ${Link}:hover,
+      ${Link}:focus {
+        color: ${COLOR_BASE};
+        border-bottom: 1px solid ${COLOR_BASE};
+      }
+    }
+
+    ${Link}.category {
+      font-size: ${SMALL_FONT_SIZE};
+      color: ${COLOR_SECONDARY};
+      font-weight: 600;
+      text-transform: uppercase;
+
+      :hover,
+      :focus {
+        color: ${COLOR_PRIMARY};
+      }
+    }
+
+    p {
+      font-size: ${BASE_FONT_SIZE};
+      line-height: 26px;
+      margin: 0px;
+    }
+
+    time {
+      font-size: ${SMALL_FONT_SIZE};
+      color: ${COLOR_BASE};
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      margin: 0 4px;
+    }
+
+    .readmore {
+      font-size: ${BASE_FONT_SIZE};
+      font-weight: 500;
+      color: ${COLOR_PRIMARY};
+
+      :hover,
+      :focus {
+        color: ${COLOR_PRIMARY};
+        border-bottom: 1px solid ${COLOR_PRIMARY};
+      }
+    }
+  }
+
+  .item:last-child {
+    margin-bottom: 15px;
+  }
+`;
 
 const Feed = ({ edges }) => (
-  <div className={styles["feed"]}>
+  <FeedWrapper>
     {edges.map((edge) => (
-      <div className={styles["feed__item"]} key={edge.node.fields.slug}>
-        <div className={styles["feed__item-meta"]}>
+      <div className="item" key={edge.node.fields.slug}>
+        <div style={{ marginBottom: "0" }}>
           <time
-            className={styles["feed__item-meta-time"]}
             dateTime={moment(edge.node.frontmatter.date).format("MMMM D, YYYY")}
           >
             {moment(edge.node.frontmatter.date).format("MMMM YYYY")}
           </time>
-          <span className={styles["feed__item-meta-divider"]} />
-          <span className={styles["feed__item-meta-category"]}>
-            <Link
-              to={edge.node.fields.categorySlug}
-              className={styles["feed__item-meta-category-link"]}
-            >
-              {edge.node.frontmatter.category}
-            </Link>
-          </span>
-          <span className={styles["feed__item-meta-divider"]} />
-          <time className={styles["feed__item-meta-time"]}>
-            {edge.node.fields.readingTime.text}
-          </time>
-        </div>
-        <h2 className={styles["feed__item-title"]}>
-          <Link
-            className={styles["feed__item-title-link"]}
-            to={edge.node.fields.slug}
-          >
-            {edge.node.frontmatter.title}
+          <span className="divider" />
+          <Link className="category" to={edge.node.fields.categorySlug}>
+            {edge.node.frontmatter.category}
           </Link>
+          <span className="divider" />
+          <time>{edge.node.fields.readingTime.text}</time>
+        </div>
+        <h2>
+          <Link to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
-        <p className={styles["feed__item-description"]}>
-          {edge.node.frontmatter.description}
-        </p>
-        <Link
-          className={styles["feed__item-readmore"]}
-          to={edge.node.fields.slug}
-        >
+        <p className="description">{edge.node.frontmatter.description}</p>
+        <Link className="readmore" to={edge.node.fields.slug}>
           Read
         </Link>
       </div>
     ))}
-  </div>
+  </FeedWrapper>
 );
 
 export default Feed;
