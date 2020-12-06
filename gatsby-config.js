@@ -200,5 +200,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-mdx",
   ],
 };

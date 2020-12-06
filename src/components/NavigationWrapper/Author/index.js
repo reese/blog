@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Photo = styled.img`
   display: inline-block;
   max-width: 300px;
+  width: 100%;
   background-clip: padding-box;
 `;
 

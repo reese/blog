@@ -10,7 +10,7 @@ export const HoverContainer = styled.div`
   border-radius: 10px;
   border: 1px lightgray solid;
   margin: 20px 10px 0 0;
-  padding: 15px 0 15px 10px;
+  padding: 15px 10px;
   transition: all 0.1s ease-in-out;
   width: 90%;
   z-index: 1;

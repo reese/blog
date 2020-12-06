@@ -1,8 +1,14 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { COLOR_BASE, COLOR_PRIMARY } from "../../../constants/colors";
+import {
+  BASE_FONT_SIZE,
+  COLOR_BASE,
+  COLOR_PRIMARY,
+  LAYOUT_BREAKPOINT_SM,
+} from "../../../constants/colors";
 import { useSiteMetadata } from "../../../hooks";
+import { media } from "../../../utils/mediaQuery";
 import { Author } from "../Author";
 
 const Nav = styled.nav`
@@ -22,8 +28,9 @@ const Nav = styled.nav`
   }
 
   a {
+    line-break: anywhere;
     transition: color 0.3s ease-in;
-    font-size: $typographic-base-font-size;
+    font-size: ${BASE_FONT_SIZE};
     color: ${COLOR_BASE};
     font-weight: normal;
     border: 0;
@@ -44,6 +51,13 @@ const Nav = styled.nav`
   #logo:hover,
   #logo:focus {
     border: 0;
+  }
+
+  ${media(LAYOUT_BREAKPOINT_SM)} {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;
 

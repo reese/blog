@@ -19,11 +19,11 @@ const Navigation = styled.div`
   padding: auto 0;
 
   ${media(LAYOUT_BREAKPOINT_SM)} {
-    padding: 30px 20px 0;
+    padding: 40px;
   }
 
   ${media(LAYOUT_BREAKPOINT_MD)} {
-    padding: 40px;
+    padding: 30px 20px 0;
   }
 `;
 
@@ -43,6 +43,8 @@ export const NavigationWrapper = ({
         <footer
           style={{
             display: "flex",
+            flexWrap: "wrap",
+            marginTop: "20px;",
             alignItems: "center",
             justifyContent: "space-between",
           }}
