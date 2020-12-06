@@ -8,7 +8,7 @@ import { useSiteMetadata } from "../hooks";
 
 const query = graphql`
   query IndexTemplate {
-    posts: allMarkdownRemark(
+    posts: allMdx(
       limit: 5
       filter: {
         frontmatter: { template: { eq: "post" }, draft: { eq: false } }
@@ -32,7 +32,7 @@ const query = graphql`
         }
       }
     }
-    notes: allMarkdownRemark(
+    notes: allMdx(
       limit: 5
       filter: { frontmatter: { template: { eq: "note" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
@@ -63,7 +63,7 @@ const Notes = ({ notes: { edges } }) => {
     <div style={{ flex: "1", minWidth: "300px" }}>
       <h3>Digital Garden</h3>
       {edges.map(({ node: { fields: { slug }, frontmatter: { title } } }) => (
-        <Link to={slug}>
+        <Link to={slug} key={slug}>
           <HoverContainer key={slug}>
             <h5 style={{ margin: 0 }}>{title}</h5>
           </HoverContainer>
@@ -83,7 +83,7 @@ const Posts = ({ posts: { edges } }) => (
           frontmatter: { description, date, category, title },
         },
       }) => (
-        <Link to={slug}>
+        <Link to={slug} key={slug}>
           <HoverContainer key={slug}>
             <span>
               <h5 style={{ margin: 0 }}>{title}</h5>

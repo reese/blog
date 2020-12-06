@@ -17,7 +17,7 @@ const ArticleListTemplate = ({ data, pageContext }) => {
     nextPagePath,
   } = pageContext;
 
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.allMdx;
   const pageTitle =
     currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
@@ -38,7 +38,7 @@ const ArticleListTemplate = ({ data, pageContext }) => {
 
 export const query = graphql`
   query ArticleListTemplate($postsLimit: Int!, $postsOffset: Int!) {
-    allMarkdownRemark(
+    allMdx(
       limit: $postsLimit
       skip: $postsOffset
       filter: {

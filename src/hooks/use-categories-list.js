@@ -1,10 +1,10 @@
 import { graphql, useStaticQuery } from "gatsby";
 
 const useCategoriesList = () => {
-  const { allMarkdownRemark } = useStaticQuery(
+  const { allMdx } = useStaticQuery(
     graphql`
       query CategoriesListQuery {
-        allMarkdownRemark(
+        allMdx(
           filter: {
             frontmatter: { template: { eq: "post" }, draft: { ne: true } }
           }
@@ -18,7 +18,7 @@ const useCategoriesList = () => {
     `
   );
 
-  return allMarkdownRemark.group;
+  return allMdx.group;
 };
 
 export default useCategoriesList;

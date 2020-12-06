@@ -58,8 +58,8 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) =>
-              allMarkdownRemark.edges.map((edge) => ({
+            serialize: ({ query: { site, allMdx } }) =>
+              allMdx.edges.map((edge) => ({
                 ...edge.node.frontmatter,
                 description: edge.node.frontmatter.description,
                 date: edge.node.frontmatter.date,
@@ -68,83 +68,33 @@ module.exports = {
                 custom_elements: [{ "content:encoded": edge.node.html }],
               })),
             query: `
-              {
-                allMarkdownRemark(
-                  limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-                ) {
-                  edges {
-                    node {
-                      html
-                      fields {
-                        slug
-                        readingTime {
-                          text
-                        }
-                      }
-                      frontmatter {
-                        title
-                        date
-                        template
-                        draft
-                        description
+            {
+              allMdx(limit: 1000, sort: {order: DESC, fields: frontmatter___date}, filter: {frontmatter: {template: {eq: "post"}, draft: {ne: true}}}) {
+                edges {
+                  node {
+                    slug
+                    frontmatter {
+                      tags
+                      title
+                      date
+                      template
+                      draft
+                      description
+                    }
+                    fields {
+                      readingTime {
+                        text
                       }
                     }
+                    body
                   }
                 }
               }
+            }
             `,
             output: "/rss.xml",
             title: siteConfig.title,
           },
-        ],
-      },
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          "gatsby-remark-relative-images",
-          "gatsby-plugin-robots-txt",
-          "gatsby-remark-reading-time",
-          {
-            resolve: "gatsby-remark-custom-blocks",
-            options: {
-              blocks: {
-                danger: {
-                  classes: "danger",
-                  title: "optional",
-                },
-                info: {
-                  classes: "info",
-                  title: "optional",
-                },
-              },
-            },
-          },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 960,
-              withWebp: true,
-              ignoreFileExtensions: [],
-            },
-          },
-          {
-            resolve: "gatsby-remark-responsive-iframe",
-            options: { wrapperStyle: "margin-bottom: 1.0725rem" },
-          },
-          {
-            resolve: "gatsby-remark-prismjs",
-            options: {
-              showLineNumbers: true,
-            },
-          },
-          "gatsby-remark-autolink-headers",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
-          "gatsby-remark-external-links",
         ],
       },
     },
@@ -195,11 +145,59 @@ module.exports = {
         icon: "static/favicon.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
+          "gatsby-remark-relative-images",
+          "gatsby-plugin-robots-txt",
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                danger: {
+                  classes: "danger",
+                  title: "optional",
+                },
+                info: {
+                  classes: "info",
+                  title: "optional",
+                },
+              },
+            },
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              withWebp: true,
+              ignoreFileExtensions: [],
+            },
+          },
+          {
+            resolve: "gatsby-remark-responsive-iframe",
+            options: { wrapperStyle: "margin-bottom: 1.0725rem" },
+          },
+          {
+            resolve: "gatsby-remark-prismjs",
+            options: {
+              showLineNumbers: true,
+            },
+          },
+          "gatsby-remark-autolink-headers",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants",
+          "gatsby-remark-external-links",
+        ],
+        plugins: ["gatsby-remark-images"],
+      },
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-mdx",
+    "gatsby-remark-reading-time",
   ],
 };

@@ -59,7 +59,7 @@ const PostWrapper = styled.div`
 `;
 
 const Post = ({ post }) => {
-  const { html } = post;
+  const { body } = post;
   const { tagSlugs } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
@@ -69,7 +69,7 @@ const Post = ({ post }) => {
         <Link className="home-button" to="/">
           All Articles
         </Link>
-        <Content body={html} title={title} />
+        <Content body={body} title={title} />
       </div>
 
       <div className="footer">

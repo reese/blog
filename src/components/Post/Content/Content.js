@@ -1,3 +1,4 @@
+import { MDXRenderer } from "gatsby-plugin-mdx";
 import React from "react";
 import styled from "styled-components";
 import {
@@ -83,7 +84,7 @@ const ContentWrapper = styled.div`
 const Content = ({ body, title }) => (
   <ContentWrapper>
     <h1>{title}</h1>
-    <div dangerouslySetInnerHTML={{ __html: body }} />
+    <MDXRenderer title={title}>{body}</MDXRenderer>
   </ContentWrapper>
 );
 

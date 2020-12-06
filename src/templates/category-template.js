@@ -18,7 +18,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
     hasNextPage,
   } = pageContext;
 
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.allMdx;
   const pageTitle =
     currentPage > 0
       ? `${category} - Page ${currentPage} - ${siteTitle}`
@@ -41,7 +41,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
 
 export const query = graphql`
   query CategoryPage($category: String, $postsLimit: Int!, $postsOffset: Int!) {
-    allMarkdownRemark(
+    allMdx(
       limit: $postsLimit
       skip: $postsOffset
       filter: {

@@ -10,7 +10,7 @@ module.exports = async (graphql, actions) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark(
+      allMdx(
         filter: {
           frontmatter: { template: { eq: "post" }, draft: { ne: true } }
         }
@@ -23,7 +23,7 @@ module.exports = async (graphql, actions) => {
     }
   `);
 
-  result.data.allMarkdownRemark.group.forEach((tag) => {
+  result.data.allMdx.group.forEach((tag) => {
     const numPages = Math.ceil(tag.totalCount / postsPerPage);
     const tagSlug = `/tag/${kebabCase(tag.fieldValue)}`;
 

@@ -1,12 +1,12 @@
 import { graphql } from "gatsby";
 import React from "react";
-import { Note } from "../components/Note";
 import { NavigationWrapper } from "../components/NavigationWrapper";
+import { Note } from "../components/Note";
 import { useSiteMetadata } from "../hooks";
 
-const PostTemplate = ({ data }) => {
+const NoteTemplate = ({ data }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter } = data.mdx;
   const {
     title: postTitle,
     description: postDescription,
@@ -21,16 +21,16 @@ const PostTemplate = ({ data }) => {
       description={metaDescription}
       socialImage={socialImage}
     >
-      <Note note={data.markdownRemark} />
+      <Note note={data.mdx} />
     </NavigationWrapper>
   );
 };
 
 export const query = graphql`
   query NoteBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
-      html
+      body
       fields {
         slug
         tagSlugs
@@ -46,4 +46,4 @@ export const query = graphql`
   }
 `;
 
-export default PostTemplate;
+export default NoteTemplate;

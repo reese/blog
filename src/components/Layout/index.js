@@ -1,9 +1,11 @@
+import { MDXProvider } from "@mdx-js/react";
 import { withPrefix } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 import { LAYOUT_WIDTH } from "../../constants/colors";
 import { useSiteMetadata } from "../../hooks";
+import OverrideComponents from "../mdx";
 
 const LayoutContainer = styled.div`
   max-width: ${LAYOUT_WIDTH};
@@ -33,7 +35,7 @@ export const Layout = ({ children, title, description, socialImage }) => {
           rel="stylesheet"
         />
       </Helmet>
-      {children}
+      <MDXProvider components={OverrideComponents}>{children}</MDXProvider>
     </LayoutContainer>
   );
 };

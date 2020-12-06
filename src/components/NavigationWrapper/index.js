@@ -44,7 +44,7 @@ export const NavigationWrapper = ({
           style={{
             display: "flex",
             flexWrap: "wrap",
-            marginTop: "20px;",
+            marginTop: "20px",
             alignItems: "center",
             justifyContent: "space-between",
           }}

@@ -7,7 +7,7 @@ import { useSiteMetadata } from "../hooks";
 
 const query = graphql`
   query DigitalGardenTemplate {
-    notes: allMarkdownRemark(
+    notes: allMdx(
       filter: { frontmatter: { template: { eq: "note" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
