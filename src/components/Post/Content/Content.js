@@ -11,7 +11,7 @@ import { media } from "../../../utils/mediaQuery";
 const ContentWrapper = styled.div`
   max-width: ${LAYOUT_POST_SINGLE_WIDTH};
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 100px auto;
 
   h1 {
     font-size: ${BASE_FONT_SIZE} * 2;

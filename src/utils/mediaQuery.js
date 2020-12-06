@@ -1,1 +1,1 @@
-export const media = (minWidth) => `@media screen and (min-width: ${minWidth})`;
+export const media = (maxWidth) => `@media screen and (max-width: ${maxWidth})`;

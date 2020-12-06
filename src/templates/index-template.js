@@ -54,12 +54,13 @@ const query = graphql`
 const DualColumnContainer = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 `;
 
 const Notes = ({ notes: { edges } }) => {
   return (
-    <div style={{ flex: "1" }}>
+    <div style={{ flex: "1", minWidth: "300px" }}>
       <h3>Digital Garden</h3>
       {edges.map(({ node: { fields: { slug }, frontmatter: { title } } }) => (
         <Link to={slug}>
@@ -73,7 +74,7 @@ const Notes = ({ notes: { edges } }) => {
 };
 
 const Posts = ({ posts: { edges } }) => (
-  <div style={{ flex: "2" }}>
+  <div style={{ flex: "2", minWidth: "300px" }}>
     <h3>Posts</h3>
     {edges.map(
       ({

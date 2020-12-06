@@ -23,7 +23,11 @@ const PostWrapper = styled.div`
   }
 
   .home-button {
-    display: block;
+    position: fixed;
+    max-width: auto;
+    margin: 0;
+    top: 30px;
+    left: 30px;
     max-width: 90px;
     height: ${BUTTON_HEIGHT};
     padding: 0 24px;
@@ -32,9 +36,6 @@ const PostWrapper = styled.div`
     color: ${COLOR_BASE};
     font-size: ${BASE_FONT_SIZE};
     font-weight: normal;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 24px;
 
     :hover,
     :focus {
@@ -48,11 +49,11 @@ const PostWrapper = styled.div`
     }
 
     .home-button {
-      position: fixed;
-      max-width: auto;
-      margin: 0;
-      top: 30px;
-      left: 30px;
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 24px;
     }
   }
 `;
@@ -64,11 +65,10 @@ const Post = ({ post }) => {
 
   return (
     <PostWrapper>
-      <Link className="home-button" to="/">
-        All Articles
-      </Link>
-
       <div className="content">
+        <Link className="home-button" to="/">
+          All Articles
+        </Link>
         <Content body={html} title={title} />
       </div>
 

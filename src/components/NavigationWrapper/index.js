@@ -12,11 +12,11 @@ import Copyright from "./Copyright";
 import Menu from "./Menu";
 
 const Navigation = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 0;
+  margin: 24px;
+  padding: auto 0;
 
   ${media(LAYOUT_BREAKPOINT_SM)} {
     padding: 30px 20px 0;
