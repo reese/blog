@@ -58,7 +58,7 @@ const ContentWrapper = styled.div`
   }
 
   ${media(LAYOUT_BREAKPOINT_MD)} {
-    padding: 0;
+    padding: 0 40px;
 
     h1 {
       font-size: ${BASE_FONT_SIZE} * 3;

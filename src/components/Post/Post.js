@@ -54,6 +54,7 @@ const PostWrapper = styled.div`
       margin-left: auto;
       margin-right: auto;
       margin-top: 24px;
+      left: 0;
     }
   }
 `;

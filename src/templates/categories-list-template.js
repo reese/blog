@@ -3,7 +3,7 @@ import React from "react";
 import { NavigationWrapper } from "../components/NavigationWrapper";
 import { Page } from "../components/Page";
 import { useCategoriesList, useSiteMetadata } from "../hooks";
-import { kebabCase } from "../utils/kebabCase";
+import kebabCase from "lodash.kebabcase";
 
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();

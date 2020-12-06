@@ -185,7 +185,6 @@ module.exports = {
               showLineNumbers: true,
             },
           },
-          "gatsby-remark-autolink-headers",
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-smartypants",
           "gatsby-remark-external-links",
