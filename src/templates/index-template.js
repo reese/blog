@@ -32,19 +32,14 @@ const query = graphql`
         }
       }
     }
-    notes: allMdx(
+    notes: allBrainNote(
       limit: 5
-      filter: { frontmatter: { template: { eq: "note" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: DESC, fields: [childMdx___frontmatter___date] }
     ) {
       edges {
         node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
+          slug
+          title
         }
       }
     }
@@ -62,8 +57,8 @@ const Notes = ({ notes: { edges } }) => {
   return (
     <div style={{ flex: "1", minWidth: "300px" }}>
       <h3>Digital Garden</h3>
-      {edges.map(({ node: { fields: { slug }, frontmatter: { title } } }) => (
-        <Link to={slug} key={slug}>
+      {edges.map(({ node: { slug, title } }) => (
+        <Link to={`/notes/${slug}`} key={slug}>
           <HoverContainer key={slug}>
             <h5 style={{ margin: 0 }}>{title}</h5>
           </HoverContainer>

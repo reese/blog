@@ -192,6 +192,15 @@ module.exports = {
         plugins: ["gatsby-remark-images"],
       },
     },
+    {
+      resolve: "@aengusm/gatsby-theme-brain",
+      options: {
+        hideDoubleBrackets: true,
+        notesDirectory: "content/notes/",
+        rootPath: "/",
+        mdxOtherwiseConfigured: true,
+      },
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",

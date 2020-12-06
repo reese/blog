@@ -7,19 +7,13 @@ import { useSiteMetadata } from "../hooks";
 
 const query = graphql`
   query DigitalGardenTemplate {
-    notes: allMdx(
-      filter: { frontmatter: { template: { eq: "note" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+    notes: allBrainNote(
+      sort: { order: DESC, fields: [childMdx___frontmatter___date] }
     ) {
       edges {
         node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            date
-          }
+          slug
+          title
         }
       }
     }
@@ -37,14 +31,10 @@ const GridContainer = styled.div`
     ". . .";
 `;
 
-// TODO: Allow users to sort by title
 const Notes = ({ notes: { edges } }) => {
   const sortedEdges = useMemo(
     // Sort fields by title
-    () =>
-      edges
-        .slice(0)
-        .sort((a, b) => a.node.frontmatter.date > b.node.frontmatter.date),
+    () => edges.slice(0).sort((a, b) => a.node.title > b.node.title),
     [edges]
   );
 
@@ -52,20 +42,13 @@ const Notes = ({ notes: { edges } }) => {
     <div style={{ flex: 1 }}>
       <h3>Digital Garden</h3>
       <GridContainer>
-        {sortedEdges.map(
-          ({
-            node: {
-              fields: { slug },
-              frontmatter: { title },
-            },
-          }) => (
-            <Link to={slug}>
-              <HoverContainer key={slug}>
-                <h5 style={{ margin: 0 }}>{title}</h5>
-              </HoverContainer>
-            </Link>
-          )
-        )}
+        {sortedEdges.map(({ node: { slug, title } }) => (
+          <Link to={slug}>
+            <HoverContainer key={slug}>
+              <h5 style={{ margin: 0 }}>{title}</h5>
+            </HoverContainer>
+          </Link>
+        ))}
       </GridContainer>
     </div>
   );

@@ -1,6 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
-import { Layout } from "../components/Layout";
+import { NavigationWrapper } from "../components/NavigationWrapper";
 import Post from "../components/Post";
 import { useSiteMetadata } from "../hooks";
 
@@ -16,13 +16,13 @@ const PostTemplate = ({ data }) => {
     postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout
+    <NavigationWrapper
       title={`${postTitle} - ${siteTitle}`}
       description={metaDescription}
       socialImage={socialImage}
     >
       <Post post={data.mdx} />
-    </Layout>
+    </NavigationWrapper>
   );
 };
 

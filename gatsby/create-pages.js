@@ -47,6 +47,19 @@ const createPages = async ({ graphql, actions }) => {
     }
   `);
 
+  const notesResult = await graphql(`
+    {
+      allBrainNote {
+        edges {
+          node {
+            slug
+          }
+        }
+        totalCount
+      }
+    }
+  `);
+
   const { edges } = result.data.allMdx;
 
   edges.forEach((edge) => {
@@ -66,13 +79,17 @@ const createPages = async ({ graphql, actions }) => {
         component: path.resolve("./src/templates/post-template.js"),
         context: { slug },
       });
-    } else if (template === "note") {
-      createPage({
-        path: slug,
-        component: path.resolve("./src/templates/noteTemplate.js"),
-        context: { slug },
-      });
     }
+
+    notesResult.data.allBrainNote.edges.forEach((edge) => {
+      createPage({
+        path: "/notes/" + edge.node.slug,
+        component: path.resolve(
+          "./src/@aengusm/gatsby-theme-brain/templates/brain.js"
+        ),
+        context: { slug: edge.node.slug },
+      });
+    });
   });
 
   // Feeds
