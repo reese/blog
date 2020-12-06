@@ -20,19 +20,18 @@ export const BASE_LINE_HEIGHT = 1.625;
 export const BUTTON_HEIGHT = "35px";
 export const BUTTON_BORDER_RADIUS = "20px";
 
-// $typographic-base-font-color: $color-base;
-// $typographic-link-p-font-color: $color-primary;
-// $typographic-link-s-font-color: $color-secondary;
+export const TYPOGRAPHIC_BASE_FONT_COLOR = COLOR_BASE;
+export const TYPOGRAPHIC_LINK_P_FONT_COLOR = COLOR_PRIMARY;
+export const TYPOGRAPHIC_LINK_S_FONT_COLOR = COLOR_SECONDARY;
 
-// $typographic-leading: round(
-//   16 * ($typographic-root-font-size / 100) * $typographic-base-line-height
-// );
+export const TYPOGRAHIC_LEADING = Math.floor(
+  16 * (ROOT_FONT_SIZE / 100) * BASE_LINE_HEIGHT
+);
 
-// // Layout
-// $layout-post-single-width: 940px;
-// $layout-post-width: $layout-post-single-width - 305px;
+export const LAYOUT_POST_SINGLE_WIDTH = "940px";
+export const LAYOUT_POST_WIDTH = `${LAYOUT_POST_SINGLE_WIDTH} - 305px`;
 
-// $layout-width: 1070px;
-// $layout-breakpoint-sm: 685px;
-// $layout-breakpoint-md: 960px;
-// $layout-breakpoint-lg: 1100px;
+export const LAYOUT_WIDTH = "1070px";
+export const LAYOUT_BREAKPOINT_SM = "685px";
+export const LAYOUT_BREAKPOINT_MD = "960px";
+export const LAYOUT_BREAKPOINT_LG = "1100px";

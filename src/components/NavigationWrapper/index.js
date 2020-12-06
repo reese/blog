@@ -1,10 +1,31 @@
 import React from "react";
+import styled from "styled-components";
+import {
+  LAYOUT_BREAKPOINT_MD,
+  LAYOUT_BREAKPOINT_SM,
+} from "../../constants/colors";
 import { useSiteMetadata } from "../../hooks";
-import Layout from "../Layout";
+import { media } from "../../utils/mediaQuery";
+import { Layout } from "../Layout";
 import Contacts from "./Contacts";
 import Copyright from "./Copyright";
 import Menu from "./Menu";
-import styles from "./NavigationWrapper.module.scss";
+
+const Navigation = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 25px 20px 0;
+
+  ${media(LAYOUT_BREAKPOINT_SM)} {
+    padding: 30px 20px 0;
+  }
+
+  ${media(LAYOUT_BREAKPOINT_MD)} {
+    padding: 40px;
+  }
+`;
 
 export const NavigationWrapper = ({
   title,
@@ -16,22 +37,20 @@ export const NavigationWrapper = ({
 
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
-      <div className={styles["navigation"]}>
-        <div className={styles["navigation__inner"]}>
-          <Menu menu={menu} />
-          {children}
-          <footer
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-            }}
-          >
-            <Copyright copyright={copyright} />
-            <Contacts contacts={author.contacts} />
-          </footer>
-        </div>
-      </div>
+      <Navigation>
+        <Menu menu={menu} />
+        {children}
+        <footer
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Copyright copyright={copyright} />
+          <Contacts contacts={author.contacts} />
+        </footer>
+      </Navigation>
     </Layout>
   );
 };
