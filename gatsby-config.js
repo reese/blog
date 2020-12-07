@@ -197,7 +197,7 @@ module.exports = {
       options: {
         hideDoubleBrackets: true,
         notesDirectory: "content/notes/",
-        rootPath: "/",
+        rootPath: "/notes/",
         mdxOtherwiseConfigured: true,
       },
     },
