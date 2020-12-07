@@ -60,7 +60,7 @@ const Notes = ({ notes: { edges } }) => {
       {edges.map(({ node: { slug, title } }) => (
         <Link to={`/notes/${slug}`} key={slug}>
           <HoverContainer key={slug}>
-            <h5 style={{ margin: 0 }}>{title}</h5>
+            <p style={{ margin: 0 }}>{title}</p>
           </HoverContainer>
         </Link>
       ))}
@@ -81,7 +81,7 @@ const Posts = ({ posts: { edges } }) => (
         <Link to={slug} key={slug}>
           <HoverContainer key={slug}>
             <span>
-              <h5 style={{ margin: 0 }}>{title}</h5>
+              <p style={{ margin: 0 }}>{title}</p>
               <span style={{ fontWeight: "bold" }}>{category}</span> | {date}
               {" | "}
               {readingTime.text}

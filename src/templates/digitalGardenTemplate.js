@@ -45,7 +45,7 @@ const Notes = ({ notes: { edges } }) => {
         {sortedEdges.map(({ node: { slug, title } }) => (
           <Link to={slug}>
             <HoverContainer key={slug}>
-              <h5 style={{ margin: 0 }}>{title}</h5>
+              <p style={{ margin: 0 }}>{title}</p>
             </HoverContainer>
           </Link>
         ))}

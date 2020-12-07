@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {
   BACKGROUND_COLOR,
+  BASE_FONT_SIZE,
   COLOR_BASE,
   COLOR_PRIMARY,
 } from "../../constants/colors";
@@ -19,11 +20,13 @@ export const HoverContainer = styled.div`
     color: ${COLOR_BASE};
   }
 
-  & h5 {
+  & p {
     color: ${COLOR_PRIMARY};
+    font-size: ${BASE_FONT_SIZE};
+    font-weight: bold;
   }
 
-  & h5:hover,
+  & p:hover,
   & a:hover {
     color: ${COLOR_PRIMARY};
   }

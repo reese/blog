@@ -42,6 +42,7 @@ export const IndexHeader = () => {
       <h2>
         {action}{" "}
         <button
+          aria-label="New Sentence"
           style={{
             backgroundColor: "inherit",
             fontSize: "100%",
@@ -50,13 +51,17 @@ export const IndexHeader = () => {
             padding: 0,
           }}
         >
-          <RefreshIcon src={RefreshSymbol} onClick={onClick} />
+          <RefreshIcon
+            src={RefreshSymbol}
+            onClick={onClick}
+            alt="Refresh Symbol"
+          />
         </button>
       </h2>
-      <h4>
+      <h3>
         Senior Software Engineer, professional question-asker, usually up to no
         good at <a href="https://hubspot.com">HubSpot</a>
-      </h4>
+      </h3>
     </Header>
   );
 };
