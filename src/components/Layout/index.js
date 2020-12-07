@@ -36,6 +36,7 @@ export const Layout = ({ children, title, description, socialImage }) => {
         />
         {/* Asynchronously load fonts: https://web.dev/defer-non-critical-css/#optimize */}
         <link
+          crossOrigin="anonymous"
           rel="preload"
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
           as="style"
