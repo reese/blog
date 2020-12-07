@@ -34,6 +34,21 @@ export const Layout = ({ children, title, description, socialImage }) => {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
           rel="stylesheet"
         />
+        {/* Asynchronously load fonts: https://web.dev/defer-non-critical-css/#optimize */}
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+          as="style"
+          onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <noscript>
+          {`
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+          />
+          `}
+        </noscript>
       </Helmet>
       <MDXProvider components={OverrideComponents}>{children}</MDXProvider>
     </LayoutContainer>
