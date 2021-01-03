@@ -32,17 +32,6 @@ const query = graphql`
         }
       }
     }
-    notes: allBrainNote(
-      limit: 5
-      sort: { order: DESC, fields: [childMdx___frontmatter___date] }
-    ) {
-      edges {
-        node {
-          slug
-          title
-        }
-      }
-    }
   }
 `;
 
@@ -53,23 +42,8 @@ const DualColumnContainer = styled.div`
   justify-content: space-around;
 `;
 
-const Notes = ({ notes: { edges } }) => {
-  return (
-    <div style={{ flex: "1", minWidth: "300px" }}>
-      <h3>Digital Garden</h3>
-      {edges.map(({ node: { slug, title } }) => (
-        <Link to={`/notes/${slug}`} key={slug}>
-          <HoverContainer key={slug}>
-            <p style={{ margin: 0 }}>{title}</p>
-          </HoverContainer>
-        </Link>
-      ))}
-    </div>
-  );
-};
-
 const Posts = ({ posts: { edges } }) => (
-  <div style={{ flex: "2", minWidth: "300px" }}>
+  <div style={{ minWidth: "300px", margin: "auto" }}>
     <h3>Posts</h3>
     {edges.map(
       ({
@@ -96,7 +70,7 @@ const Posts = ({ posts: { edges } }) => (
 
 const IndexTemplate = () => {
   const { subtitle: siteSubtitle } = useSiteMetadata();
-  const { posts, notes } = useStaticQuery(query);
+  const { posts } = useStaticQuery(query);
 
   return (
     <NavigationWrapper
@@ -104,10 +78,7 @@ const IndexTemplate = () => {
       description={siteSubtitle}
     >
       <IndexHeader />
-      <DualColumnContainer>
-        <Notes notes={notes} />
-        <Posts posts={posts} />
-      </DualColumnContainer>
+      <Posts posts={posts} />
     </NavigationWrapper>
   );
 };

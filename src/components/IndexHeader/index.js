@@ -12,6 +12,7 @@ const Header = styled.div`
   }
 
   margin: 5rem auto;
+  max-width: 750px;
 `;
 
 const RefreshIcon = styled.img`

@@ -1,5 +1,5 @@
 import { Link } from "gatsby";
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import {
   BASE_FONT_SIZE,
@@ -61,6 +61,27 @@ const Nav = styled.nav`
   }
 `;
 
+const SearchBar = () => {
+  useEffect(() => {
+    if (window.hasOwnProperty("stork"))
+      stork.register(
+        "site",
+        window.location.href.includes("reesew.io")
+          ? "https://reesew.io/stork.st"
+          : "http://localhost:9000/stork.st"
+      );
+  }, []);
+
+  return (
+    <div>
+      <div className="stork-wrapper">
+        <input data-stork="site" className="stork-input" placeholder="🔍" />
+        <div data-stork="site-output" className="stork-output" />
+      </div>
+    </div>
+  );
+};
+
 const Menu = ({ menu }) => {
   const { author } = useSiteMetadata();
 
@@ -68,6 +89,7 @@ const Menu = ({ menu }) => {
     <header>
       <Nav>
         <Author author={author} />
+        <SearchBar />
         <div>
           {menu.map((item) => (
             <Link
