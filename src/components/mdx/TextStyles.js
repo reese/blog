@@ -1,4 +1,5 @@
 import Tippy from "@tippyjs/react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import kebabCase from "lodash.kebabcase";
 import React from "react";
 import styled from "styled-components";
@@ -94,7 +95,9 @@ export const Anchor = (props) => {
 
   return (
     <Tippy content={props.href} theme="material" animation="scale">
-      <a {...props} />
+      <span>
+        <OutboundLink {...props} />
+      </span>
     </Tippy>
   );
 };

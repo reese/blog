@@ -201,6 +201,12 @@ module.exports = {
         mdxOtherwiseConfigured: true,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-131463253-1",
+      },
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
