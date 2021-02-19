@@ -192,22 +192,22 @@ module.exports = {
         plugins: ["gatsby-remark-images"],
       },
     },
-    {
-      resolve: "gatsby-plugin-stork",
-      options: {
-        indexes: [
-          {
-            resolvers: {
-              Mdx: {
-                url: ({ fields: { slug } }) => slug,
-                contents: ({ rawBody }) => rawBody,
-                title: ({ frontmatter: { title } }) => title,
-              },
-            },
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-stork",
+    //   options: {
+    //     indexes: [
+    //       {
+    //         resolvers: {
+    //           Mdx: {
+    //             url: ({ fields: { slug } }) => slug,
+    //             contents: ({ rawBody }) => rawBody,
+    //             title: ({ frontmatter: { title } }) => title,
+    //           },
+    //         },
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
