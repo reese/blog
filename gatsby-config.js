@@ -1,8 +1,6 @@
 "use strict";
 
 const siteConfig = require("./config.js");
-const path = require("path");
-const { query, serialize } = require("./src/utils/storkSerialize");
 
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
@@ -196,7 +194,19 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-stork",
-      options: { query, serialize },
+      options: {
+        indexes: [
+          {
+            resolvers: {
+              Mdx: {
+                url: ({ fields: { slug } }) => slug,
+                contents: ({ rawBody }) => rawBody,
+                title: ({ frontmatter: { title } }) => title,
+              },
+            },
+          },
+        ],
+      },
     },
     "gatsby-plugin-offline",
     "gatsby-plugin-catch-links",
