@@ -1,4 +1,5 @@
 import { Link } from "gatsby";
+// import { StorkInput } from "gatsby-plugin-stork";
 import React from "react";
 import styled from "styled-components";
 import {
@@ -68,6 +69,7 @@ const Menu = ({ menu }) => {
     <header>
       <Nav>
         <Author author={author} />
+        {/* <StorkInput placeholder="🔍" /> */}
         <div>
           {menu.map((item) => (
             <Link

@@ -193,12 +193,19 @@ module.exports = {
       },
     },
     {
-      resolve: "@aengusm/gatsby-theme-brain",
+      resolve: "gatsby-plugin-stork",
       options: {
-        hideDoubleBrackets: true,
-        notesDirectory: "content/notes/",
-        rootPath: "/notes/",
-        mdxOtherwiseConfigured: true,
+        indexes: [
+          {
+            resolvers: {
+              Mdx: {
+                url: ({ fields: { slug } }) => slug,
+                contents: ({ rawBody }) => rawBody,
+                title: ({ frontmatter: { title } }) => title,
+              },
+            },
+          },
+        ],
       },
     },
     {

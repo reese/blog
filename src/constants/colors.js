@@ -29,7 +29,7 @@ export const TYPOGRAHIC_LEADING = Math.floor(
 );
 
 export const LAYOUT_POST_SINGLE_WIDTH = "650px";
-export const LAYOUT_POST_WIDTH = `${LAYOUT_POST_SINGLE_WIDTH} - 305px`;
+export const LAYOUT_POST_WIDTH = LAYOUT_POST_SINGLE_WIDTH;
 
 export const LAYOUT_WIDTH = "1070px";
 export const LAYOUT_BREAKPOINT_SM = "685px";

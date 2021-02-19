@@ -9,9 +9,10 @@ import {
 import { media } from "../../utils/mediaQuery";
 
 const PageWrapper = styled.div`
+  margin: auto;
   margin-bottom: 50px;
   padding: 25px 20px;
-  max-width: ${LAYOUT_POST_WIDTH}
+  max-width: ${LAYOUT_POST_WIDTH};
 
   h1 {
     font-size: ${BASE_FONT_SIZE} * 2.5;

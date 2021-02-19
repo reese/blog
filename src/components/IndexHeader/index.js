@@ -12,6 +12,7 @@ const Header = styled.div`
   }
 
   margin: 5rem auto;
+  max-width: 750px;
 `;
 
 const RefreshIcon = styled.img`
@@ -39,7 +40,7 @@ export const IndexHeader = () => {
   return (
     <Header>
       <h1>Reese Williams</h1>
-      <h2>
+      <h2 style={{ margin: "10px 5px" }}>
         {action}{" "}
         <button
           aria-label="New Sentence"
