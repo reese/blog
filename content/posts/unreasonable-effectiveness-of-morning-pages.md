@@ -1,5 +1,6 @@
 +++
 title = 'The Unreasonable Effectiveness of Morning Pages'
+description = 'Daily practice for getting your ideas going.'
 date = 2024-09-12T01:48:27Z
 +++
 

@@ -1,7 +1,10 @@
 baseURL = 'https://blog.reesew.com/'
+enableRobotsTXT = true
 languageCode = 'en-us'
 title = 'Reese Williams'
 theme = 'blog-theme'
+[params]
+  siteDescription = 'The homepage of Reese Williams: travel, books, photography, and lots of side quests.'
 
 [markup]
   [markup.goldmark]
