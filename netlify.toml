@@ -7,8 +7,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Robots-Tag = "all"
