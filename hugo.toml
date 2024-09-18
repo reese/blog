@@ -1,3 +1,4 @@
 baseURL = 'https://blog.reesew.com/'
 languageCode = 'en-us'
 title = 'Reese Williams'
+theme = 'blog-theme'
