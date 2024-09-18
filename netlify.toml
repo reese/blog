@@ -5,10 +5,5 @@
   publish = "public/"
   command = "hugo"
 
-  # The Lighthouse deploy check uses these headers to check for SEO,
-  # so we should include them for an accurate Lighthouse score
-  [context.staging]
-    command = "hugo && cp ./_headers ./public/_headers"
-
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
