@@ -1,7 +1,6 @@
 +++
 title = 'The Unreasonable Effectiveness of Morning Pages'
 date = 2024-09-12T01:48:27Z
-draft = true
 +++
 
 Morning Pages{{< sidenote >}}Originally created by [Julia Cameron](https://juliacameronlive.com/basic-tools/morning-pages/){{< /sidenote >}} is a simple practice: every morning, write three full pages of text.
