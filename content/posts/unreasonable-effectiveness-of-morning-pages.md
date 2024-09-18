@@ -4,7 +4,7 @@ date = 2024-09-12T01:48:27Z
 draft = true
 +++
 
-Morning Pages is a simple practice: every morning, write three full pages of text.
+Morning Pages{{< sidenote >}}Originally created by [Julia Cameron](https://juliacameronlive.com/basic-tools/morning-pages/){{< /sidenote >}} is a simple practice: every morning, write three full pages of text.
 Something, anything. Once you start writing, do not stop until you have three pages.
 
 Anything means anything -- what happened in your dream last night, that embarrassing moment when you were 8 years old, or what's happening outside your window.
@@ -24,3 +24,5 @@ It's a daily practice, something to do every morning over a cup of tea.
 Its benefits compound over time.
 
 Try it today and see how you feel. Hopefully, just a little bit lighter.
+
+[^foo]: "Foo"

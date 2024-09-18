@@ -2,3 +2,11 @@ baseURL = 'https://blog.reesew.com/'
 languageCode = 'en-us'
 title = 'Reese Williams'
 theme = 'blog-theme'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          inline = [['&&', '&&']]
