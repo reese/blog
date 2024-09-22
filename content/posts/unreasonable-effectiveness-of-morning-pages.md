@@ -12,12 +12,14 @@ Anything means anything -- what happened in your dream last night, that embarras
 You can even write about not knowing what to write about or how much you don't want to be writing right now. That's okay.
 
 ## Clear the Way.
+
 Morning pages aren't about what you write so much as the act of writing, getting your thoughts outside of your head and onto the page.
 Our ideas sit in our heads like water in a pipe: bad ideas will clog up the whole pipe, so getting to the good ideas means letting out the bad ones first.
 
 It also helps shut down that inner critic that loves to pop up while we're writing. That little nagging voice, that little golf-ball-sized thing between your ears, telling you that nobody will care about this or that somebody's already written about that, it has no place here. You don't have time to sit and listen to this voice, because you aren't allowed to stop writing. You have to get words down. You have to execute. When that voice gets too loud, great: it's just another thing to write about.
 
 ## Practice.
+
 Morning Pages isn't a productivity hack to get more writing done.
 It's a practice, and it's not even specifically a writing practice.
 Writers will find it valuable, sure, but so will painters, lawyers, engineers, parents, professional hockey players, and people backpacking through Europe.

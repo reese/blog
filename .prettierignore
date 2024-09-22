@@ -1,0 +1,5 @@
+**/*.svg
+**/public
+**/fonts
+**/favicon.io
+**/node_modules

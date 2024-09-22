@@ -1,14 +1,14 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "esbenp.prettier-vscode",
-                "ms-azuretools.vscode-docker",
-                "budparr.language-hugo-vscode"
-            ]
-        }
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "budparr.language-hugo-vscode"
+      ]
     }
+  }
 }

@@ -1,8 +1,21 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<meta name="description" content="{{ .Description | default .Site.Params.SiteDescription }}">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta
+  name="description"
+  content="{{ .Description | default .Site.Params.SiteDescription }}" />
+<title>
+  {{ if .IsHome }}
+    {{ site.Title }}
+  {{ else }}
+    {{ printf "%s | %s" .Title
+      site.Title
+    }}
+  {{ end }}
+</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 <!-- FontAwesome icons are only used in the footer, so it's all good if they're loaded later -->
-<script async="async" src="https://kit.fontawesome.com/95f2379771.js" crossorigin="anonymous"></script>
+<script
+  async="async"
+  src="https://kit.fontawesome.com/95f2379771.js"
+  crossorigin="anonymous"></script>
