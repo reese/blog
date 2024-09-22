@@ -4,3 +4,5 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+<!-- FontAwesome icons are only used in the footer, so it's all good if they're loaded later -->
+<script async="async" src="https://kit.fontawesome.com/95f2379771.js" crossorigin="anonymous"></script>
