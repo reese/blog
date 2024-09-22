@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+  --main-bg-color: #fffff8;
+  --main-text-color: #111;
+}
+
+/* BEGIN Tufte.css */
+
 @font-face {
     font-family: "et-book";
     src: url("../fonts/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -42,22 +49,22 @@ html {
 }
 
 body {
-    width: 45%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    background-color: #fffff8;
-    color: #111;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
     max-width: 800px;
     counter-reset: sidenote-counter;
 }
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #151515;
-        color: #ddd;
-    }
+    :root {
+        --main-bg-color: #151515;
+        --main-text-color: #ddd;
+      }
 }
 
 h1 {
@@ -190,10 +197,10 @@ section > ul {
     -webkit-padding-start: 5%;
 }
 
-dt:not(:first-child),
+/* dt:not(:first-child),
 li:not(:first-child) {
     margin-top: 0.25rem;
-}
+} */
 
 figure {
     padding: 0;
@@ -479,4 +486,43 @@ label.margin-toggle:not(.sidenote-number) {
     img {
         width: 100%;
     }
+}
+
+/* END Tufte.css */
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+}
+
+.site-title a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: var(--main-text-color);
 }
