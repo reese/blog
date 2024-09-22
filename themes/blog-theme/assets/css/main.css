@@ -589,12 +589,13 @@ label.margin-toggle:not(.sidenote-number) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
   background-color: var(--main-bg-color);
 }
 
 .site-title a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--main-text-color);
   text-decoration: none;
