@@ -592,10 +592,11 @@ label.margin-toggle:not(.sidenote-number) {
   padding-right: 30px;
   padding-top: 20px;
   background-color: var(--main-bg-color);
+  width: 100%;
 }
 
 .site-title a {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--main-text-color);
   text-decoration: none;
@@ -614,13 +615,31 @@ label.margin-toggle:not(.sidenote-number) {
 
 .nav-links li a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #333;
   font-weight: bold;
 }
 
 .nav-links li a:hover {
   color: var(--main-text-color);
+}
+
+.right-nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav-container > div > .social-icons {
+  padding-left: 10px;
+}
+
+.right-nav-container .social-icons {
+  padding: 0;
+  margin: 0;
+}
+
+.right-nav-container .social-icons img {
+  height: 100%;
 }
 
 /* END Nav */
