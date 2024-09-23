@@ -98,6 +98,12 @@ body {
     --main-bg-color: #151515;
     --main-text-color: #ddd;
   }
+  .social-icons img {
+    filter: invert(0.8);
+  }
+  .social-icons img:hover {
+    filter: invert(1);
+  }
 }
 
 h1 {
