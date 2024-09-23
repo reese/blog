@@ -3,7 +3,7 @@
 
 [build]
   publish = "public/"
-  command = "hugo"
+  command = "hugo --minify"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
