@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-  --main-bg-color: var(--hover-text-color);
+  --main-bg-color: #fff;
   --main-text-color: #363537;
   --hover-text-color: #000;
   --accent-color: #E87461;
@@ -285,14 +285,14 @@ a:visited {
 a:link,
 .tufte-underline,
 .hover-underline:hover {
-  color: var(--hover-text-color);
+  color: var(--main-bg-color);
   text-decoration: none;
   background:
-    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
-    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
+    -webkit-linear-gradient(var(--main-bg-color), var(--main-bg-color)),
+    -webkit-linear-gradient(var(--main-bg-color), var(--main-bg-color)),
     -webkit-linear-gradient(currentColor, currentColor);
-  background: linear-gradient(var(--hover-text-color), var(--hover-text-color)),
-    linear-gradient(var(--hover-text-color), var(--hover-text-color)),
+  background: linear-gradient(var(--main-bg-color), var(--main-bg-color)),
+    linear-gradient(var(--main-bg-color), var(--main-bg-color)),
     linear-gradient(currentColor, currentColor);
   -webkit-background-size:
     0.05em 1px,
@@ -308,18 +308,18 @@ a:link,
     1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
   text-shadow:
-    0.03em 0 var(--hover-text-color),
-    -0.03em 0 var(--hover-text-color),
-    0 0.03em var(--hover-text-color),
-    0 -0.03em var(--hover-text-color),
-    0.06em 0 var(--hover-text-color),
-    -0.06em 0 var(--hover-text-color),
-    0.09em 0 var(--hover-text-color),
-    -0.09em 0 var(--hover-text-color),
-    0.12em 0 var(--hover-text-color),
-    -0.12em 0 var(--hover-text-color),
-    0.15em 0 var(--hover-text-color),
-    -0.15em 0 var(--hover-text-color);
+    0.03em 0 var(--main-bg-color),
+    -0.03em 0 var(--main-bg-color),
+    0 0.03em var(--main-bg-color),
+    0 -0.03em var(--main-bg-color),
+    0.06em 0 var(--main-bg-color),
+    -0.06em 0 var(--main-bg-color),
+    0.09em 0 var(--main-bg-color),
+    -0.09em 0 var(--main-bg-color),
+    0.12em 0 var(--main-bg-color),
+    -0.12em 0 var(--main-bg-color),
+    0.15em 0 var(--main-bg-color),
+    -0.15em 0 var(--main-bg-color);
   background-position:
     0% 93%,
     100% 93%,
