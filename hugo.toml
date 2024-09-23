@@ -7,14 +7,6 @@ theme = 'blog-theme'
   siteDescription = 'The homepage of Reese Williams: travel, books, photography, and lots of side quests.'
   xLink = 'https://x.com/_reesew'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          inline = [['&&', '&&']]
-
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
@@ -25,9 +17,16 @@ theme = 'blog-theme'
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
-
+    weight = 1
 [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 20  # Adjust weight to change order in the menu
+    name = "Essays"
+    url = "/essays/"
+    weight = 2
+[[menu.main]]
+    name = "Book Reviews"
+    url = "/reviews/"
+    weight = 3
+[[menu.main]]
+    name = "Travel"
+    url = "/travelogues/"
+    weight = 4
