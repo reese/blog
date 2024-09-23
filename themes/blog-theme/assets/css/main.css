@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
 :root {
-  --main-bg-color: #fffff8;
+  --main-bg-color: var(--hover-text-color);
   --main-text-color: #363537;
+  --hover-text-color: #000;
   --accent-color: #E87461;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #363537;
-    --main-text-color: #ddd;
+    --main-text-color: #cfcfcf;
+    --hover-text-color: #fff;
     /* --accent-color: #23CE6B; */
     --accent-color: #E87461;
   }
@@ -100,6 +102,10 @@ body {
   color: var(--main-text-color);
   max-width: 800px;
   counter-reset: sidenote-counter;
+}
+
+body a:hover {
+  color: var(--hover-text-color);
 }
 
 h1 {
@@ -271,21 +277,22 @@ a:visited {
   color: inherit;
 }
 
-.no-tufte-underline:link {
+.no-underline:link {
   background: unset;
   text-shadow: unset;
 }
 
 a:link,
 .tufte-underline,
-.hover-tufte-underline:hover {
+.hover-underline:hover {
+  color: var(--hover-text-color);
   text-decoration: none;
   background:
-    -webkit-linear-gradient(#fffff8, #fffff8),
-    -webkit-linear-gradient(#fffff8, #fffff8),
+    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
+    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
     -webkit-linear-gradient(currentColor, currentColor);
-  background: linear-gradient(#fffff8, #fffff8),
-    linear-gradient(#fffff8, #fffff8),
+  background: linear-gradient(var(--hover-text-color), var(--hover-text-color)),
+    linear-gradient(var(--hover-text-color), var(--hover-text-color)),
     linear-gradient(currentColor, currentColor);
   -webkit-background-size:
     0.05em 1px,
@@ -301,18 +308,18 @@ a:link,
     1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
   text-shadow:
-    0.03em 0 #fffff8,
-    -0.03em 0 #fffff8,
-    0 0.03em #fffff8,
-    0 -0.03em #fffff8,
-    0.06em 0 #fffff8,
-    -0.06em 0 #fffff8,
-    0.09em 0 #fffff8,
-    -0.09em 0 #fffff8,
-    0.12em 0 #fffff8,
-    -0.12em 0 #fffff8,
-    0.15em 0 #fffff8,
-    -0.15em 0 #fffff8;
+    0.03em 0 var(--hover-text-color),
+    -0.03em 0 var(--hover-text-color),
+    0 0.03em var(--hover-text-color),
+    0 -0.03em var(--hover-text-color),
+    0.06em 0 var(--hover-text-color),
+    -0.06em 0 var(--hover-text-color),
+    0.09em 0 var(--hover-text-color),
+    -0.09em 0 var(--hover-text-color),
+    0.12em 0 var(--hover-text-color),
+    -0.12em 0 var(--hover-text-color),
+    0.15em 0 var(--hover-text-color),
+    -0.15em 0 var(--hover-text-color);
   background-position:
     0% 93%,
     100% 93%,
@@ -322,7 +329,7 @@ a:link,
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   a:link,
   .tufte-underline,
-  .hover-tufte-underline:hover {
+  .hover-underline:hover {
     background-position-y: 87%, 87%, 87%;
   }
 }
@@ -331,7 +338,7 @@ a:link,
 @media (prefers-color-scheme: dark) {
   a:link,
   .tufte-underline,
-  .hover-tufte-underline:hover {
+  .hover-underline:hover {
     text-shadow:
       0.03em 0 var(--main-bg-color),
       -0.03em 0 var(--main-bg-color),
@@ -604,6 +611,10 @@ label.margin-toggle:not(.sidenote-number) {
   text-decoration: none;
 }
 
+.site-title a:hover {
+  color: var(--accent-color);
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -623,7 +634,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .nav-links li a:hover {
-  color: var(--main-text-color);
+  color: var(--hover-text-color);
 }
 
 .right-nav-container {
@@ -654,6 +665,10 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .site-footer a {
+  color: var(--accent-color);
+}
+
+.site-footer a:hover {
   color: var(--accent-color);
 }
 

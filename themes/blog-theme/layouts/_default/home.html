@@ -1,21 +1,21 @@
 {{ define "main" }}
   {{ .Content }}
   <div>
-    <h2><a href="/essays">Essays</a></h2>
+    <h2><a class="no-underline" href="/essays">Essays</a></h2>
     {{ range first 3 (where .Site.RegularPages "Type" "==" "essay") }}
       <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       <p>{{ .Description }}</p>
     {{ end }}
   </div>
   <div>
-    <h2><a href="/reviews">Book Reviews</a></h2>
+    <h2 class="no-underline"><a class="no-underline" href="/reviews">Book Reviews</a></h2>
     {{ range where .Site.RegularPages "Type" "==" "review" }}
       <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       <p>{{ .Description }}</p>
     {{ end }}
   </div>
   <div>
-    <h2><a href="/travelogues">Travelogues</a></h2>
+    <h2 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h2>
     {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
       <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       <p>{{ .Description }}</p>
