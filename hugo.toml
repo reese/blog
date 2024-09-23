@@ -15,9 +15,6 @@ theme = 'blog-theme'
         [markup.goldmark.extensions.passthrough.delimiters]
           inline = [['&&', '&&']]
 
-[permalinks]
-  post = "/:slug/"
-
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
