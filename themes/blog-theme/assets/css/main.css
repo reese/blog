@@ -2,7 +2,17 @@
 
 :root {
   --main-bg-color: #fffff8;
-  --main-text-color: #111;
+  --main-text-color: #363537;
+  --accent-color: #E87461;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg-color: #363537;
+    --main-text-color: #ddd;
+    /* --accent-color: #23CE6B; */
+    --accent-color: #E87461;
+  }
 }
 
 /* BEGIN Tufte.css */
@@ -90,20 +100,6 @@ body {
   color: var(--main-text-color);
   max-width: 800px;
   counter-reset: sidenote-counter;
-}
-
-/* Adds dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-bg-color: #151515;
-    --main-text-color: #ddd;
-  }
-  .social-icons img {
-    filter: invert(0.8);
-  }
-  .social-icons img:hover {
-    filter: invert(1);
-  }
 }
 
 h1 {
@@ -337,18 +333,18 @@ a:link,
   .tufte-underline,
   .hover-tufte-underline:hover {
     text-shadow:
-      0.03em 0 #151515,
-      -0.03em 0 #151515,
-      0 0.03em #151515,
-      0 -0.03em #151515,
-      0.06em 0 #151515,
-      -0.06em 0 #151515,
-      0.09em 0 #151515,
-      -0.09em 0 #151515,
-      0.12em 0 #151515,
-      -0.12em 0 #151515,
-      0.15em 0 #151515,
-      -0.15em 0 #151515;
+      0.03em 0 var(--main-bg-color),
+      -0.03em 0 var(--main-bg-color),
+      0 0.03em var(--main-bg-color),
+      0 -0.03em var(--main-bg-color),
+      0.06em 0 var(--main-bg-color),
+      -0.06em 0 var(--main-bg-color),
+      0.09em 0 var(--main-bg-color),
+      -0.09em 0 var(--main-bg-color),
+      0.12em 0 var(--main-bg-color),
+      -0.12em 0 var(--main-bg-color),
+      0.15em 0 var(--main-bg-color),
+      -0.15em 0 var(--main-bg-color);
   }
 }
 
@@ -604,7 +600,7 @@ label.margin-toggle:not(.sidenote-number) {
 .site-title a {
   font-size: 2.5rem;
   font-weight: bold;
-  color: var(--main-text-color);
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -657,6 +653,10 @@ label.margin-toggle:not(.sidenote-number) {
   border-top: 1px solid #ccc;
 }
 
+.site-footer a {
+  color: var(--accent-color);
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -685,6 +685,16 @@ label.margin-toggle:not(.sidenote-number) {
 .social-icons img {
   width: 20px;
   height: 20px;
+}
+
+/* Adds dark mode */
+@media (prefers-color-scheme: dark) {
+  .social-icons img {
+    filter: invert(0.8);
+  }
+  .social-icons img:hover {
+    filter: invert(1);
+  }
 }
 
 /* END Footer */
