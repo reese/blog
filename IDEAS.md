@@ -1,5 +1,8 @@
 # Essays
 
+- Formative Reading: On Reading Vonnegut
+  - About reading the right authors at the right time, reading from "me just a few steps ahead".
+
 # Book Reviews
 
 - Infinite Jest
@@ -13,4 +16,4 @@
 - Sum: Forty Tales from the Afterlives
 - Invisible Cities
 - The Soul of a New Machine
-- 
+-
