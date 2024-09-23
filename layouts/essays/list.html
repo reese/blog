@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>Essays</h1>
+<div class="posts">
+    {{ range where .Pages "Type" "==" "essay" }}
+    <article>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Description }}</p>
+    </article>
+    {{ end }}
+</div>
+{{ end }}
