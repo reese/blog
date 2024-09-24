@@ -18,3 +18,9 @@
 - The Soul of a New Machine
 - "Why Don't You Dance" from What I Talk About When I Talk About Love
 - Wolf in White Van
+
+# Ill-formed thoughts
+
+- Why doesn't America have a trickster-hero? Was it huckleberry finn?
+  - Is this related to the current "everything is too serious" tone of american politics?
+- 
