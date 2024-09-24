@@ -4,7 +4,7 @@
   --main-bg-color: #fff;
   --main-text-color: #363537;
   --hover-text-color: #000;
-  --accent-color: #E87461;
+  --accent-color: #BD1E1E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,7 +13,7 @@
     --main-text-color: #cfcfcf;
     --hover-text-color: #fff;
     /* --accent-color: #23CE6B; */
-    --accent-color: #E87461;
+    --accent-color: #D88373;
   }
 }
 
