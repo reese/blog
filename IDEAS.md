@@ -1,4 +1,4 @@
-# Essays
+# Thoughts
 
 - Formative Reading: On Reading Vonnegut
   - About reading the right authors at the right time, reading from "me just a few steps ahead".
@@ -23,4 +23,4 @@
 
 - Why doesn't America have a trickster-hero? Was it huckleberry finn?
   - Is this related to the current "everything is too serious" tone of american politics?
-- 
+-

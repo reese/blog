@@ -1,7 +1,7 @@
 {{ define "main" }}
-<h1>Book Reviews</h1>
+<h1>Thoughts</h1>
 <div class="posts">
-    {{ range where .Pages "Type" "==" "review" }}
+    {{ range where .Pages "Type" "==" "thought" }}
     <div>
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{ .Description }}</p>

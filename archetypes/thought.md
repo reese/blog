@@ -4,6 +4,6 @@ date = {{ .Date }}
 description = ''
 featuredImage = ''
 slug = '{{ .File.ContentBaseName }}'
-type = 'review'
+type = 'thought'
 draft = true
 +++
