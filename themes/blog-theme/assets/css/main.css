@@ -200,6 +200,11 @@ div.epigraph > blockquote > p {
   font-style: italic;
 }
 
+div.epigraph > blockquote > em,
+div.epigraph > blockquote > p > em {
+  font-style: normal;
+}
+
 div.epigraph > blockquote > footer {
   font-style: normal;
 }
