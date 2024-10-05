@@ -214,13 +214,11 @@ blockquote {
 }
 
 blockquote p {
-  width: 55%;
   margin-right: 40px;
 }
 
 blockquote footer {
-  width: 55%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: right;
 }
 
