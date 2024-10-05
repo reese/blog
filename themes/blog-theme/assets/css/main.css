@@ -93,14 +93,15 @@ html {
 }
 
 body {
-  width: 45%;
+  width: 87.5%;
+  padding-left: 12.5%;
   margin-left: auto;
   margin-right: auto;
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD",
     "Book Antiqua", Georgia, serif;
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  max-width: 800px;
+  max-width: 1400px;
   counter-reset: sidenote-counter;
 }
 
@@ -483,8 +484,7 @@ pre.fullwidth > code {
   width: 100vw;
   max-width: none;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-12.5%);
 }
 
 span.newthought {
@@ -531,7 +531,7 @@ label.margin-toggle:not(.sidenote-number) {
   section > p,
   section > footer,
   section > table {
-    width: 100%;
+    width: 55%;
   }
 
   pre > code {
@@ -607,10 +607,9 @@ label.margin-toggle:not(.sidenote-number) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 30px;
   padding-top: 20px;
   background-color: var(--main-bg-color);
-  width: 100%;
+  width: 87.5%;
 }
 
 .site-title a {
@@ -663,6 +662,10 @@ label.margin-toggle:not(.sidenote-number) {
 
 /* BEGIN Footer */
 
+.site-footer-container {
+  width: 87.5%;
+}
+
 .site-footer {
   padding: 20px;
   border-top: 1px solid #ccc;
@@ -683,7 +686,7 @@ label.margin-toggle:not(.sidenote-number) {
   max-width: 1200px;
   margin: 0 auto;
   font-size: 1rem;
-  width: 100%;
+  width: 87.5%;
 }
 
 .social-icons {
