@@ -11,7 +11,7 @@ draft = true
 
 I recently sat a week-long retreat up in the San Bernadino Mountains.
 It was led by some [some](https://insightla.org/teacher/beth-sternlieb/) [teachers](https://www.matthewbrensilver.org/) who I've sat with in the past, and it was an excellent opportunity to get some intensive practice in.
-I've got some big life changes{{< sidenote >}}More info in the next few months :eyes:{{< /sidenote >}} coming up, and getting some space and perspective gave me a lot of clarity on a few issues, which I thought might be interesting to document here.
+I've got some big life changes{{< sidenote >}}More info in the next few months :eyes:{{< /sidenote >}} coming up, and getting some space and perspective gave me clarity on a few issues, which I thought might be interesting to document here.
 
 Retreats are a unique experience for lay practicioners, since we so rarely get the opportunity for in-depth practice in this way.
 This can make retreats somewhat harrowing, high upside with the cost of hours on hours stuck inside one's own mind.
@@ -39,16 +39,37 @@ To learn which questions are unanswerable, and _not to answer them_: this skill 
 On the opening night, a teacher defined wisdom as "being grown-ups{{< sidenote >}}To be clear, this isn't meant as a pejorative, although I had the same criticism myself at first.{{< /sidenote >}} about our existential condition."
 For me, this evoked a very clear message: so many of our attempts at making sense of the world are deluded.
 
-For a long time, I was agonized by everyone's Big Question: *what's this all for*?
-Our lives are complex, confusing, and we need something to help us all navigate.
+For a long time, I was agonized by the Big Question: *what's this all for*?
+Our lives are complex, confusing, and we need something to help us navigate.
 Whole societies focus themselves on refining belief systems around this question.
-And "belief systems" here applies in the broadest sense.
+And "belief systems" here applies in the broadest sense -- whether that be religious systems, economic systems, philosophy, nationalism, corporations, ideologies, cults, you name it.
+
 [David Foster Wallace](https://fs.blog/david-foster-wallace-this-is-water/#:~:text=Because%20here%E2%80%99s%20something%20else%20that%E2%80%99s%20weird%20but%20true%3A%20in%20the%20day%2Dto%2Dday%20trenches%20of%20adult%20life%2C%20there%20is%20actually%20no%20such%20thing%20as%20atheism.%20There%20is%20no%20such%20thing%20as%20not%20worshipping.%20Everybody%20worships.%20The%20only%20choice%20we%20get%20is%20what%20to%20worship.): "in the day-to-day trenches of adult life, there is actually no such thing as atheism.
 There is no such thing as not worshipping.
 Everybody worships.
 The only choice we get is what to worship."
 
 And this question has bounced around in my skull for decades, waiting for the universe to unveil to me its [*telos*](https://en.wikipedia.org/wiki/Teleology).
+
+But that hasn't happened.
+
+This is for a few reasons, the most likely of which is that the universe simply _doesn't_ have a grand purpose.
+With a wide enough lens, "purpose" and "meaning" as concepts simply cease to make sense{{< sidenote >}}Despite some [really excellent arguments](https://meaningness.com/) for it{{< /sidenote >}}.
+Or perhaps there is a grand purpose and this is a failure of my own conditioning, but it seems to me that meaning{{< sidenote >}}I'm just going to use "meaning" as a shorthand for meaning/purpose/_telos_ for the rest of this.{{< /sidenote >}} is by-and-large a coping mechanism for the complexity of the universe.
+
+Centuries of continental philosophy and millions of pages of hand-wringing have been spent on this fact, trying to rationalize it to a point where it makes sense.
+This is understandable: this fact means that our lives are inherently insecure, that change is inevitable *no matter what we do*.
+Our inheritance as animals is to fear this, and so we devise tricks, use our brains to find ways around this.
+If only we can make the world like *this* then I'll be fine.
+Once I get *this* much more I'll be done and can enjoy myself.
+But it is not so.
+
+And so to be a grown-up about our existential condition means to accept this fact.
+What makes one grown-up in this sense is one's ability to accept the most likely possibility without deluding oneself into the more comfortable alternative.
+
+But this is not a case for despair.
+
+It requires a wise response.
 
 ### The Only Wise Response
 
