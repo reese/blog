@@ -7,12 +7,6 @@ theme = 'blog-theme'
   siteDescription = 'The homepage of Reese Williams: travel, books, photography, and lots of side quests.'
   xLink = 'https://x.com/_reesew'
 
-[outputs]
-  home = ['html', 'rss']
-  section = ['html', 'rss']
-  taxonomy = ['html']
-  term = ['html']
-
 [[menu.main]]
     identifier = "about"
     name = "About"
