@@ -476,8 +476,12 @@ pre.fullwidth > code {
 }
 
 .fullwidth {
-  max-width: 90%;
-  clear: both;
+  padding-top: 10px;
+  width: 100vw;
+  max-width: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 span.newthought {
