@@ -1,17 +1,17 @@
 {{ define "main" }}
   {{ .Content }}
   <div>
-    <h2><a class="no-underline" href="/thoughts">Thoughts</a></h2>
+    <h1><a class="no-underline" href="/thoughts">Thoughts</a></h1>
     {{ range first 3 (where .Site.RegularPages "Type" "==" "thought") }}
-      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      <p>{{ .Description }}</p>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ end }}
+    {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div>
   <div>
-    <h2 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h2>
+    <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
     {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
-      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      <p>{{ .Description }}</p>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ end }}
+    {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div>
 {{ end }}
