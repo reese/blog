@@ -1,4 +1,9 @@
 {{ define "main" }}
+  {{ if .Params.featureImage }}
+  <div class="feature-image">
+    <img class="fullwidth" src="{{ .Params.featureImage }}" alt="{{ .Title }}">
+  </div>
+  {{ end }}
   <h1>{{ .Title }}</h1>
 
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}

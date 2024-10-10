@@ -2,12 +2,11 @@
 title = 'Being a Grown Up'
 date = 2024-10-05
 description = 'Finding our way without a destination.'
+featureImage = 'big-bear.jpg'
 slug = 'retreat-reflections-love-and-rest'
 type = 'thought'
 draft = true
 +++
-
-{{< fullwidth-image src="big-bear.jpg" alt="Some stuff" >}}
 
 {{< epigraph cite="Ursula K. LeGuin, The Left Hand of Darkness" >}}
 To be an atheist is to maintain God. His existence or nonexistence, it amounts to much the same, on the plane of proof.
