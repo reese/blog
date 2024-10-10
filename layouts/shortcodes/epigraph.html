@@ -1,6 +1,6 @@
 <div class="epigraph">
     <blockquote>
         <p>{{ .Inner | markdownify }}</p>
-        <footer><cite>{{ .Get "cite" }}</cite></footer>
+        <footer><cite>{{ .Get "cite" | markdownify }}</cite></footer>
     </blockquote>
 </div>
