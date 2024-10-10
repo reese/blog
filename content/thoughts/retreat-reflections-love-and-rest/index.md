@@ -58,7 +58,7 @@ It is another way in which we try to orient ourselves in a sprawling, confusing,
 
 Meaning is a tool -- it's something to hold on to as we gradually acclimate ourselves to more and more degrees of freedom.
 
-{{< epigraph cite="Ajahn Sucitto, '[Awareness Doesn't Follow Orders](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)'" >}}
+{{< epigraph cite="Ajahn Sucitto, [&ldquo;Awareness Doesn&rsquo;t Follow Orders&rdquo;](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)" >}}
 You can liken the process [of awakening] to a gradual descent out of the tumult and the gridlock of your personal world into the free space of the unconditioned. It’s rather like lowering oneself down a rope. You have to know how to do that. It’s a matter of holding on to something you trust – even though it seems like a thin strand – then letting go a little bit and trusting the downward movement.
 {{< /epigraph >}}
 
