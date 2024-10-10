@@ -7,11 +7,12 @@
     {{ end }}
     {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div>
-  <div>
+  <!-- TODO: Add this back when there are travelogues -->
+  <!-- <div>
     <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
     {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ end }}
     {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
-  </div>
+  </div> -->
 {{ end }}
