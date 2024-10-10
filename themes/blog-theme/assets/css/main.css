@@ -189,6 +189,7 @@ p {
 /* Chapter Epigraphs */
 div.epigraph {
   margin: 5em 0;
+  width: 55%;
 }
 
 div.epigraph > blockquote {
@@ -520,7 +521,7 @@ label.margin-toggle:not(.sidenote-number) {
   height: 100%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 850px) {
   body {
     width: 84%;
     padding-left: 8%;
@@ -559,8 +560,10 @@ label.margin-toggle:not(.sidenote-number) {
     margin-right: 0em;
   }
 
+  section > p,
   blockquote p,
-  blockquote footer {
+  blockquote footer,
+  div.epigraph {
     width: 100%;
   }
 
