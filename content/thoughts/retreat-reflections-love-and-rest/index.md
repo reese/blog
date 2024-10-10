@@ -1,5 +1,5 @@
 +++
-title = ''
+title = 'Being a Grown Up'
 date = 2024-10-05
 description = 'Finding our way without a destination.'
 slug = 'retreat-reflections-love-and-rest'
@@ -9,29 +9,6 @@ draft = true
 
 {{< fullwidth-image src="big-bear.jpg" alt="Some stuff" >}}
 
-I recently sat a week-long retreat up in the San Bernadino Mountains.
-It was led by some [some](https://insightla.org/teacher/beth-sternlieb/) [teachers](https://www.matthewbrensilver.org/) who I've sat with in the past, and it was an excellent opportunity to get some intensive practice in.
-I was glad to have the space for clarity as I prepare for some some big life changes,{{< sidenote >}}More info in the next few months :eyes:{{< /sidenote >}} and several questions that have loomed over me for a long time feel like they loosened up, so I thought they'd be good to share here.
-In the process of writing this I realized that there was simply too much to fit into one thing, so there will likely be follow-on writings that all intertwine on some of the themes touched here.
-
-Retreats are a unique experience for lay practicioners, since we so rarely get the opportunity for in-depth practice in this way.
-This can make retreats somewhat harrowing: high upside with the cost of hours on hours stuck inside one's own mind.
-Hopefully that experience improves over time, but the first several days (or longer!) of any retreat are bound to be somewhere between uncomfortable and downright miserable.{{< sidenote >}}[Donald Rothberg](https://www.donaldrothberg.com/) told me on my first retreat that the majority of his job in leading retreats is to tell students "yes that's normal."{{< /sidenote >}}
-
-What most often happens for me is that I tend to latch on to a few particular phrases that ring in my ears for the whole retreat.
-They're teachings that feel aspirational -- I get them conceptually, but I don't _get_ them.
-They're not baked into my nervous system.
-
-And so I sit, day after day, letting them work their way through me.
-It can be horrifying to watch your mind try and make sense of wisdom.
-Wisdom all too often clashes with this or that aspect of our worldview, and so the mind has to digest them, often prodding and attacking an idea until it has no alternative but to consider and integrate it.
-
-Eventually, something gives.
-
----
-
-### Being a Grown-up
-
 {{< epigraph cite="Ursula K. LeGuin, The Left Hand of Darkness" >}}
 To be an atheist is to maintain God. His existence or nonexistence, it amounts to much the same, on the plane of proof.
 Thus _proof_ is a word not often used among the Handdarata, who have chosen not to treat God as a fact, subject either to proof or to belief: and they have broken the circle, and go free.
@@ -39,7 +16,7 @@ Thus _proof_ is a word not often used among the Handdarata, who have chosen not 
 To learn which questions are unanswerable, and _not to answer them_: this skill is most needful in times of stress and darkness.
 {{< /epigraph >}}
 
-On the opening night, a teacher defined wisdom as "being grown-ups about our existential condition."
+I recently spent a week on retreat up in the San Bernadino mountains. On the opening night, a teacher defined wisdom as "being grown-ups about our existential condition."
 Similarly, the oft-quoted Bible verse from 1 Corinthians: "When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things."
 
 These aren't pejorative statements.
@@ -47,7 +24,7 @@ They're simply teaching us to be more clear with ourselves.
 
 ---
 
-For a long time, I was agonized by the Big Question: *what's this all for?*
+For a long time, I was agonized by the Big Questions: *what's this all for? Why are we here?*
 Our lives are complex and confusing, and we need something to help us navigate.
 
 Whole societies focus themselves on refining belief systems around this question.
