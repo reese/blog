@@ -570,6 +570,11 @@ label.margin-toggle:not(.sidenote-number) {
     max-width: none;
   }
 
+  .fullwidth {
+    /* Body left-padding is reduced to 8% */
+    transform: translateX(-8%);
+  }
+
   blockquote {
     margin-left: 1.5em;
     margin-right: 0em;
