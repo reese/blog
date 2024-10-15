@@ -3,7 +3,10 @@
   <div>
     <h1><a class="no-underline" href="/thoughts">Thoughts</a></h1>
     {{ range first 3 (where .Site.RegularPages "Type" "==" "thought") }}
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="title-container">
+      <span>{{ .Date | time.Format ":date_medium" }}</span>
+      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    </div>
     {{ end }}
     {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div>
@@ -11,7 +14,10 @@
   <!-- <div>
     <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
     {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <div class="title-container">
+      <span>{{ .Date | time.Format ":date_medium" }}</span>
+      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    </div>
     {{ end }}
     {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div> -->

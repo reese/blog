@@ -3,7 +3,10 @@
 <div class="posts">
     {{ range where .Pages "Type" "==" "travelogue" }}
     <div>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <div class="title-container">
+          <span>{{ .Date | time.Format ":date_medium" }}</span>
+          <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        </div>
         <p>{{ .Description }}</p>
     </div>
     {{ end }}

@@ -3,8 +3,10 @@
 <div class="posts">
     {{ range where .Pages "Type" "==" "thought" }}
     <div>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Description }}</p>
+        <div class="title-container">
+          <span>{{ .Date | time.Format ":date_medium" }}</span>
+          <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        </div>
     </div>
     {{ end }}
 </div>

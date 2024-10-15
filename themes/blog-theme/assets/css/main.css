@@ -738,3 +738,16 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 /* END Footer */
+
+/* BEGIN Utils */
+
+.list-title {
+  margin-top: 5px;
+  margin-bottom: 2rem;
+}
+
+.title-container span {
+  font-style: italic;
+}
+
+/* BEGIN Utils */
