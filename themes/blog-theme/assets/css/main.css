@@ -543,12 +543,13 @@ label.margin-toggle:not(.sidenote-number) {
     padding-right: 8%;
   }
 
-  hr,
   section > p,
   section > footer,
   section > table {
     width: 55%;
   }
+
+  hr { width: 100%; }
 
   pre > code {
     width: 97%;
