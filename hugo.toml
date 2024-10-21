@@ -13,11 +13,12 @@ theme = 'blog-theme'
     name = "About"
     url = "/about/"
     weight = 1
-[[menu.main]]
-    name = "Thoughts"
-    url = "/thoughts/"
-    weight = 2
-# TODO Unhide this when there are travelogues
+# TODO: Unhide this when I have some public writing
+#[[menu.main]]
+#    name = "Thoughts"
+#    url = "/thoughts/"
+#    weight = 2
+# TODO: Unhide this when there are travelogues
 #[[menu.main]]
 #    name = "Travel"
 #    url = "/travelogues/"

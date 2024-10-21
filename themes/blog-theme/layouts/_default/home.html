@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
-  <div>
+  <!-- TODO: Add this back when there are published pieces -->
+  <!-- <div>
     <h1><a class="no-underline" href="/thoughts">Thoughts</a></h1>
     {{ range first 3 (where .Site.RegularPages "Type" "==" "thought") }}
     <div class="title-container">
@@ -9,7 +10,7 @@
     </div>
     {{ end }}
     {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
-  </div>
+  </div> -->
   <!-- TODO: Add this back when there are travelogues -->
   <!-- <div>
     <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
