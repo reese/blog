@@ -169,7 +169,7 @@ Living in the strength of their vision, they eschew power and make joyous play o
 {{< /epigraph >}}
 
 In this constant state of letting go, we find a balance: confidence in what we know and compassion for the unknown.
-Others around us, we see, are on the same road, just going at their own place.
+Others around us, we see, are on the same road, just going at their own pace.
 Some join us on our journey, and for that we're grateful.
 For others, the road ahead is frightening, and for them we're compassionate, for we know their pain.
 
