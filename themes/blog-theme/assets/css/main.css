@@ -501,6 +501,7 @@ pre.fullwidth > code {
   max-width: none;
   position: relative;
   transform: translateX(-12.5%);
+  margin-right: -15%;
 }
 
 span.newthought {
@@ -574,6 +575,7 @@ label.margin-toggle:not(.sidenote-number) {
   .fullwidth {
     /* Body left-padding is reduced to 8% */
     transform: translateX(-8%);
+    margin-right: -10%;
   }
 
   blockquote {
