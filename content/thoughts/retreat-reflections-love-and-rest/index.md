@@ -5,7 +5,6 @@ description = 'Finding our way without a destination.'
 featureImage = 'big-bear.jpg'
 slug = 'retreat-reflections-love-and-rest'
 type = 'thought'
-draft = true
 +++
 
 {{< epigraph cite="Ursula K. LeGuin, The Left Hand of Darkness" >}}
@@ -17,16 +16,17 @@ To learn which questions are unanswerable, and _not to answer them_: this skill 
 
 I recently spent a week on retreat up in the San Bernadino mountains. On the opening night, a teacher defined wisdom as "being grown-ups about our existential condition."
 At first that felt like an attack -- surely I'm not being _childish_ -- but after sitting in silence for a week, letting those words run their course through me, I started to see some aspects of my own childishness.
+
 Namely: like children, we grasp at this-or-that explanation of our existence to make ourselves feel secure.
-Explanations of this nature are comfort blankets for our existential discomforts, tools that help us navigate deeper and deeper depths of insecurity.
+Explanations of this nature are comfort blankets for our existential dread, tools that help us navigate our deepest fears.
 
 Our need for security is our inheritance as animals.
-As we grow up, we develop the confidence and capacity to work with the unknown, with insecurity.
+As we grow up, we develop the confidence and capacity to work with the unknown, to handle insecurity.
 
 Our hope is that the Final Answer of the Universe will be ultimately fulfilling.
+But freedom lies not in the answer, but in the question:
 
-<!-- TODO: This doesn't feel snappy enough. Needs a better hook. -->
-If we want to be free, we must put that down.
+Will knowing the meaning of life actually help?
 
 ---
 
@@ -34,7 +34,7 @@ If we want to be free, we must put that down.
 I am trying to rip open the inconsolable secret in each one of you—the secret which hurts so much that you take your revenge on it by calling it names like Nostalgia and Romanticism and Adolescence; the secret also which pierces with such sweetness that when, in very intimate conversation, the mention of it becomes imminent, we grow awkward and affect to laugh at ourselves; the secret we cannot hide and cannot tell, though we desire to do both. We cannot tell it because it is a desire for something that has never actually appeared in our experience. We cannot hide it because our experience is constantly suggesting it, and we betray ourselves like lovers at the mention of a name. Our commonest expedient is to call it beauty and behave as if that had settled the matter.
 {{< /epigraph >}}
 
-I've spent much of my life agonizing over the Big Questions: *what's this all for? Why are we here?*
+I've spent much of my life agonizing over questions like this: *what's this all for? Why are we here?*
 Our place in the world is ambiguous and confusing, and I needed help navigating it all.
 
 <!-- Whole societies focus on refining belief systems around such questions.
@@ -66,7 +66,7 @@ To call time spent with friends, the excitement of a child, or the tender care o
 I was far more concerned about the meaning _of_ life, as if going through a whole lifetime without uncovering its innate purpose would be a waste of breath.
 
 I was scared.
-Scared that without a meaning-of-life, life was not worth living.
+Scared that without a meaning-of-life, my life was not worth living.
 
 Camus: "A world that can be explained even with bad reasons is a familiar world. But, on the other hand, in a universe suddenly divested of illusions and lights, man feels an alien, a stranger. His exile is without remedy since he is deprived of the memory of a lost home or the hope of a promised land." {{< sidenote >}}From _The Myth of Sisyphus_{{< /sidenote >}}
 
@@ -92,7 +92,7 @@ It is the mind clawing its way to [utopia](https://en.wikipedia.org/wiki/Utopia#
 <!-- It is felt, firmly rooted in our own history and way of seeing the world. -->
 <!-- This is a helpful view, of course -- it's a core component of a healthy ego used as part of our daily life and our interactions with others. -->
 
-Meaning-of-life is a metaphysical claim, that at the bottom of the cosmos there's some ground floor, something woven into the fabric of the universe that is the universal good or purpose.
+Meaning-of-life is a metaphysical claim, that at the bottom of the cosmos there's some ground floor, something woven into the fabric of the universe that is the Universal-Good or Purpose.
 To attempt to answer such a question requires omniscience, and yet we are mortal: a question of that magnitude is so broad as to be unanswerable.{{< sidenote >}}It's not explicitly in these lists, but it's in the same vein as what many Buddhist traditions refer to as "the imponderables" or "[unanswerable questions](https://en.wikipedia.org/wiki/The_unanswerable_questions)."{{< /sidenote >}}
 
 Our task is not to determine the meaning-of-life at the bottom of it all.
@@ -137,9 +137,9 @@ But one of the most striking aspects of childhood is what pediatrician and psych
 
 Transitional objects ease the child towards independence, helping distinguish themselves from their primary caregiver.
 They're a natural part of growing up.
-Even adults often maintain a "comfort object" that provides comfort, like favorite photographs, weighted blankets, or [objects from their childhood](https://www.upi.com/Odd_News/2012/02/21/35-percent-of-British-adults-sleep-with-bear/UPI-49791329806031/).
+Even adults often maintain a "comfort object" that provides a sense of safety, like favorite photographs, weighted blankets, or [objects from their childhood](https://www.upi.com/Odd_News/2012/02/21/35-percent-of-British-adults-sleep-with-bear/UPI-49791329806031/).
 
-But much of being a grown-up is not to find things that bring us comfort, but rather to grow our ability to handle insecurity.
+But much of being a grown-up is not finding things that bring us comfort, but rather growing our ability to handle insecurity.
 As we develop, our capacity for handling new and diverse situations increases -- we take care of a family, become more involved in community, or take on more complex work projects.
 And as we build that capacity, our need for transitional objects often subsides.
 
@@ -156,10 +156,10 @@ We let go of the known, little by little, finding more and more safety in wider 
 This will be uncomfortable: our body and mind will pull out all manner of response to prevent insecurity and to continue the march towards security.
 Shedding the conventional boundaries of predefined selfhood, of a conventional life-meaning, requires doing something new.
 
-In order pick up something new, we must first put something else down.
+In order pick up something new, we must first put down the old.
 We cannot graft our neurosis out onto the world, but rather must see clearly the boundaries we've accepted and find new ones, wider ones just past the edge of our comfort zone.
 
-And we must do this again and again, putting it all down.
+And we must do this again and again, putting down all our transitional objects and embracing new freedoms.
 
 ---
 
@@ -169,15 +169,15 @@ Living in the strength of their vision, they eschew power and make joyous play o
 {{< /epigraph >}}
 
 In this constant state of letting go, we find a balance: confidence in what we know and compassion for the unknown.
-Others around us, we see, are on the same road as us.
-Some are joining us on our journey, and for that we're grateful.
-For others, the road ahead is frightening, and for them we're compassionate, for we know the pain they experience.
+Others around us, we see, are on the same road, just going at their own place.
+Some join us on our journey, and for that we're grateful.
+For others, the road ahead is frightening, and for them we're compassionate, for we know their pain.
 
 Meaning, here, becomes not so much an unanswerable question; it's simply irrelevant to the project of living.
 It's a million miles away.
-Because here, right here before us, is joyous freedom to be.
+Because here, right here before us, is the joyous freedom to be.
 
 And in that joy, I find resonance in the words of my [childhood pastor](https://thealabamabaptist.org/jim-barnette-longtime-pastor-and-samford-professor-dies-at-age-59/#:~:text=you%20have%20been%20redeemed%20and%20you%20are%20being%20redeemed), the words that rang in my ears every Sunday morning:
 
-"You have been redeemed, and you are *being* redeemed.
+"And by the love of God, you have been redeemed, and you are *being* redeemed.
 So go in peace."
