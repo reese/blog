@@ -16,17 +16,26 @@ To learn which questions are unanswerable, and _not to answer them_: this skill 
 {{< /epigraph >}}
 
 I recently spent a week on retreat up in the San Bernadino mountains. On the opening night, a teacher defined wisdom as "being grown-ups about our existential condition."
-At first that felt like an attack -- surely I'm not being _childish_ -- but after sitting with that in silence for a week, letting it run its course through me, I started to understand my own childishness.
+At first that felt like an attack -- surely I'm not being _childish_ -- but after sitting in silence for a week, letting those words run their course through me, I started to see some aspects of my own childishness.
 Namely: like children, we grasp at this-or-that explanation of our existence to make ourselves feel secure.
+Explanations of this nature are comfort blankets for our existential discomforts, tools that help us navigate deeper and deeper depths of insecurity.
+
+Our need for security is our inheritance as animals.
+As we grow up, we develop the confidence and capacity to work with the unknown, with insecurity.
+
+Our hope is that the Final Answer of the Universe will be ultimately fulfilling.
 
 <!-- TODO: This doesn't feel snappy enough. Needs a better hook. -->
-If we want to truly be free, we must put that down.
+If we want to be free, we must put that down.
 
 ---
 
-Like many people, I've spent much of my life agonizing over the Big Questions: *what's this all for? Why are we here?*
+{{< epigraph cite="C.S. Lewis, The Weight of Glory" >}}
+I am trying to rip open the inconsolable secret in each one of you—the secret which hurts so much that you take your revenge on it by calling it names like Nostalgia and Romanticism and Adolescence; the secret also which pierces with such sweetness that when, in very intimate conversation, the mention of it becomes imminent, we grow awkward and affect to laugh at ourselves; the secret we cannot hide and cannot tell, though we desire to do both. We cannot tell it because it is a desire for something that has never actually appeared in our experience. We cannot hide it because our experience is constantly suggesting it, and we betray ourselves like lovers at the mention of a name. Our commonest expedient is to call it beauty and behave as if that had settled the matter.
+{{< /epigraph >}}
+
+I've spent much of my life agonizing over the Big Questions: *what's this all for? Why are we here?*
 Our place in the world is ambiguous and confusing, and I needed help navigating it all.
-How was I supposed to orient the direction of my life?
 
 <!-- Whole societies focus on refining belief systems around such questions.
 And "belief systems" here applies in a broad sense, whether that be religious systems, economic systems, philosophy, nationalism, corporations, ideologies, cults, you name it.
@@ -42,18 +51,19 @@ The only choice we get is what to worship.
 I hoped primarily to find something definitive, regardless of its contents.
 I was waiting for the universe to unveil to me its *[telos](https://en.wikipedia.org/wiki/Teleology)*, to lift the curtain on a grand mechanism.
 Everything would be clear, concrete, unambiguous, and most importantly, secure.
+There must surely be a ground, it cannot be [turtles all the way down](https://en.wikipedia.org/wiki/Turtles_all_the_way_down).
 I'd _finally_ be able to get on with my life because at least now it had a _point_.
 
 But that hasn't happened.
 
-The primary reason for this is for me, "purpose" was a crutch, a tool to attempt to govern the inherently chaotic.
-I was mistaking the meaning-of-life for finding meaning-*in*-life.{{< sidenote >}}The latter being the focus of the work of folks like [John Vervaeke](https://youtu.be/yImlXr5Tr8g?t=99) and [David Chapman](https://meaningness.com/), among others.{{< /sidenote >}}
+The primary reason for this is that for me, "purpose" was a crutch, a tool to attempt to govern the inherently chaotic.
+I mistook the meaning-of-life for finding meaning-*in*-life.{{< sidenote >}}The latter being the focus of the work of folks like [John Vervaeke](https://youtu.be/yImlXr5Tr8g?t=99) and [David Chapman](https://meaningness.com/), among others.{{< /sidenote >}}
 The latter is important for happiness and wellbeing -- it's what people most often reference when they say they've had a "meaningful life" -- but it was not the primary concern for me.
 The existence of that sort of meaning seemed too obvious to dismiss.
 You can feel it in your chest when something in life is meaningful.
 To call time spent with friends, the excitement of a child, or the tender care of a loved one "meaningless" is cruel and a denial of the obvious.
 
-I was far more concerned about the meaning _of_ life, as if going through a whole lifetime without uncovering its purpose would be a waste of breath.
+I was far more concerned about the meaning _of_ life, as if going through a whole lifetime without uncovering its innate purpose would be a waste of breath.
 
 I was scared.
 Scared that without a meaning-of-life, life was not worth living.
@@ -64,13 +74,14 @@ My biggest fear was being a stranger in the world.
 
 ---
 
-My fear was being a _stranger_.
-It was rooted in a naive assumption: that other people had figured it all out and I hadn't.
-Meaning-of-life, framed in this way, becomes a tool, a means to justify one's own existence.
-Underlying this is the insidious notion that one's existence *requires justification*, that the purpose of a life is to create a life worth living. {{< sidenote >}}"Feels like I'm sinning when I’d be seeing the light / Cause now I'm working on this living just to rap about life / That's some backwards commitment" -- Jonwayne, ["Out of Sight"](https://www.youtube.com/watch?v=l4F21FUL1b8){{< /sidenote >}}
-What I most wanted was not actually meaning but approval, a justification of selfhood so deep and so true that it could never be questioned.
+My fear of being a stranger was rooted in a naive assumption: that other people had figured it all out and I hadn't.
+I grew up in a religious tradition that supplied its own answer, and so by that metric other people *did* have it figured out, albeit with an answer that I found inconclusive.
 
-But such justification will not be found.
+Meaning-of-life, framed as a form of social cohesion, becomes a tool, a means of justifying one's own existence.
+Underlying this is the insidious notion that one's existence *requires justification*, that the purpose of a life is to create a life worth living. {{< sidenote >}}"Feels like I'm sinning when I’d be seeing the light / Cause now I'm working on this living just to rap about life / That's some backwards commitment" -- Jonwayne, ["Out of Sight"](https://www.youtube.com/watch?v=l4F21FUL1b8){{< /sidenote >}}
+What I most wanted was not actually meaning but rather approval, a justification of selfhood so deep and so true that it could never be questioned.
+
+But that justification will not be found.
 Such a search is just a [snipe hunt](https://en.wikipedia.org/wiki/Snipe_hunt), a neverending chase for something over the horizon.
 Once we achieve *this* or create *that* or get *just a bit more* money or recognition or power, then we'll have enough control to be untouchable.
 It is the mind clawing its way to [utopia](https://en.wikipedia.org/wiki/Utopia#:~:text=meant%20any%20non%2Dexistent%20society) and coming up empty.
@@ -82,13 +93,12 @@ It is the mind clawing its way to [utopia](https://en.wikipedia.org/wiki/Utopia#
 <!-- This is a helpful view, of course -- it's a core component of a healthy ego used as part of our daily life and our interactions with others. -->
 
 Meaning-of-life is a metaphysical claim, that at the bottom of the cosmos there's some ground floor, something woven into the fabric of the universe that is the universal good or purpose.
-To attempt to answer such a question in fact requires omniscience.
-We are mortal: a question of that magnitude is so broad as to be unanswerable.{{< sidenote >}}It's not explicitly in these lists, but it's in the same vein as what many Buddhist traditions refer to as "the imponderables" or "[unanswerable questions](https://en.wikipedia.org/wiki/The_unanswerable_questions)."{{< /sidenote >}}
+To attempt to answer such a question requires omniscience, and yet we are mortal: a question of that magnitude is so broad as to be unanswerable.{{< sidenote >}}It's not explicitly in these lists, but it's in the same vein as what many Buddhist traditions refer to as "the imponderables" or "[unanswerable questions](https://en.wikipedia.org/wiki/The_unanswerable_questions)."{{< /sidenote >}}
 
 Our task is not to determine the meaning-of-life at the bottom of it all.
 Much ink has been spilled trying to find these answers, but this is a distraction.
 
-Rather, our task is to acclimate ourselves to what is true, to put down childish distractions and to take our condition seriously.
+Rather, our task is to acclimate ourselves to what is true, to put down childish distractions and to take responsibility: to be grown-ups.
 
 ---
 
@@ -105,24 +115,69 @@ What's meaningful to me is not necessarily meaningful to you, so all of our mean
 <!-- It is another way in which we try to orient ourselves in a sprawling, confusing, chaotic world that we cannot understand. -->
 
 {{< epigraph cite="Ajahn Sucitto, [&ldquo;Awareness Doesn&rsquo;t Follow Orders&rdquo;](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)" >}}
-You can liken the process [of awakening] to a gradual descent out of the tumult and the gridlock of your personal world into the free space of the unconditioned. It’s rather like lowering oneself down a rope. You have to know how to do that. It’s a matter of holding on to something you trust – even though it seems like a thin strand – then letting go a little bit and trusting the downward movement.
+You can liken the process [of awakening] to a gradual descent out of the tumult and the gridlock of your personal world into the free space of the unconditioned.
+It’s rather like lowering oneself down a rope.
+You have to know how to do that.
+It’s a matter of holding on to something you trust – even though it seems like a thin strand – then letting go a little bit and trusting the downward movement.
 {{< /epigraph >}}
 
-Meaning is a tool -- it's something to hold on to as we gradually acclimate ourselves to more and more degrees of freedom.
+<!-- Meaning is a tool -- it's something to hold on to as we gradually acclimate ourselves to more and more degrees of freedom. -->
 
-Centuries of continental philosophy and millions of pages of hand-wringing have been spent on the ambiguous nature of meaning, trying to rationalize it to a point where it makes sense.
-This is understandable: a lack of clarity on this front means that our lives are inherently insecure, that change is inevitable *no matter what we do*.
-Our inheritance as animals is to fear this, and so we devise tricks, use our brains to find ways around this.
-If only we can make the world like *this* then I'll be fine.
-Once I get *this* much more I'll be done and can enjoy myself.
-But it is not so.
+<!--
+Centuries of continental philosophy and millions of pages of hand-wringing have been spent on the ambiguous nature of meaning, trying to rationalize it to a point where it makes sense. -->
+<!-- This is understandable: a lack of clarity on this front means that our lives are inherently insecure, that change is inevitable *no matter what we do*. -->
+<!-- Our inheritance as animals is to fear this, and so we devise tricks, use our brains to find ways around this. -->
+<!-- If only we can make the world like *this* then I'll be fine. -->
+<!-- Once I get *this* much more I'll be done and can enjoy myself. -->
+<!-- But it is not so. -->
 
-And so to be a grown-up about our existential condition means to see our delusions clearly, to know ourselves.
-We have to put down a tool that we're done with in order to pick up something better.
+"Childish" in this sense is not derogatory.
+Children are plenty capable of learning and comprehending complex topics and learning to take responsibility.
+But one of the most striking aspects of childhood is what pediatrician and psychoanalyst D. W. Winnicott termed the "[transitional object](https://dictionary.apa.org/transitional-object)": dolls, blankets, or any other object used to provide comfort and reduce anxiety in unique and uncomfortable situations.
 
-### Finding a Wise Response
+Transitional objects ease the child towards independence, helping distinguish themselves from their primary caregiver.
+They're a natural part of growing up.
+Even adults often maintain a "comfort object" that provides comfort, like favorite photographs, weighted blankets, or [objects from their childhood](https://www.upi.com/Odd_News/2012/02/21/35-percent-of-British-adults-sleep-with-bear/UPI-49791329806031/).
 
-Remember: putting aside meaning leads to more degrees of freedom than holding onto it.
-What I've written so far may sound awfully nihilistic, but it is not so.
+But much of being a grown-up is not to find things that bring us comfort, but rather to grow our ability to handle insecurity.
+As we develop, our capacity for handling new and diverse situations increases -- we take care of a family, become more involved in community, or take on more complex work projects.
+And as we build that capacity, our need for transitional objects often subsides.
 
-Putting aside meaning isn't a cause for concern: it's a cause for care.
+In this way, meaning becomes another higher form of transitional objects in our adult life.
+We take on new challenges and meet higher-order needs -- the need for community and recognition and so on -- that become harder and harder to guarantee through sheer force of will.
+Transitional objects are, at their core, illusions of safety.
+While they're valuable tools to help us regulate, they're still a marker of fear, something we can always control even in the darkest of circumstances.
+
+---
+
+How then do we build our capacity for insecurity?
+We let go of the known, little by little, finding more and more safety in wider and wider degrees of freedom.
+
+This will be uncomfortable: our body and mind will pull out all manner of response to prevent insecurity and to continue the march towards security.
+Shedding the conventional boundaries of predefined selfhood, of a conventional life-meaning, requires doing something new.
+
+In order pick up something new, we must first put something else down.
+We cannot graft our neurosis out onto the world, but rather must see clearly the boundaries we've accepted and find new ones, wider ones just past the edge of our comfort zone.
+
+And we must do this again and again, putting it all down.
+
+---
+
+{{< epigraph cite="James Carse, Finite and Infinite Games" >}}
+Culture is an enterprise of mortals, disdaining to protect themselves against surprise.
+Living in the strength of their vision, they eschew power and make joyous play of boundaries.
+{{< /epigraph >}}
+
+In this constant state of letting go, we find a balance: confidence in what we know and compassion for the unknown.
+Others around us, we see, are on the same road as us.
+Some are joining us on our journey, and for that we're grateful.
+For others, the road ahead is frightening, and for them we're compassionate, for we know the pain they experience.
+
+Meaning, here, becomes not so much an unanswerable question; it's simply irrelevant to the project of living.
+It's a million miles away.
+Because here, right here before us, is joyous freedom to be.
+
+And in that joy, I find resonance in the words of my [childhood pastor](https://thealabamabaptist.org/jim-barnette-longtime-pastor-and-samford-professor-dies-at-age-59/#:~:text=you%20have%20been%20redeemed%20and%20you%20are%20being%20redeemed), the words that rang in my ears every Sunday morning:
+
+"You have been redeemed, and you are *being* redeemed.
+So go in peace."
