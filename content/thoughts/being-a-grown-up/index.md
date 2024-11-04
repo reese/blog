@@ -3,7 +3,7 @@ title = 'Being a Grown Up'
 date = 2024-11-03
 description = 'Finding our way without a destination.'
 featureImage = 'big-bear.jpg'
-slug = 'retreat-reflections-love-and-rest'
+slug = 'being-a-grown-up'
 type = 'thought'
 +++
 
