@@ -177,7 +177,9 @@ Meaning, here, becomes not so much an unanswerable question; it's simply irrelev
 It's a million miles away.
 Because here, right here before us, is the joyous freedom to be.
 
-And in that joy, I find resonance in the words of my [childhood pastor](https://thealabamabaptist.org/jim-barnette-longtime-pastor-and-samford-professor-dies-at-age-59/#:~:text=you%20have%20been%20redeemed%20and%20you%20are%20being%20redeemed), the words that rang in my ears every Sunday morning:
+And in that joy, we find our freedom in wide open space.
+We are redeemed not by living a definite purpose, but by freeing everything else.
+I find resonance in the words of my [childhood pastor](https://thealabamabaptist.org/jim-barnette-longtime-pastor-and-samford-professor-dies-at-age-59/#:~:text=you%20have%20been%20redeemed%20and%20you%20are%20being%20redeemed), the words that rang in my ears every Sunday morning:
 
 "And by the love of God, you have been redeemed, and you are *being* redeemed.
 So go in peace."
