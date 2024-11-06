@@ -499,6 +499,7 @@ pre.fullwidth > code {
   padding-top: 10px;
   width: 100vw;
   max-width: none;
+  height: auto;
   position: relative;
   transform: translateX(-12.5%);
   margin-right: -15%;
