@@ -37,17 +37,6 @@ I am trying to rip open the inconsolable secret in each one of you—the secret 
 I've spent much of my life agonizing over questions like this: *what's this all for? Why are we here?*
 Our place in the world is ambiguous and confusing, and I needed help navigating it all.
 
-<!-- Whole societies focus on refining belief systems around such questions.
-And "belief systems" here applies in a broad sense, whether that be religious systems, economic systems, philosophy, nationalism, corporations, ideologies, cults, you name it.
-Such systems serve to prop up various aspects of our own identity.
-
-{{< epigraph cite="David Foster Wallace, [This is Water](https://fs.blog/david-foster-wallace-this-is-water/#:~:text=in%20the%20day%2Dto%2Dday%20trenches%20of%20adult%20life%2C%20there%20is%20actually%20no%20such%20thing%20as%20atheism)" >}}
-In the day-to-day trenches of adult life, there is actually no such thing as atheism.
-There is no such thing as not worshipping.
-Everybody worships.
-The only choice we get is what to worship.
-{{< /epigraph >}} -->
-
 I hoped primarily to find something definitive, regardless of its contents.
 I was waiting for the universe to unveil to me its *[telos](https://en.wikipedia.org/wiki/Teleology)*, to lift the curtain on a grand mechanism.
 Everything would be clear, concrete, unambiguous, and most importantly, secure.
@@ -86,12 +75,6 @@ Such a search is just a [snipe hunt](https://en.wikipedia.org/wiki/Snipe_hunt), 
 Once we achieve *this* or create *that* or get *just a bit more* money or recognition or power, then we'll have enough control to be untouchable.
 It is the mind clawing its way to [utopia](https://en.wikipedia.org/wiki/Utopia#:~:text=meant%20any%20non%2Dexistent%20society) and coming up empty.
 
-<!-- Meaning-in-life is a helpful foil for understanding this. -->
-<!-- Meaning-in-life is rooted in perspective: what is meaningful to one person may not be meaningful to another. -->
-<!-- We cannot explain our way into meaning. -->
-<!-- It is felt, firmly rooted in our own history and way of seeing the world. -->
-<!-- This is a helpful view, of course -- it's a core component of a healthy ego used as part of our daily life and our interactions with others. -->
-
 Meaning-of-life is a metaphysical claim, that at the bottom of the cosmos there's some ground floor, something woven into the fabric of the universe that is the Universal-Good or Purpose.
 To attempt to answer such a question requires omniscience, and yet we are mortal: a question of that magnitude is so broad as to be unanswerable.{{< sidenote >}}It's not explicitly in these lists, but it's in the same vein as what many Buddhist traditions refer to as "the imponderables" or "[unanswerable questions](https://en.wikipedia.org/wiki/The_unanswerable_questions)."{{< /sidenote >}}
 
@@ -102,34 +85,12 @@ Rather, our task is to acclimate ourselves to what is true, to put down childish
 
 ---
 
-<!--
-This is not a call to throw those things away, but rather an opportunity to clarify a few distinctions that distracted me for many years.
-"Meaning" is
-I posit that **putting aside meaning leads to more degrees of freedom than holding onto it**.
-
-Making something "meaningful" requires a perspective -- meaningful *with respect to what*.
-For most of us, moments are meaningful to *us*.
-What's meaningful to me is not necessarily meaningful to you, so all of our meaning-making systems are inherently self-centered. -->
-
-<!-- And so meaning so often is co-opted as another tool by which we enforce our own egoic framework out onto others. -->
-<!-- It is another way in which we try to orient ourselves in a sprawling, confusing, chaotic world that we cannot understand. -->
-
 {{< epigraph cite="Ajahn Sucitto, [&ldquo;Awareness Doesn&rsquo;t Follow Orders&rdquo;](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)" >}}
 You can liken the process [of awakening] to a gradual descent out of the tumult and the gridlock of your personal world into the free space of the unconditioned.
 It’s rather like lowering oneself down a rope.
 You have to know how to do that.
 It’s a matter of holding on to something you trust – even though it seems like a thin strand – then letting go a little bit and trusting the downward movement.
 {{< /epigraph >}}
-
-<!-- Meaning is a tool -- it's something to hold on to as we gradually acclimate ourselves to more and more degrees of freedom. -->
-
-<!--
-Centuries of continental philosophy and millions of pages of hand-wringing have been spent on the ambiguous nature of meaning, trying to rationalize it to a point where it makes sense. -->
-<!-- This is understandable: a lack of clarity on this front means that our lives are inherently insecure, that change is inevitable *no matter what we do*. -->
-<!-- Our inheritance as animals is to fear this, and so we devise tricks, use our brains to find ways around this. -->
-<!-- If only we can make the world like *this* then I'll be fine. -->
-<!-- Once I get *this* much more I'll be done and can enjoy myself. -->
-<!-- But it is not so. -->
 
 "Childish" in this sense is not derogatory.
 Children are plenty capable of learning and comprehending complex topics and learning to take responsibility.
