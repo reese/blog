@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+hugo server --minify --buildDrafts --buildFuture --cleanDestinationDir --forceSyncStatic --gc --minify
