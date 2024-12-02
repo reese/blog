@@ -5,6 +5,8 @@
   --main-text-color: #363537;
   --hover-text-color: #000;
   --accent-color: #BD1E1E;
+  --stripe-color: #635bff;
+  --stripe-hover-color: #6961ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,8 +14,9 @@
     --main-bg-color: #363537;
     --main-text-color: #cfcfcf;
     --hover-text-color: #fff;
-    /* --accent-color: #23CE6B; */
     --accent-color: #D88373;
+    --stripe-color: #fff;
+    --stripe-hover-color: #635bff;
   }
 }
 
@@ -218,7 +221,8 @@ div.epigraph > blockquote > p {
 }
 
 div.epigraph > blockquote > em,
-div.epigraph > blockquote > p > em {
+div.epigraph > blockquote > p > em,
+div.epigraph > blockquote > footer > cite > em {
   font-style: normal;
 }
 
@@ -763,4 +767,22 @@ label.margin-toggle:not(.sidenote-number) {
   margin-left: 30px;
 }
 
-/* BEGIN Utils */
+/* END Utils */
+
+/* BEGIN one-offs */
+a.stripe {
+  color: var(--stripe-color);
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(to right, var(--stripe-color) 50%, transparent 50%);
+  background-size: 10px 2px; /* Adjust this for dash length and gap */
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  padding-bottom: 0.5px;
+  background-position-x: 2px;
+}
+
+a.stripe:hover {
+  color: var(--stripe-hover-color);
+}
+/* END one-offs */
