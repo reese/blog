@@ -628,6 +628,10 @@ label.margin-toggle:not(.sidenote-number) {
   img {
     width: 100%;
   }
+
+  .twitter-tweet {
+    margin-left: 0;
+  }
 }
 
 /* END Tufte.css */
@@ -784,5 +788,9 @@ a.stripe {
 
 a.stripe:hover {
   color: var(--stripe-hover-color);
+}
+
+.twitter-tweet {
+  margin-left: 6.25%;
 }
 /* END one-offs */
