@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+npx prettier content/**/*.md --prose-wrap="always" --write
