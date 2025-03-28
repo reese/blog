@@ -652,6 +652,7 @@ label.margin-toggle:not(.sidenote-number) {
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 20px;
   background-color: var(--main-bg-color);
   width: 87.5%;
 }
