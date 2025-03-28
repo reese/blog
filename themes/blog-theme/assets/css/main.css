@@ -454,6 +454,11 @@ table.fullwidth {
   width: 100%;
 }
 
+div.feature-image img {
+  display: block;
+  width: 87.5%;
+}
+
 div.table-wrapper {
   overflow-x: auto;
   font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
@@ -626,6 +631,10 @@ label.margin-toggle:not(.sidenote-number) {
   }
 
   img {
+    width: 100%;
+  }
+
+  div.feature-image img {
     width: 100%;
   }
 

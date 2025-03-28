@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ if .Params.featureImage }}
   <div class="feature-image">
-    <img src="{{ .Params.featureImage }}" alt="{{ .Title }}">
+    <img class="fullwidth" src="{{ .Params.featureImage }}" alt="{{ .Title }}">
   </div>
   {{ end }}
   <h1>{{ .Title }}</h1>
