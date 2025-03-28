@@ -1,20 +1,31 @@
 @charset "UTF-8";
 
 :root {
-  --main-bg-color: #fff;
-  --main-text-color: #363537;
-  --hover-text-color: #000;
-  --accent-color: #BD1E1E;
+  --main-bg-color: #efefef;
+  --main-text-color: #000;
+  --hover-text-color: #679289;
+  --accent-color: #EE2E31;
   --stripe-color: #635bff;
   --stripe-hover-color: #6961ff;
 }
 
+/*
+  Color pallete:
+  - Rich black: #071E22
+  - Skobeloff: #1D7874
+  - Viridian: #679289
+  - Peach: #F4C095
+  - Red (CMYK): #EE2E31
+
+  https://coolors.co/071e22-1d7874-679289-f4c095-ee2e31
+*/
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-bg-color: #363537;
+    --main-bg-color: #071E22;
     --main-text-color: #cfcfcf;
-    --hover-text-color: #fff;
-    --accent-color: #D88373;
+    --hover-text-color: #F4C095;
+    --accent-color: #EE2E31;
     --stripe-color: #fff;
     --stripe-hover-color: #635bff;
   }

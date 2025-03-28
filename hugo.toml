@@ -6,7 +6,6 @@ title = 'Reese Williams'
 theme = 'blog-theme'
 [params]
   siteDescription = 'The homepage of Reese Williams: travel, books, photography, and lots of side quests.'
-  xLink = 'https://x.com/_reesew'
 
 [[menu.main]]
     identifier = "about"
