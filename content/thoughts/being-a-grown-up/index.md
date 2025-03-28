@@ -2,7 +2,6 @@
 title = 'Being a Grown Up'
 date = 2024-11-03
 description = 'Finding our way without a destination.'
-featureImage = 'big-bear.jpg'
 slug = 'being-a-grown-up'
 type = 'thought'
 +++
@@ -133,12 +132,11 @@ distractions and to take responsibility: to be grown-ups.
 ---
 
 {{< epigraph cite="Ajahn Sucitto, [&ldquo;Awareness Doesn&rsquo;t Follow Orders&rdquo;](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)" >}}
-You can liken the process [of awakening] to a gradual descent out of the tumult
-and the gridlock of your personal world into the free space of the
-unconditioned. It’s rather like lowering oneself down a rope. You have to know
-how to do that. It’s a matter of holding on to something you trust – even though
-it seems like a thin strand – then letting go a little bit and trusting the
-downward movement. {{< /epigraph >}}
+You can liken the process [of awakening] to a gradual descent out of the tumult and
+the gridlock of your personal world into the free space of the unconditioned. It’s
+rather like lowering oneself down a rope. You have to know how to do that. It’s a
+matter of holding on to something you trust – even though it seems like a thin strand
+– then letting go a little bit and trusting the downward movement. {{< /epigraph >}}
 
 "Childish" in this sense is not derogatory. Children are plenty capable of
 learning and comprehending complex topics and learning to take responsibility.
