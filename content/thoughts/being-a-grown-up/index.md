@@ -6,7 +6,7 @@ slug = 'being-a-grown-up'
 type = 'thought'
 +++
 
-{{< epigraph cite="Ursula K. LeGuin, The Left Hand of Darkness" >}} To be an
+{{< epigraph cite="Ursula K. LeGuin, _The Left Hand of Darkness_" >}} To be an
 atheist is to maintain God. His existence or nonexistence, it amounts to much
 the same, on the plane of proof. Thus _proof_ is a word not often used among the
 Handdarata, who have chosen not to treat God as a fact, subject either to proof
@@ -36,17 +36,17 @@ Will knowing the meaning of life actually help?
 
 ---
 
-{{< epigraph cite="C.S. Lewis, The Weight of Glory" >}} I am trying to rip open
-the inconsolable secret in each one of you—the secret which hurts so much that
-you take your revenge on it by calling it names like Nostalgia and Romanticism
-and Adolescence; the secret also which pierces with such sweetness that when, in
-very intimate conversation, the mention of it becomes imminent, we grow awkward
-and affect to laugh at ourselves; the secret we cannot hide and cannot tell,
-though we desire to do both. We cannot tell it because it is a desire for
-something that has never actually appeared in our experience. We cannot hide it
-because our experience is constantly suggesting it, and we betray ourselves like
-lovers at the mention of a name. Our commonest expedient is to call it beauty
-and behave as if that had settled the matter. {{< /epigraph >}}
+{{< epigraph cite="C.S. Lewis, _The Weight of Glory_" >}} I am trying to rip
+open the inconsolable secret in each one of you—the secret which hurts so much
+that you take your revenge on it by calling it names like Nostalgia and
+Romanticism and Adolescence; the secret also which pierces with such sweetness
+that when, in very intimate conversation, the mention of it becomes imminent, we
+grow awkward and affect to laugh at ourselves; the secret we cannot hide and
+cannot tell, though we desire to do both. We cannot tell it because it is a
+desire for something that has never actually appeared in our experience. We
+cannot hide it because our experience is constantly suggesting it, and we betray
+ourselves like lovers at the mention of a name. Our commonest expedient is to
+call it beauty and behave as if that had settled the matter. {{< /epigraph >}}
 
 I've spent much of my life agonizing over questions like this: _what's this all
 for? Why are we here?_ Our place in the world is ambiguous and confusing, and I
@@ -186,7 +186,7 @@ and embracing new freedoms.
 
 ---
 
-{{< epigraph cite="James Carse, Finite and Infinite Games" >}} Culture is an
+{{< epigraph cite="James Carse, _Finite and Infinite Games_" >}} Culture is an
 enterprise of mortals, disdaining to protect themselves against surprise. Living
 in the strength of their vision, they eschew power and make joyous play of
 boundaries. {{< /epigraph >}}

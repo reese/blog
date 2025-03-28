@@ -234,7 +234,7 @@ div.epigraph > blockquote > p {
 div.epigraph > blockquote > em,
 div.epigraph > blockquote > p > em,
 div.epigraph > blockquote > footer > cite > em {
-  font-style: normal;
+  font-style: italic;
 }
 
 div.epigraph > blockquote > footer {
@@ -242,7 +242,7 @@ div.epigraph > blockquote > footer {
 }
 
 div.epigraph > blockquote > footer > cite {
-  font-style: italic;
+  font-style: normal;
 }
 /* end chapter epigraphs styles */
 
