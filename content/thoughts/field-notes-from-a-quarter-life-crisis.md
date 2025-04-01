@@ -13,7 +13,7 @@ silently, listening, nodding sagely, and saying _yes, what you’re experiencing
 is normal_.
 
 Most people{{< sidenote>}}An oft-quoted stat from LinkedIn -- not exactly a
-_scientific_ stat, but good enough for setting a baseline -- says that
+_scientific_ stat, but good enough for intuition-building -- says that
 [70%](https://news.linkedin.com/2017/11/new-linkedin-research-shows-75-percent-of-25-33-year-olds-have-e)
 of 25-33 year olds will go through a quarter-life crisis{{< /sidenote>}} will go
 through some variation of the "quarter-life{{< sidenote>}}Or mid-life, hell have
