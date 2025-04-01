@@ -29,20 +29,19 @@ written from a thousand-foot view.
 On the other side is the individual report, the phenomenological experience of
 what it’s like to feel the waves of change, elation, mystery, and the
 reformation of personality. I thought it worthwhile to write up some “field
-notes”, as much for my future self as for anyone else, but I hope there’s
-something valuable in them for others, if only as historical artifacts that I
-can later read through and have pity on my former self for being so lost; or
-perhaps for others to read and maybe find some kinship from fellow lost
-traveller, a stand-in for a seasoned teacher patting you on the shoulder: _yes,
-what you're experiencing is normal_.
+notes,” if only as historical artifacts that I can later read through and have
+pity on my former self for being so lost; or perhaps for others to read and
+maybe find some kinship from fellow lost traveller, a stand-in for a seasoned
+teacher patting you on the shoulder: _yes, what you're experiencing is normal_.
 
 ---
 
 My story is the one that has been said plenty of times: 27 years old, good job,
-good money, had mostly figured out how to Be an Adult. Conventional success, you
-get the picture. It's the last in the set of stepping stones that are laid out
-for us: high school, college, get a job, and then suddenly I find myself in an
-open forest glade without a map rereading _Alice in Wonderland_:
+good money, had mostly figured out how to Be an Adult. Some amount of
+conventional success, you get the picture. It's the last in the set of stepping
+stones that are laid out for us: high school, college, get a job, and then
+suddenly I find myself in an open forest glade without a map, experiencing what
+Alice felt in _Alice in Wonderland_:
 
 > **Alice**: Would you tell me, please, which way I ought to go from here?
 >
@@ -58,9 +57,11 @@ I didn't have a great sense of where to go, but I knew that my current situation
 wasn't it. I would often be sitting at my desk trying to be a productive adult
 at my well-paying job and think: _you are going to die someday_.
 
+---
+
 _Memento mori_ is a trite aphorism right up until it punches you in the teeth.
 Death is one of those things that cannot be understood any other way -- much as
-we may wish it otherwise -- but to experience the sort of wracking grief and
+we may wish it otherwise -- except to experience the sort of wracking grief and
 regret that accompanies the passing of a loved one. This was certainly true for
 me after the death of my mother, that being the first time I had experienced the
 realities of loss so clearly and acutely. But if nothing else, losses like that
@@ -146,26 +147,27 @@ And so here I am, four months after having left my job and shipping off to trot
 around the globe for a bit. Physical distance is a good thing in moments like
 these. It's partially related to that balance of the known and unknown; travel
 forces me to be in new postures, to do something different, but traveling solo
-offers me a lot of flexibility into exactly how that happens, granting you the
-freedom to adjust and navigate as things change.
+offers me a lot of flexibility into exactly how that happens, granting me the
+freedom to adjust however feels best.
 
 The travel has been fun and all, but the greater consequences have come from
 packing light. I've lived for 4 months now out of a backpack, sleeping on shitty
 hostel mattresses, and eating mostly convenience store food. Living with so
 little makes you pay attention to just how much each extraneous thing weighs on
-you. And then I reflect back on the rest of my life . My house, all my books,
-the art and decorations and just _stuff_ that fills those rooms, what purpose do
-these all serve to me? Some of them are undoubtedly good and are things I
+you. And from here I reflect back on the rest of my life. My house, my books,
+the art and decorations and just _stuff_ that fills those rooms -- what purpose
+do these all serve to me? Some of them are undoubtedly good and are things I
 cherish, but I'm also forced to recognize the costs (monetary or otherwise) that
 holding on to them has.
 
-A healthy amount of asceticism has also seeped into my relationship with
+That healthy bit of asceticism has also seeped into my relationship with
 technology. That same attenuation to the costs of every marginal interaction has
-meant becoming hypersensitive to the state of technology today. To put it more
-simply: I hate my phone now. I already disliked my phone before, at least
-intellectually, but now I have a sort of gutteral disgust whenever I catch
-myself scrolling social media. Cutting down on my screen time became less of a
-chore, something that I _should_ do, and more like an assertion of
+meant becoming hypersensitive to the state of technology today.
+
+To put it more simply: I hate my phone now. I already disliked my phone before,
+at least intellectually, but now I have a sort of gutteral disgust whenever I
+catch myself scrolling social media. Cutting down on my screen time became less
+of a chore, something that I _should_ do, and more like an assertion of
 self-determination.
 
 With the reclaiming of my attention also came this insatiable desire to _work_.
@@ -174,10 +176,10 @@ forced to aggressively cut the myriad small projects for the things I really
 care about, the skills that I _must_ develop instead of the skills that are
 merely incidental. I've found myself dedicating whole days to journaling,
 reading, and writing in ways that I don't think I've ever done before. There's a
-whole new dimension that I'm actively uncovering in learning how to work, how to
-inculcate the skills to handle larger creative projects. I certainly don't have
-those skills yet, but they're the sort of developments I can feel bubbling in my
-psyche.
+whole new dimension that I'm actively uncovering in learning how to work --
+_really work_ -- how to inculcate the skills to handle larger creative projects.
+I certainly don't have those skills yet, but they're the sort of developments I
+can feel bubbling in my psyche.
 
 ---
 
