@@ -21,3 +21,6 @@ theme = 'blog-theme'
 #    name = "Travel"
 #    url = "/travelogues/"
 #    weight = 3
+
+[markup.goldmark.renderer]
+unsafe= true
