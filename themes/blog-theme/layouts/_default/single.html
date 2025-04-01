@@ -1,4 +1,9 @@
 {{ define "main" }}
+  {{ if .Draft }}
+  <div class="draft-banner">
+      ⚠️ THIS IS A DRAFT! ⚠️
+  </div>
+  {{ end }}
   {{ if .Params.featureImage }}
   <div class="feature-image">
     <img src="{{ .Params.featureImage }}" alt="{{ .Title }}">
