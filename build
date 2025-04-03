@@ -2,7 +2,7 @@
 
 if [ "$REESEW_BUILD_TYPE" = "drafts" ]; then
     echo "Building with drafts included..."
-    hugo --minify --buildDrafts
+    hugo --minify --buildDrafts --buildFuture
 else
     echo "Building production version without drafts..."
     hugo --minify
