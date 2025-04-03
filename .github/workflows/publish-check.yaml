@@ -2,7 +2,7 @@ name: Check for Unpublished Articles
 
 on:
   schedule:
-    - cron: "0 * * * *" # Run hourly
+    - cron: "0,30 * * * *" # Run every 30 minutes
   workflow_dispatch: # Allow manual trigger
 
 jobs:
