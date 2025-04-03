@@ -1,0 +1,77 @@
+name: Check for Unpublished Articles
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Run hourly
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  check-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history to compare commits
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.134.2"
+          extended: true
+
+      - name: Get latest Netlify deploy commit
+        id: netlify-deploy
+        run: |
+          SITE_ID="${{ secrets.NETLIFY_SITE_ID }}"
+          NETLIFY_AUTH_TOKEN="${{ secrets.NETLIFY_AUTH_TOKEN }}"
+
+          # Get latest production deploy from Netlify API
+          DEPLOY_DATA=$(curl -s -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+            "https://api.netlify.com/api/v1/sites/$SITE_ID/deploys?production=true&limit=1")
+
+          # Extract the commit SHA of the last production deploy
+          DEPLOYED_COMMIT=$(echo "$DEPLOY_DATA" | jq -r '.[0].commit_ref')
+          echo "deployed_commit=$DEPLOYED_COMMIT" >> $GITHUB_OUTPUT
+
+          # Save the list of published articles at the time of the last deploy
+          git checkout $DEPLOYED_COMMIT
+          hugo list published --format=json > deployed_published.json
+
+          # Return to the current commit
+          git checkout ${{ github.ref_name }}
+
+      - name: Compare published articles
+        id: compare
+        run: |
+          # Generate list of currently published articles
+          hugo list published --format=json > current_published.json
+
+          # Compare the two lists
+          if ! diff -q deployed_published.json current_published.json > /dev/null; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "Changes in published articles detected:"
+            diff deployed_published.json current_published.json || true
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "No changes in published articles detected"
+          fi
+
+      - name: Build site if changes detected
+        if: steps.compare.outputs.changes_detected == 'true'
+        run: |
+          echo "Changes in published articles detected, building site..."
+          hugo --minify
+
+      - name: Deploy to Netlify if changes detected
+        if: steps.compare.outputs.changes_detected == 'true'
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: "./public"
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Auto-deploy: New publishDate articles detected"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
