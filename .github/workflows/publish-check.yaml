@@ -66,7 +66,7 @@ jobs:
           # Save the list of published articles at the time of the last deploy
           if [ -n "$DEPLOYED_COMMIT" ]; then
             git checkout $DEPLOYED_COMMIT
-            hugo list published --format=json > deployed_published.json
+            hugo list published > deployed_published.csv
             
             # Return to the current commit
             git checkout ${{ github.ref_name }}
@@ -80,7 +80,7 @@ jobs:
         id: compare
         run: |
           # Generate list of currently published articles
-          hugo list published --format=json > current_published.json
+          hugo list published > current_published.csv
 
           # First check for changes using diff
           DIFF_CHANGES=false
