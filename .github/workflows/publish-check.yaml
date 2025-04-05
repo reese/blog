@@ -21,7 +21,7 @@ jobs:
           hugo-version: "0.145.0"
           extended: true
 
-      - name: Get latest Netlify deploy commit
+      - name: Get latest Netlify deploy info
         id: netlify-deploy
         run: |
           SITE_ID="${{ secrets.NETLIFY_SITE_ID }}"
@@ -33,26 +33,121 @@ jobs:
 
           # Extract the commit SHA of the last production deploy
           DEPLOYED_COMMIT=$(echo "$DEPLOY_DATA" | jq -r '.[0].commit_ref')
+          DEPLOY_TIMESTAMP=$(echo "$DEPLOY_DATA" | jq -r '.[0].created_at')
+
+          echo "deploy_timestamp=$DEPLOY_TIMESTAMP" >> $GITHUB_OUTPUT
+
+          # If commit_ref is null (deploy via build hook), use the latest commit before deploy time
+          if [ "$DEPLOYED_COMMIT" = "null" ]; then
+            echo "Commit reference is null, likely deployed via build hook"
+            # Convert deploy timestamp to Unix timestamp for comparison
+            DEPLOY_UNIX_TIME=$(date -d "$DEPLOY_TIMESTAMP" +%s)
+            
+            # Find the most recent commit before the deploy timestamp
+            # Loop through recent commits to find the one just before the deploy
+            DEPLOYED_COMMIT=""
+            git log --pretty=format:"%H %ct" -n 20 | while read COMMIT COMMIT_TIME; do
+              if [ "$COMMIT_TIME" -le "$DEPLOY_UNIX_TIME" ]; then
+                DEPLOYED_COMMIT="$COMMIT"
+                echo "Found commit before deploy: $DEPLOYED_COMMIT"
+                break
+              fi
+            done
+            
+            # If we couldn't find an appropriate commit, use the latest commit
+            if [ -z "$DEPLOYED_COMMIT" ]; then
+              DEPLOYED_COMMIT=$(git rev-parse HEAD)
+              echo "Using latest commit as fallback: $DEPLOYED_COMMIT"
+            fi
+          fi
+
           echo "deployed_commit=$DEPLOYED_COMMIT" >> $GITHUB_OUTPUT
 
           # Save the list of published articles at the time of the last deploy
-          git checkout $DEPLOYED_COMMIT
-          hugo list published > deployed_published.csv
-
-          # Return to the current commit
-          git checkout ${{ github.ref_name }}
+          if [ -n "$DEPLOYED_COMMIT" ]; then
+            git checkout $DEPLOYED_COMMIT
+            hugo list published --format=json > deployed_published.json
+            
+            # Return to the current commit
+            git checkout ${{ github.ref_name }}
+          else
+            # If we still couldn't determine a commit, create an empty file to indicate no previous deploy
+            echo "[]" > deployed_published.json
+            echo "Warning: Could not determine last deploy commit. Treating as first deploy."
+          fi
 
       - name: Compare published articles
         id: compare
         run: |
           # Generate list of currently published articles
-          hugo list published > current_published.csv.
+          hugo list published --format=json > current_published.json
 
-          # Compare the two lists
-          if ! diff -q deployed_published.csv current_published.csv > /dev/null; then
+          # First check for changes using diff
+          DIFF_CHANGES=false
+          if ! diff -q deployed_published.json current_published.json > /dev/null; then
+            DIFF_CHANGES=true
+            echo "Changes in published articles detected via diff:"
+            diff deployed_published.json current_published.json || true
+          else
+            echo "No changes detected via basic diff comparison"
+          fi
+
+          # Next check for articles scheduled to be published between last deploy and now
+          # using the deploy timestamp
+          DEPLOY_TIMESTAMP="${{ steps.netlify-deploy.outputs.deploy_timestamp }}"
+          echo "Last deploy timestamp: $DEPLOY_TIMESTAMP"
+
+          # Create a script to check for newly scheduled articles
+          cat > check_schedule.sh << 'EOF'
+          #!/bin/bash
+
+          DEPLOY_TIME=$(date -d "$1" +%s)
+          CURRENT_TIME=$(date +%s)
+
+          # Process the current published list to find articles that should be newly published
+          NEWLY_PUBLISHED=false
+
+          cat current_published.json | jq -c '.[]' | while read -r article; do
+            # Extract the publishDate
+            PUBLISH_DATE=$(echo $article | jq -r '.publishDate')
+            
+            # Skip if no publishDate
+            if [ "$PUBLISH_DATE" = "null" ] || [ -z "$PUBLISH_DATE" ]; then
+              continue
+            fi
+            
+            # Convert to timestamp for comparison
+            PUBLISH_TIME=$(date -d "$PUBLISH_DATE" +%s)
+            
+            # Check if publishDate is between last deploy and now
+            if [ "$PUBLISH_TIME" -gt "$DEPLOY_TIME" ] && [ "$PUBLISH_TIME" -le "$CURRENT_TIME" ]; then
+              TITLE=$(echo $article | jq -r '.title')
+              echo "Article scheduled to be published: $TITLE (publishDate: $PUBLISH_DATE)"
+              echo "true" > /tmp/newly_published
+              break
+            fi
+          done
+
+          if [ -f /tmp/newly_published ] && [ "$(cat /tmp/newly_published)" = "true" ]; then
+            exit 0  # Found newly scheduled articles
+          else
+            exit 1  # No newly scheduled articles
+          fi
+          EOF
+
+          chmod +x check_schedule.sh
+
+          SCHEDULE_CHANGES=false
+          if ./check_schedule.sh "$DEPLOY_TIMESTAMP"; then
+            SCHEDULE_CHANGES=true
+            echo "Found articles scheduled to be published since last deploy"
+          else
+            echo "No articles scheduled to be published since last deploy"
+          fi
+
+          # Set output based on either type of change
+          if [ "$DIFF_CHANGES" = "true" ] || [ "$SCHEDULE_CHANGES" = "true" ]; then
             echo "changes_detected=true" >> $GITHUB_OUTPUT
-            echo "Changes in published articles detected:"
-            diff deployed_published.csv current_published.csv || true
           else
             echo "changes_detected=false" >> $GITHUB_OUTPUT
             echo "No changes in published articles detected"
