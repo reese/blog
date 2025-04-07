@@ -1,7 +1,7 @@
 +++
 title = 'Field Notes from a Quarter-Life Crisis'
 date = 2025-04-02
-description = ''
+description = 'Having less, doing more, and navigating without a map'
 slug = 'field-notes-from-a-quarter-life-crisis'
 type = 'thought'
 +++

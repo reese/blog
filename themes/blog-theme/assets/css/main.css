@@ -786,11 +786,18 @@ label.margin-toggle:not(.sidenote-number) {
 
 .list-title {
   margin-top: 5px;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
-.title-container span {
+.title-container span,
+.title-container p {
   font-style: italic;
+}
+
+.title-container p {
+  margin-top: 0;
+  margin-left: 2rem;
+  font-size: 1.2em;
 }
 
 .title-container {
