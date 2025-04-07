@@ -17,7 +17,7 @@ theme = 'blog-theme'
     url = "/thoughts/"
     weight = 2
 [[menu.main]]
-    name = "Books"
+    name = "Book Reviews"
     url = "/book-reviews/"
     weight = 3
 # TODO: Unhide this when there are travelogues
