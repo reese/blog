@@ -869,4 +869,10 @@ a.stripe:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: relative;
 }
+
+@media (max-width: 850px) {
+  .spoiler-alert {
+    width: 100%;
+  }
+}
 /* END one-offs */
