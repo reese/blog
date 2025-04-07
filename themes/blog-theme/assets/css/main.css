@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 :root {
-  --main-bg-color: #efefef;
-  --main-text-color: #000;
-  --hover-text-color: #679289;
-  --accent-color: #EE2E31;
-  --stripe-color: #635bff;
-  --stripe-hover-color: #6961ff;
+  --main-bg-color: #0C1618;
+  --main-text-color: #F5F5F5;
+  --hover-text-color: #00A6FB;
+  --accent-color: #D00000;
+  --stripe-color: #fff;
+  --stripe-hover-color: #635bff;
 }
 
 /*
@@ -20,16 +20,26 @@
   https://coolors.co/071e22-1d7874-679289-f4c095-ee2e31
 */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #071E22;
     --main-text-color: #cfcfcf;
-    --hover-text-color: #F4C095;
+    --hover-text-color: #EE2E31;
     --accent-color: #EE2E31;
     --stripe-color: #fff;
     --stripe-hover-color: #635bff;
   }
-}
+} */
+
+/* Former light mode colors */
+/* :root {
+  --main-bg-color: #efefef;
+  --main-text-color: #000;
+  --hover-text-color: #EE2E31;
+  --accent-color: #EE2E31;
+  --stripe-color: #635bff;
+  --stripe-hover-color: #6961ff;
+} */
 
 /* BEGIN Tufte.css */
 
@@ -327,11 +337,11 @@ a:link,
   color: var(--main-text-color);
   text-decoration: none;
   background:
-    -webkit-linear-gradient(var(--main-text-color), var(--main-text-color)),
-    -webkit-linear-gradient(var(--main-text-color), var(--main-text-color)),
+    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
+    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
     -webkit-linear-gradient(currentColor, currentColor);
-  background: linear-gradient(var(--main-text-color), var(--main-text-color)),
-    linear-gradient(var(--main-text-color), var(--main-text-color)),
+  background: linear-gradient(var(--hover-text-color), var(--hover-text-color)),
+    linear-gradient(var(--hover-text-color), var(--hover-text-color)),
     linear-gradient(currentColor, currentColor);
   -webkit-background-size:
     0.05em 1px,
