@@ -33,16 +33,16 @@ heard my cries and placed it there for me to find.
 
 _The Book of Form & Emptiness_ follows teenager Benny Oh who, following the
 untimely death of his father, begins hearing voices and is subsequently
-diagnosed with schizoaffetive disorder. One of the few places he can find refuge
-is his local public library, where he meets an elderly homeless intellectual and
-a young street artist who take him under their wing. Benny's mother Annabelle
-also mourns her husband's death, all the while navigating a new life as a newly
-single mother, supporting her son through a difficult diagnosis -- not to
-mention the trouble she has keeping an eye on him as he regularly runs off with
-his newfound companions -- _and_ trying to stay afloat at her job in a time of
-rapid automation. Juggling all of these gradually leads Annabelle to develop a
-nasty hoarding habit, which only bears down further on her relationship with
-Benny and attracts the attention of her landlord.
+diagnosed with schizoaffective disorder. One of the few places he can find
+refuge is his local public library, where he meets an elderly homeless
+intellectual and a young street artist who take him under their wing. Benny's
+mother Annabelle also mourns her husband's death, all the while navigating a new
+life as a newly single mother, supporting her son through a difficult diagnosis
+-- not to mention the trouble she has keeping an eye on him as he regularly runs
+off with his newfound companions -- _and_ trying to stay afloat at her job in a
+time of rapid automation. Juggling all of these gradually leads Annabelle to
+develop a nasty hoarding habit, which only bears down further on her
+relationship with Benny and attracts the attention of her landlord.
 
 Perhaps the most notable feature of this novel is the fact that it's narrated by
 The Book itself, simultaneously both a freestanding character as well as a voice
