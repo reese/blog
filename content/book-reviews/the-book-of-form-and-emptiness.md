@@ -55,13 +55,13 @@ consumerism and nods to real-life events like climate change and politics.
 
 This sounds like a lot in the abstract, but it's well-contained for the vast
 majority of the novel. The Book is more like an omniscient narrator than some
-kind of postmodern commentary{{< sidenote>}}Although there are many references,
-both subtle and explicit, to Jorge Luis Borges, so the postmodern thread is
-absolutely present for readers who want to pull on it.{{< /sidenote>}}, often
-helping Benny to make sense of actions as they come and offering consolation in
-times of need. It really is endearing, and despite much of its subject matter --
-mental health, self-harm, hoarding, drugs, etc. -- I found most of the book
-feeling almost cozy.
+kind of postmodern {{< sidenote word="commentary">}}Although there are many
+references, both subtle and explicit, to Jorge Luis Borges, so the postmodern
+thread is absolutely present for readers who want to pull on
+it.{{< /sidenote>}}, often helping Benny to make sense of actions as they come
+and offering consolation in times of need. It really is endearing, and despite
+much of its subject matter -- mental health, self-harm, hoarding, drugs, etc. --
+I found most of the book feeling almost cozy.
 
 This is one of Ozeki's greatest skills: no matter how dark her subject matter,
 no matter how intense the afflictions her characters have been given, she
@@ -105,10 +105,10 @@ I have a variety of other quibbles about the novel: the Aleph is a bit of too
 much of a
 [Manic Pixie Dream Girl](https://en.wikipedia.org/wiki/Manic_Pixie_Dream_Girl)
 for my taste, the whole story of Aikon is completely
-unnecessary{{< sidenote>}}I'm entirely sympathetic to the desire to inject
-aspects of one's life into creative works, but some of the Zen references came
-out a bit ham-fisted to me, although I do have more-than-average familiarity
-with Zen terminology etc., so perhaps this is a non-issue for most
+{{< sidenote word="unnecessary">}}I'm entirely sympathetic to the desire to
+inject aspects of one's life into creative works, but some of the Zen references
+came out a bit ham-fisted to me, although I do have more-than-average
+familiarity with Zen terminology etc., so perhaps this is a non-issue for most
 readers.{{< /sidenote>}}, and in general most of the side characters were fairly
 flat. However, the fact that I was enthralled for 400 pages only to feel so
 rushed at the end is what hit me the hardest.

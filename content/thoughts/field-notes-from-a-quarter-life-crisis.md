@@ -10,15 +10,16 @@ Some years ago, an experienced meditation teacher described his one-on-one
 interactions with students primarily consisting of listening to them, nodding
 sagely, and respond: _yes, what you’re experiencing is normal_.
 
-Most people{{< sidenote>}}An oft-quoted stat from LinkedIn -- not exactly a
-_scientific_ stat, but good enough for intuition-building -- says that
+Most {{< sidenote word="people" >}}An oft-quoted stat from LinkedIn -- not
+exactly a _scientific_ stat, but good enough for intuition-building -- says that
 [70%](https://news.linkedin.com/2017/11/new-linkedin-research-shows-75-percent-of-25-33-year-olds-have-e)
 of 25-33 year olds will go through a quarter-life crisis{{< /sidenote>}} will go
-through some variation of the "quarter-life{{< sidenote>}}Or mid-life, hell have
-a three-quarter life crisis or beyond. "Never let a good crisis go to waste" and
-all that.{{< /sidenote>}} crisis." From the outside, these periods can seem
-chaotic and impulsive, from the inside confusing and frustrating. Having some
-idea of what to expect can be a helpful starting point -- things like major
+through some variation of the "quarter-{{< sidenote word="life">}}Or mid-life,
+hell have a three-quarter life crisis or beyond. "Never let a good crisis go to
+waste" and all that.{{< /sidenote>}} crisis." From the outside, these periods
+can seem chaotic and impulsive, from the inside confusing and frustrating.
+Having some idea of what to expect can be a helpful starting point -- things
+like major
 [psychological studies](https://eprints.bbk.ac.uk/id/eprint/6706/2/6706.pdf) or
 [popular books](https://bookshop.org/p/books/designing-your-life-how-to-build-a-well-lived-joyful-life-dave-evans/8574377)
 are a good way to get a foothold -- but these are by nature written from a
@@ -119,8 +120,8 @@ Journaling -- or more specifically, writing
 [Morning Pages](https://www.oliverburkeman.com/morningpages) -- has been a
 helpful routine for me. The big questions naturally came up once I start dumping
 all of my thoughts onto the page, and while I don't necessarily find definite
-answers{{< sidenote>}}Questions like _how do I live a good life_ will rarely
-have definite answers.{{< /sidenote>}} in those pages, they are helpful
+{{< sidenote word="answers">}}Questions like _how do I live a good life_ will
+rarely have definite answers.{{< /sidenote>}} in those pages, they are helpful
 barometers to alert me when I am off course.
 
 That, I believe, is really the ideal outcome of an identity crisis. It's not to
@@ -155,15 +156,15 @@ flexibility to decide exactly how that happens adjust however feels best.
 
 The travel has been fun and all, but the greater consequences have come from
 packing light. I've lived for 4 months now out of a backpack, sleeping on shitty
-hostel mattresses, and eating mostly convenience store food{{< sidenote>}}I
-would be that my molecular makeup is now approximately 80% Lawson egg
-sandwhiches and spicy chicken.{{< /sidenote>}}. Living with so little makes you
-more sensitive to just how much each extraneous thing weighs on you. And from
-here I reflect back on the rest of my life. My house, my books, the art and
-decorations and just _stuff_ that fills those rooms -- what purpose do these all
-serve to me? Some of them are undoubtedly good and are things I cherish, but I'm
-also forced to recognize the costs (monetary or otherwise) that holding on to
-them has.
+hostel mattresses, and eating mostly convenience store
+{{< sidenote word="food">}}I would be that my molecular makeup is now
+approximately 80% Lawson egg sandwhiches and spicy chicken.{{< /sidenote>}}.
+Living with so little makes you more sensitive to just how much each extraneous
+thing weighs on you. And from here I reflect back on the rest of my life. My
+house, my books, the art and decorations and just _stuff_ that fills those rooms
+-- what purpose do these all serve to me? Some of them are undoubtedly good and
+are things I cherish, but I'm also forced to recognize the costs (monetary or
+otherwise) that holding on to them has.
 
 That healthy bit of asceticism has also seeped into my relationship with
 technology. That same attenuation to the costs of every marginal interaction has
