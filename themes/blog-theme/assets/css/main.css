@@ -856,4 +856,17 @@ a.stripe:hover {
   50% { opacity: 1; }
   100% { opacity: 0.7; }
 }
+
+.spoiler-alert {
+  width: 85%;
+  background-color: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+}
 /* END one-offs */

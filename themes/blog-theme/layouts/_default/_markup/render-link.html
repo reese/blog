@@ -2,7 +2,7 @@
 <a
   href="{{ .Destination | safeURL }}"
   {{- with
-    .Title
+    .Title | markdownify
   }}
     title="{{ . }}"
   {{ end -}}

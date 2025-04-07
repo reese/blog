@@ -5,7 +5,18 @@
     {{ range first 3 (where .Site.RegularPages "Type" "==" "thought") }}
     <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
-      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
+      <p class="title-description">{{ .Description }}</p>
+    </div>
+    {{ end }}
+    {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
+  </div>
+  <div>
+    <h1><a class="no-underline" href="/book-reviews">Book Reviews</a></h1>
+    {{ range first 3 (where .Site.RegularPages "Type" "==" "book-review") }}
+    <div class="title-container">
+      <span>{{ .Date | time.Format ":date_medium" }}</span>
+      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
       <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
@@ -17,7 +28,7 @@
     {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
       <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
-      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
     </div>
     {{ end }}
     {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
