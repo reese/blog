@@ -5,7 +5,7 @@ languageCode = 'en-us'
 title = 'Reese Williams'
 theme = 'blog-theme'
 [params]
-  siteDescription = 'The homepage of Reese Williams: travel, books, photography, and lots of side quests.'
+  siteDescription = 'The homepage of Reese Williams: travel, books, and lots of side quests.'
 
 [[menu.main]]
     identifier = "about"
@@ -13,11 +13,11 @@ theme = 'blog-theme'
     url = "/about/"
     weight = 1
 [[menu.main]]
-    name = "Thoughts"
+    name = "Writing"
     url = "/thoughts/"
     weight = 2
 [[menu.main]]
-    name = "Book Reviews"
+    name = "Reading"
     url = "/book-reviews/"
     weight = 3
 # TODO: Unhide this when there are travelogues
