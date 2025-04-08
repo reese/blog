@@ -10,7 +10,7 @@
   {{ if .IsHome }}
     {{ site.Title }}
   {{ else }}
-    {{ printf "%s | %s" .Title
+    {{ printf "%s | %s" (.Title | markdownify | plainify | htmlUnescape)
       site.Title
     }}
   {{ end }}
