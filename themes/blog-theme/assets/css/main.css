@@ -786,14 +786,12 @@ label.margin-toggle:not(.sidenote-number) {
   max-width: none;
 }
 
-/* Adds dark mode */
-@media (prefers-color-scheme: dark) {
-  .social-icons img {
-    filter: invert(0.8);
-  }
-  .social-icons img:hover {
-    filter: invert(1);
-  }
+.social-icons img {
+  filter: invert(0.8);
+}
+
+.social-icons img:hover {
+  filter: invert(1);
 }
 
 /* END Footer */
