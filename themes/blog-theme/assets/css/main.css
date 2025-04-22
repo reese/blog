@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root {
-  --main-bg-color: #0C1618;
-  --main-text-color: #F5F5F5;
-  --hover-text-color: #00A6FB;
-  --accent-color: #D00000;
-  --stripe-color: #fff;
+  --main-bg-color: #071E22;
+  --main-text-color: #F7EBEC;
+  --hover-text-color: #78C0E0;
+  --accent-color: #78C0E0;
+  --stripe-color: #F7EBEC;
   --stripe-hover-color: #635bff;
 }
 
