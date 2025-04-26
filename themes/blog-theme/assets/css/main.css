@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-  --main-bg-color: #071E22;
-  --main-text-color: #F7EBEC;
-  --hover-text-color: #78C0E0;
-  --accent-color: #78C0E0;
+  --main-bg-color: #fff;
+  --main-text-color: #1C2321;
+  --hover-text-color: #4A7856;
+  --accent-color: #345830;
   --stripe-color: #F7EBEC;
   --stripe-hover-color: #635bff;
 }
@@ -691,7 +691,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .site-title a:hover {
-  color: var(--accent-color);
+  color: var(--hover-text-color);
 }
 
 .nav-links {
@@ -786,12 +786,8 @@ label.margin-toggle:not(.sidenote-number) {
   max-width: none;
 }
 
-.social-icons img {
-  filter: invert(0.8);
-}
-
 .social-icons img:hover {
-  filter: invert(1);
+  filter: invert(0.3);
 }
 
 /* END Footer */
