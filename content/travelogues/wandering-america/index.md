@@ -67,7 +67,7 @@ Perhaps they would feel that same mix of familiarity and newness, the same
 emotion finding a different manifestation in each place. We share the feeling of
 someone watching over us, remembering us when we’re gone.
 
-![A Jizo statue with a red bib tied across the front.](JizoBoddhisatva.png)
+![A Jizo statue with a red bib tied across the front.](JizoBoddhisatva.jpg)
 
 ---
 
