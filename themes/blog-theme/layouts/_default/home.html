@@ -9,7 +9,6 @@
       <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
-    {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div>
   <div>
     <h1><a class="no-underline" href="/book-reviews">Book Reviews</a></h1>
@@ -20,10 +19,8 @@
       <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
-    {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
   </div>
-  <!-- TODO: Add this back when there are travelogues -->
-  <!-- <div>
+  <div>
     <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
     {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
       <div class="title-container">
@@ -31,6 +28,5 @@
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
     </div>
     {{ end }}
-    {{/*  <h3><a href="/thoughts">...see more</a></h3>  */}}
-  </div> -->
+  </div>
 {{ end }}
