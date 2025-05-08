@@ -34,13 +34,13 @@ I hoped primarily to find something definitive, regardless of its contents. I wa
 
 But that hasn't happened.
 
-The primary reason for this is that for me, "purpose" was a crutch, a tool to attempt to govern the inherently chaotic. I mistook the meaning-of-life for finding meaning-_in_-{{< sidenote word="life" >}}The latter being the focus of the work of folks like [John Vervaeke](https://youtu.be/yImlXr5Tr8g?t=99) and [David Chapman](https://meaningness.com/), among others.{{< /sidenote >}}. The latter is important for happiness and wellbeing -- it's what people most often reference when they say they've had a "meaningful life" -- but it was not the primary concern for me. The existence of that sort of meaning seemed too obvious to dismiss. You can feel it in your chest when something in life is meaningful. To call time spent with friends, the excitement of a child, or the tender care of a loved one "meaningless" is cruel and a denial of the obvious.
+The primary reason for this is that for me, "purpose" was a crutch, a tool to attempt to govern the inherently chaotic. I mistook the meaning-of-life for finding meaning-_in_-life[^life]. The latter is important for happiness and wellbeing -- it's what people most often reference when they say they've had a "meaningful life" -- but it was not the primary concern for me. The existence of that sort of meaning seemed too obvious to dismiss. You can feel it in your chest when something in life is meaningful. To call time spent with friends, the excitement of a child, or the tender care of a loved one "meaningless" is cruel and a denial of the obvious.
 
 I was far more concerned about the meaning _of_ life, as if going through a whole lifetime without uncovering its innate purpose would be a waste of breath.
 
 I was scared. Scared that without a meaning-of-life, my life was not worth living.
 
-Camus: "A world that can be explained even with bad reasons is a familiar world. But, on the other hand, in a universe suddenly divested of illusions and lights, man feels an alien, a stranger. His exile is without remedy since he is deprived of the memory of a lost home or the hope of a promised {{< sidenote word="land" >}}From _The Myth of Sisyphus_{{< /sidenote >}}."
+Camus: "A world that can be explained even with bad reasons is a familiar world. But, on the other hand, in a universe suddenly divested of illusions and lights, man feels an alien, a stranger. His exile is without remedy since he is deprived of the memory of a lost home or the hope of a promised land[^land]."
 
 My biggest fear was being a stranger in the world.
 
@@ -48,11 +48,11 @@ My biggest fear was being a stranger in the world.
 
 My fear of being a stranger was rooted in a naive assumption: that other people had figured it all out and I hadn't. I grew up in a religious tradition that supplied its own answer, and so by that metric other people _did_ have it figured out, albeit with an answer that I found inconclusive.
 
-Meaning-of-life, framed as a form of social cohesion, becomes a tool, a means of justifying one's own existence. Underlying this is the insidious notion that one's existence _requires justification_, that the purpose of a life is to create a life worth {{< sidenote word="living" >}}"Feels like I'm sinning when I’d be seeing the light / Cause now I'm working on this living just to rap about life / That's some backwards commitment" -- Jonwayne, ["Out of Sight"](https://www.youtube.com/watch?v=l4F21FUL1b8){{< /sidenote >}}. What I most wanted was not actually meaning but rather approval, a justification of selfhood so deep and so true that it could never be questioned.
+Meaning-of-life, framed as a form of social cohesion, becomes a tool, a means of justifying one's own existence. Underlying this is the insidious notion that one's existence _requires justification_, that the purpose of a life is to create a life worth living[^living]. What I most wanted was not actually meaning but rather approval, a justification of selfhood so deep and so true that it could never be questioned.
 
 But that justification will not be found. Such a search is just a [snipe hunt](https://en.wikipedia.org/wiki/Snipe_hunt), a neverending chase for something over the horizon. Once we achieve _this_ or create _that_ or get _just a bit more_ money or recognition or power, then we'll have enough control to be untouchable. It is the mind clawing its way to [utopia](https://en.wikipedia.org/wiki/Utopia#:~:text=meant%20any%20non%2Dexistent%20society) and coming up empty.
 
-Meaning-of-life is a metaphysical claim, that at the bottom of the cosmos there's some ground floor, something woven into the fabric of the universe that is the Universal-Good or Purpose. To attempt to answer such a question requires omniscience, and yet we are mortal: a question of that magnitude is so broad as to be {{< sidenote word="unanswerable" >}}It's not explicitly in these lists, but it's in the same vein as what many Buddhist traditions refer to as "the imponderables" or "[unanswerable questions](https://en.wikipedia.org/wiki/The_unanswerable_questions)."{{< /sidenote >}}.
+Meaning-of-life is a metaphysical claim, that at the bottom of the cosmos there's some ground floor, something woven into the fabric of the universe that is the Universal-Good or Purpose. To attempt to answer such a question requires omniscience, and yet we are mortal: a question of that magnitude is so broad as to be unanswerable[^unanswerable].
 
 Our task is not to determine the meaning-of-life at the bottom of it all. Much ink has been spilled trying to find these answers, but this is a distraction.
 
@@ -95,3 +95,11 @@ Meaning, here, becomes not so much an unanswerable question; it's simply irrelev
 And in that joy, we find our freedom in wide open space. We are redeemed not by living a definite purpose, but by freeing everything else. I find resonance in the words of my [childhood pastor](https://thealabamabaptist.org/jim-barnette-longtime-pastor-and-samford-professor-dies-at-age-59/#:~:text=you%20have%20been%20redeemed%20and%20you%20are%20being%20redeemed), the words that rang in my ears every Sunday morning:
 
 "And by the love of God, you have been redeemed, and you are _being_ redeemed. So go in peace."
+
+[^life]: The latter being the focus of the work of folks like [John Vervaeke](https://youtu.be/yImlXr5Tr8g?t=99) and [David Chapman](https://meaningness.com/), among others.
+
+[^land]: From _The Myth of Sisyphus_
+
+[^living]: "Feels like I'm sinning when I’d be seeing the light / Cause now I'm working on this living just to rap about life / That's some backwards commitment" -- Jonwayne, ["Out of Sight"](https://www.youtube.com/watch?v=l4F21FUL1b8)
+
+[^unanswerable]: It's not explicitly in these lists, but it's in the same vein as what many Buddhist traditions refer to as "the imponderables" or "[unanswerable questions](https://en.wikipedia.org/wiki/The_unanswerable_questions)."
