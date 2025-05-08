@@ -253,7 +253,8 @@ cite {
 
 section > p,
 section > footer,
-section > table {
+section > table,
+section > div > ol {
   width: 55%;
 }
 
@@ -407,8 +408,7 @@ img {
   max-width: 100%;
 }
 
-.sidenote,
-.marginnote {
+.sidenote {
   float: right;
   clear: right;
   margin-right: -60%;
@@ -445,8 +445,7 @@ img {
   top: -0.5rem;
 }
 
-blockquote .sidenote,
-blockquote .marginnote {
+blockquote .sidenote {
   margin-right: -82%;
   min-width: 59%;
   text-align: left;
@@ -490,7 +489,6 @@ h3 > code {
   font-size: 0.8em;
 }
 
-.marginnote > code,
 .sidenote > code {
   font-size: 1rem;
 }
@@ -559,7 +557,8 @@ label.margin-toggle:not(.sidenote-number) {
 
   section > p,
   section > footer,
-  section > table {
+  section > table,
+  section > div > ol {
     width: 55%;
   }
 
@@ -599,7 +598,8 @@ label.margin-toggle:not(.sidenote-number) {
 
   section > p,
   blockquote p,
-  blockquote footer {
+  blockquote footer,
+  section > div > ol {
     width: 100%;
   }
 
@@ -607,13 +607,11 @@ label.margin-toggle:not(.sidenote-number) {
     display: inline;
   }
 
-  .sidenote,
-  .marginnote {
+  .sidenote {
     display: none;
   }
 
-  .margin-toggle:checked + .sidenote,
-  .margin-toggle:checked + .marginnote {
+  .margin-toggle:checked + .sidenote {
     display: block;
     float: left;
     left: 1rem;
