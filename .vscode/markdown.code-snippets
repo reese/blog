@@ -1,9 +1,2 @@
 {
-	"Sidenote": {
-		"prefix": "sidenote",
-		"body": [
-			"{{< sidenote word=\"$0\">}}$1{{< /sidenote>}}"
-		],
-		"description": "Create a {{< sidenote >}} shortcode entry"
-	}
 }
