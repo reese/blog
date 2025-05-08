@@ -273,6 +273,13 @@ blockquote footer {
   text-align: right;
 }
 
+blockquote + p:has(cite) {
+  margin-top: 8px;
+  display: block;
+  text-align: right;
+  font-size: 1.25rem;
+}
+
 section > p,
 section > footer,
 section > table {
