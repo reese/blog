@@ -26,6 +26,7 @@
       <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
+      <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
   </div>
