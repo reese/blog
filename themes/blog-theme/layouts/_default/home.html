@@ -2,7 +2,7 @@
   {{ .Content }}
   <div>
     <h1><a class="no-underline" href="/thoughts">Thoughts</a></h1>
-    {{ range first 3 (where .Site.RegularPages "Type" "==" "thought") }}
+    {{ range first 3 .Site.Taxonomies.tags.essay }}
     <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
@@ -12,7 +12,7 @@
   </div>
   <div>
     <h1><a class="no-underline" href="/book-reviews">Book Reviews</a></h1>
-    {{ range first 3 (where .Site.RegularPages "Type" "==" "book-review") }}
+    {{ range first 3 .Site.Taxonomies.tags.review }}
     <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
@@ -22,7 +22,7 @@
   </div>
   <div>
     <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
-    {{ range where .Site.RegularPages "Type" "==" "travelogue" }}
+    {{ range first 3 .Site.Taxonomies.tags.travelogue }}
       <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>

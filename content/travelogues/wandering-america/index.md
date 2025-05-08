@@ -3,7 +3,7 @@ title = 'Wandering America'
 date = 2025-05-05
 description = ''
 slug = 'wandering-america'
-type = 'travelogue'
+tags = ['travelogue']
 +++
 
 I’m on the road again — this time exploring these great United States, and particularly the National Parks.

@@ -3,7 +3,7 @@ title = 'Book Review: _The Book of Form & Emptiness_'
 date = 2025-04-07
 description = ''
 slug = 'the-book-of-form-and-emptiness'
-type = 'book-review'
+tags = ['review']
 +++
 
 For the last few months, I've been traveling with nothing more than a backpack, and with space at such a premium, printed books were the first thing that had to go. But the months bore down on me and I missed the texture of the pages on my fingertips, the smell of ink, and most importantly the strange comfort and familiarity that one develops with the book's physical presence. I thought back to my home library, bookshelves overflowing with literary relationships I've built over the years, and I caved: I found the nearest English-language book store in Tokyo to find my next read.

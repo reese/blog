@@ -5,7 +5,10 @@ languageCode = 'en-us'
 title = 'Reese Williams'
 theme = 'blog-theme'
 [params]
-  siteDescription = 'The homepage of Reese Williams: travel, books, and lots of side quests.'
+  siteDescription = 'The homepage of Reese Williams: essays, travel, and general skullduggery.'
+
+[taxonomies]
+  tag = "tags"
 
 [[menu.main]]
     identifier = "about"
@@ -13,16 +16,16 @@ theme = 'blog-theme'
     url = "/about/"
     weight = 1
 [[menu.main]]
-    name = "Writing"
-    url = "/thoughts/"
+    name = "Essays"
+    url = "/tags/essay/"
     weight = 2
 [[menu.main]]
-    name = "Reading"
-    url = "/book-reviews/"
+    name = "Reviews"
+    url = "/tags/review/"
     weight = 3
 [[menu.main]]
     name = "Travel"
-    url = "/travelogues/"
+    url = "/tags/travelogue/"
     weight = 4
 
 [markup.goldmark.renderer]
