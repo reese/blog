@@ -1,18 +1,9 @@
 {
-	"Epigraph": {
-		"prefix": "epigraph",
-		"body": [
-			"{{< epigraph cite=\"$1\" >}}",
-			"$2",
-			"{{< /epigraph >}}"
-		],
-		"description": "Create an {{< epigraph >}} shortcode entry"
-	},
 	"Sidenote": {
 		"prefix": "sidenote",
 		"body": [
 			"{{< sidenote word=\"$0\">}}$1{{< /sidenote>}}"
 		],
-		"description": "Create an {{< epigraph >}} shortcode entry"
+		"description": "Create a {{< sidenote >}} shortcode entry"
 	}
 }

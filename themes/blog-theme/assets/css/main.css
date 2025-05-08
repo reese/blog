@@ -280,6 +280,11 @@ blockquote + p:has(cite) {
   font-size: 1.25rem;
 }
 
+cite {
+  font-style: inherit;
+  font-size: 1.25rem;
+}
+
 section > p,
 section > footer,
 section > table {
