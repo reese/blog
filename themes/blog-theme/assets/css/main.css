@@ -225,40 +225,6 @@ p {
   vertical-align: baseline;
 }
 
-/* Chapter Epigraphs */
-div.epigraph {
-  margin: 5em 0;
-  width: 55%;
-}
-
-div.epigraph > blockquote {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  width: 90%;
-}
-
-div.epigraph > blockquote,
-div.epigraph > blockquote > p {
-  font-style: italic;
-}
-
-div.epigraph > blockquote > em,
-div.epigraph > blockquote > p > em,
-div.epigraph > blockquote > footer,
-div.epigraph > blockquote > footer > cite
- {
-  font-style: normal;
-}
-
-div.epigraph > blockquote > footer > cite > em {
-  font-style: italic;
-}
-
-div.epigraph > blockquote > p > strong {
-  font-weight: bold;
-}
-/* end chapter epigraphs styles */
-
 blockquote {
   font-size: 1.4rem;
   width: 50%;
@@ -273,7 +239,7 @@ blockquote footer {
   text-align: right;
 }
 
-blockquote + p:has(cite) {
+blockquote p:has(cite) {
   margin-top: 8px;
   display: block;
   text-align: right;
@@ -633,8 +599,7 @@ label.margin-toggle:not(.sidenote-number) {
 
   section > p,
   blockquote p,
-  blockquote footer,
-  div.epigraph {
+  blockquote footer {
     width: 100%;
   }
 

@@ -23,8 +23,8 @@ This trip is an attempt at melding the two together, at refreshing my perception
 > i say
 >
 > even in another time
-
-<cite>Fragment by Sappho, trans. by Anne Carson in _If Not, Winter_</cite>
+>
+> <cite>Fragment by Sappho, trans. by Anne Carson in _If Not, Winter_</cite>
 
 An accident caused the highway just outside of Little Rock to come to a standstill, so I took a detour. These back roads twisted between farmhouses and wheat silos, cutting through fields that stretched all the way to the horizon. Around a turn, I saw a tall cross nestled in the bushes. It tilted off to the side of the road, standing about five feet tall and completely coated with rust. It looked like one of those memorials erected in the memory of someone lost in some terrible accident. On top sat a John Deere baseball cap.
 
@@ -37,7 +37,7 @@ As I drove by the cross, this memory flashed into my mind. I imagined someone co
 ---
 
 > What is that feeling when you're driving away from people and they recede on the plain till you see their specks dispersing? - it's the too-huge world vaulting us, and it's good-bye. But we lean forward to the next crazy venture beneath the skies.
-
-<cite>Jack Kerouac, _On the Road_</cite>
+>
+> <cite>Jack Kerouac, _On the Road_</cite>
 
 So the road will be home for the next few months. I’ll try my best to keep things updated here as I go from place to place, at least with some photos. See you then.

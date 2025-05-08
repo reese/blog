@@ -40,13 +40,15 @@ Did I live well?
 
 ---
 
-{{< epigraph cite="Inscription on the [han](https://blogs.sfzc.org/blog/2012/03/06/featured-photo-march-7/) at Tassajara" >}} Great is the matter of birth and death
-
-Time passes swiftly, everything is lost
-
-Awake, awake
-
-Do not waste your life {{< /epigraph >}}
+> Great is the matter of birth and death
+>
+> Time passes swiftly, everything is lost
+>
+> Awake, awake
+>
+> Do not waste your life
+>
+> <cite>Inscription on the [han](https://blogs.sfzc.org/blog/2012/03/06/featured-photo-march-7/) at Tassajara</cite>
 
 And so what does it mean to live well? There's been enough ink already spilled on this topic to line the shelves of bookstores and fill the pews at religious institutions for millenia. My opinion on the matter is irrelevant.
 
@@ -60,7 +62,9 @@ I don't have a succinct, pithy phrase to point to with any amount of certainty a
 
 ---
 
-{{< epigraph cite="Thomas Merton" >}} Many poets are not poets for the same reason that many religious men are not saints: they never succeed in being themselves. They never get around to being the particular poet or the particular monk they are intended to be by God. They never become the man or the artist who is called for by all the circumstances of their individual lives. They waste their years in vain efforts to be some other poet, some other saint... They wear out their minds and bodies in a hopeless endeavor to have somebody else's experiences or write somebody else's poems. {{< /epigraph >}}
+> Many poets are not poets for the same reason that many religious men are not saints: they never succeed in being themselves. They never get around to being the particular poet or the particular monk they are intended to be by God. They never become the man or the artist who is called for by all the circumstances of their individual lives. They waste their years in vain efforts to be some other poet, some other saint... They wear out their minds and bodies in a hopeless endeavor to have somebody else's experiences or write somebody else's poems.
+>
+> <cite>Thomas Merton</cite>
 
 And so here I am, four months after having left my job and shipping off to trot around the globe for a bit. Physical distance is a good thing in moments like these. It's that balance of the known and unknown: travel forces me to be in new postures, to do something different, but traveling solo offers me the flexibility to decide exactly how that happens adjust however feels best.
 

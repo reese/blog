@@ -6,9 +6,11 @@ slug = 'being-a-grown-up'
 type = 'thought'
 +++
 
-{{< epigraph cite="Ursula K. LeGuin, _The Left Hand of Darkness_" >}} To be an atheist is to maintain God. His existence or nonexistence, it amounts to much the same, on the plane of proof. Thus _proof_ is a word not often used among the Handdarata, who have chosen not to treat God as a fact, subject either to proof or to belief: and they have broken the circle, and go free.
-
-To learn which questions are unanswerable, and _not to answer them_: this skill is most needful in times of stress and darkness. {{< /epigraph >}}
+> To be an atheist is to maintain God. His existence or nonexistence, it amounts to much the same, on the plane of proof. Thus _proof_ is a word not often used among the Handdarata, who have chosen not to treat God as a fact, subject either to proof or to belief: and they have broken the circle, and go free.
+>
+> To learn which questions are unanswerable, and _not to answer them_: this skill is most needful in times of stress and darkness.
+>
+> <cite>Ursula K. LeGuin, _The Left Hand of Darkness_</cite>
 
 I recently spent a week on retreat up in the San Bernadino mountains. On the opening night, a teacher defined wisdom as "being grown-ups about our existential condition." At first that felt like an attack -- surely I'm not being _childish_ -- but after sitting in silence for a week, letting those words run their course through me, I started to see some aspects of my own childishness.
 
@@ -22,7 +24,9 @@ Will knowing the meaning of life actually help?
 
 ---
 
-{{< epigraph cite="C.S. Lewis, _The Weight of Glory_" >}} I am trying to rip open the inconsolable secret in each one of you—the secret which hurts so much that you take your revenge on it by calling it names like Nostalgia and Romanticism and Adolescence; the secret also which pierces with such sweetness that when, in very intimate conversation, the mention of it becomes imminent, we grow awkward and affect to laugh at ourselves; the secret we cannot hide and cannot tell, though we desire to do both. We cannot tell it because it is a desire for something that has never actually appeared in our experience. We cannot hide it because our experience is constantly suggesting it, and we betray ourselves like lovers at the mention of a name. Our commonest expedient is to call it beauty and behave as if that had settled the matter. {{< /epigraph >}}
+> I am trying to rip open the inconsolable secret in each one of you—the secret which hurts so much that you take your revenge on it by calling it names like Nostalgia and Romanticism and Adolescence; the secret also which pierces with such sweetness that when, in very intimate conversation, the mention of it becomes imminent, we grow awkward and affect to laugh at ourselves; the secret we cannot hide and cannot tell, though we desire to do both. We cannot tell it because it is a desire for something that has never actually appeared in our experience. We cannot hide it because our experience is constantly suggesting it, and we betray ourselves like lovers at the mention of a name. Our commonest expedient is to call it beauty and behave as if that had settled the matter.
+>
+> <cite>C.S. Lewis, _The Weight of Glory_</cite>
 
 I've spent much of my life agonizing over questions like this: _what's this all for? Why are we here?_ Our place in the world is ambiguous and confusing, and I needed help navigating it all.
 
@@ -56,7 +60,9 @@ Rather, our task is to acclimate ourselves to what is true, to put down childish
 
 ---
 
-{{< epigraph cite="Ajahn Sucitto, [&ldquo;Awareness Doesn&rsquo;t Follow Orders&rdquo;](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)" >}} You can liken the process [of awakening] to a gradual descent out of the tumult and the gridlock of your personal world into the free space of the unconditioned. It’s rather like lowering oneself down a rope. You have to know how to do that. It’s a matter of holding on to something you trust – even though it seems like a thin strand – then letting go a little bit and trusting the downward movement. {{< /epigraph >}}
+> You can liken the process [of awakening] to a gradual descent out of the tumult and the gridlock of your personal world into the free space of the unconditioned. It’s rather like lowering oneself down a rope. You have to know how to do that. It’s a matter of holding on to something you trust – even though it seems like a thin strand – then letting go a little bit and trusting the downward movement.
+>
+> <cite>Ajahn Sucitto, "[Awareness Doesn't Follow Orders](https://ajahnsucitto.org/articles/awareness-doesnt-follow-orders/)"</cite>
 
 "Childish" in this sense is not derogatory. Children are plenty capable of learning and comprehending complex topics and learning to take responsibility. But one of the most striking aspects of childhood is what pediatrician and psychoanalyst D. W. Winnicott termed the "[transitional object](https://dictionary.apa.org/transitional-object)": dolls, blankets, or any other object used to provide comfort and reduce anxiety in unique and uncomfortable situations.
 
@@ -78,7 +84,9 @@ And we must do this again and again, putting down all our transitional objects a
 
 ---
 
-{{< epigraph cite="James Carse, _Finite and Infinite Games_" >}} Culture is an enterprise of mortals, disdaining to protect themselves against surprise. Living in the strength of their vision, they eschew power and make joyous play of boundaries. {{< /epigraph >}}
+> Culture is an enterprise of mortals, disdaining to protect themselves against surprise. Living in the strength of their vision, they eschew power and make joyous play of boundaries.
+>
+> <cite>James Carse, _Finite and Infinite Games_</cite>
 
 In this constant state of letting go, we find a balance: confidence in what we know and compassion for the unknown. Others around us, we see, are on the same road, just going at their own pace. Some join us on our journey, and for that we're grateful. For others, the road ahead is frightening, and for them we're compassionate, for we know their pain.
 
