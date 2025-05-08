@@ -9,7 +9,7 @@ draft = true
 
 ![](./hot-springs-happenings.jpg)
 
-First stop on my Journey Across America is perhaps one of the least-National-Park-ish National Parks: Hot Springs. Hot Springs is arguably more along the lines of a historic site than a National Park; most of the famous sites are architectural: the old colonial architecture of Bathhouse Row and The Arlington. But hey, it's an absolutely lovely place to stop by for a day or so.
+First stop on my Journey Across America is perhaps one of the least-National-Park-ish National Parks: [Hot Springs](https://www.nps.gov/hosp/index.htm). Hot Springs is arguably more along the lines of a historic site than a National Park; most of the famous sites are architectural: the old colonial architecture of Bathhouse Row and The Arlington. But hey, it's an absolutely lovely place to stop by for a day or so.
 
 ![A couple walking along the Promenade, hand in hand.](./hot-springs-promenade.jpg)
 
