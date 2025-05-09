@@ -4,7 +4,6 @@ date = 2025-05-08
 description = 'Bathhouse culture, livable mid-size cities, and the least-National-Park National Park.'
 slug = 'wandering-america-hot-springs-okc'
 tags = ['travelogue']
-draft = true
 +++
 
 ![](./hot-springs-happenings.jpg)
