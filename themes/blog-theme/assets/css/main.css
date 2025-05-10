@@ -625,6 +625,12 @@ span.newthought {
   margin: 0;
 }
 
+@media (max-width: 850px) {
+  .nav-links {
+    flex-direction: column;
+  }
+}
+
 /* END Nav */
 
 /* BEGIN Footer */
@@ -666,6 +672,12 @@ span.newthought {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+@media (max-width: 850px) {
+  .social-icons {
+    flex-direction: column;
+  }
 }
 
 .social-icons li {
