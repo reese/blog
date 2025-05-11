@@ -1,8 +1,8 @@
 {{ define "main" }}
   {{ .Content }}
   <div>
-    <h1><a class="no-underline" href="/thoughts">Thoughts</a></h1>
-    {{ range first 3 .Site.Taxonomies.tags.essay }}
+    <h1><a class="no-underline" href="/tags/essays">Essays</a></h1>
+    {{ range first 3 .Site.Taxonomies.tags.essays }}
     <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
@@ -11,8 +11,8 @@
     {{ end }}
   </div>
   <div>
-    <h1><a class="no-underline" href="/book-reviews">Book Reviews</a></h1>
-    {{ range first 3 .Site.Taxonomies.tags.review }}
+    <h1><a class="no-underline" href="/tags/reviews">Reviews</a></h1>
+    {{ range first 3 .Site.Taxonomies.tags.reviews }}
     <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
@@ -21,8 +21,8 @@
     {{ end }}
   </div>
   <div>
-    <h1 class="no-underline"><a class="no-underline" href="/travelogues">Travelogues</a></h1>
-    {{ range first 3 .Site.Taxonomies.tags.travelogue }}
+    <h1 class="no-underline"><a class="no-underline" href="/tags/travelogues">Travelogues</a></h1>
+    {{ range first 3 .Site.Taxonomies.tags.travelogues }}
       <div class="title-container">
       <span>{{ .Date | time.Format ":date_medium" }}</span>
       <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>

@@ -3,7 +3,7 @@ title = 'Field Notes from a Quarter-Life Crisis'
 date = 2025-04-02
 description = 'Having less, doing more, and navigating without a map'
 slug = 'field-notes-from-a-quarter-life-crisis'
-tags = ['essay']
+tags = ['essays']
 +++
 
 Some years ago, an experienced meditation teacher described his one-on-one interactions with students primarily consisting of listening to them, nodding sagely, and respond: _yes, what you’re experiencing is normal_.

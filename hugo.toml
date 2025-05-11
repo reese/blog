@@ -17,15 +17,15 @@ theme = 'blog-theme'
     weight = 1
 [[menu.main]]
     name = "Essays"
-    url = "/tags/essay/"
+    url = "/tags/essays/"
     weight = 2
 [[menu.main]]
     name = "Reviews"
-    url = "/tags/review/"
+    url = "/tags/reviews/"
     weight = 3
 [[menu.main]]
     name = "Travel"
-    url = "/tags/travelogue/"
+    url = "/tags/travelogues/"
     weight = 4
 
 [markup.goldmark.renderer]

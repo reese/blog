@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>All Tags</h1>
+  <ul class="tag-list">
+    {{ range .Data.Terms.Alphabetical }}
+      <li>
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title | markdownify }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        <time>{{ .Date | time.Format ":date_medium" }}</time>
+      </li>
+    {{ end }}
+  </ul>
+
+  <div>
+    <a href="/tags/">< All tags</a>
+  </div>
+{{ end }}

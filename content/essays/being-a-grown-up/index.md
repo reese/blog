@@ -3,7 +3,7 @@ title = 'Being a Grown Up'
 date = 2024-11-03
 description = 'Finding our way without a destination.'
 slug = 'being-a-grown-up'
-tags = ['essay']
+tags = ['essays']
 +++
 
 > To be an atheist is to maintain God. His existence or nonexistence, it amounts to much the same, on the plane of proof. Thus _proof_ is a word not often used among the Handdarata, who have chosen not to treat God as a fact, subject either to proof or to belief: and they have broken the circle, and go free.
