@@ -2,7 +2,7 @@
 title = 'Wandering America: All Hail West Texas'
 date = 2025-05-12T09:38:01-06:00
 description = 'Deserts, Prada stores, survival instincts'
-featureImage = "rio-grande-sunset.jpg"
+featureImage = "rio-grande-sunset.avif"
 slug = 'wandering-america-all-hail-west-texas'
 tags = ['travelogues', 'Wandering America']
 draft = true
@@ -18,7 +18,7 @@ They were friendly, of course, but on their ascent my Survival Background Task w
 
 The group made it to the top of the overlook and we exchanged quiet nods, settling in to watch the stars overhead.
 
-![The moon rising above Big Bend.](./moonrise.jpg)
+![The moon rising above Big Bend.](./moonrise.avif)
 
 ---
 
@@ -34,7 +34,7 @@ The surest way I know to have an out-of-body experience is to sit out under the 
 
 And all of that distance is just space, void, stories playing out on scales beyond comprehension. I feel small, but not in a way that causes any sense of anxiety or dread. I have my role in this cosmic drama. From that perspective I view the whole cosmos playing out in front of me, my tiny perspective so hilariously focused on paying the bills and planning for imagined circumstances while the whole time galaxies are colliding, stars being born and dying, my sense of what’s possible impossibly small by comparison.
 
-![A huge volcanic rock nestled on a hilltop.](./rock-statue.jpg)
+![A huge volcanic rock nestled on a hilltop.](./rock-statue.avif)
 
 ---
 
@@ -44,9 +44,9 @@ And in all of that vast space is pure strangeness. Something about the desert �
 
 I can see these mechanisms first hand. Even on a long drive in the comfort of my car, I can sense the fine line between beauty and confusion playing out. Outside the dry air sucks the moisture right off your tongue. Sweat evaporates so quickly as to be almost unnoticed. No shade, no protection from the harsh sun. The body’s resources deplete in secret. One begins to see why the Desert Fathers secluded themselves in a place like that: it is the ultimate form of asceticism, not merely away from society but in a place hostile to your survival.
 
-![A recreation of a Prada storefront, located in the middle of the desert.](./prada.jpg)
+![A recreation of a Prada storefront, located in the middle of the desert.](./prada.avif)
 
-![A sticker next to the Prada store, with the text "This Is Your Dance Space."](./this-is-your-dance-space.jpg)
+![A sticker next to the Prada store, with the text "This Is Your Dance Space."](./this-is-your-dance-space.avif)
 
 ---
 
