@@ -2,12 +2,11 @@
 title = 'Wandering America: All Hail West Texas'
 date = 2025-05-12T09:38:01-06:00
 description = 'Deserts, Prada stores, survival instincts'
+featureImage = "rio-grande-sunset.jpg"
 slug = 'wandering-america-all-hail-west-texas'
 tags = ['travelogues', 'Wandering America']
 draft = true
 +++
-
-![The sunset over the Rio Grande](./rio-grande-sunset.jpg)
 
 I saw a light flash up at me, picking me out of the midnight desert landscape. “Looks like we’ve got a problem,” the voice behind the light said.
 

@@ -387,7 +387,7 @@ table.fullwidth {
 
 div.feature-image img {
   display: block;
-  width: 87.5%;
+  width: 100%;
 }
 
 div.table-wrapper {
@@ -527,10 +527,6 @@ span.newthought {
   }
 
   img {
-    width: 100%;
-  }
-
-  div.feature-image img {
     width: 100%;
   }
 
