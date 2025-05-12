@@ -341,20 +341,6 @@ a:link,
     0.05em 1px,
     1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
-  /* TODO Figure out what this was doing */
-  /* text-shadow:
-    0.03em 0 var(--main-text-color),
-    -0.03em 0 var(--main-text-color),
-    0 0.03em var(--main-text-color),
-    0 -0.03em var(--main-text-color),
-    0.06em 0 var(--main-text-color),
-    -0.06em 0 var(--main-text-color),
-    0.09em 0 var(--main-text-color),
-    -0.09em 0 var(--main-text-color),
-    0.12em 0 var(--main-text-color),
-    -0.12em 0 var(--main-text-color),
-    0.15em 0 var(--main-text-color),
-    -0.15em 0 var(--main-text-color); */
   background-position:
     0% 93%,
     100% 93%,
@@ -368,28 +354,6 @@ a:link,
     background-position-y: 87%, 87%, 87%;
   }
 }
-
-/* Adds dark mode */
-/* TODO Figure out what this was doing */
-/* @media (prefers-color-scheme: dark) {
-  a:link,
-  .tufte-underline,
-  .hover-underline:hover {
-    text-shadow:
-      0.03em 0 var(--main-text-color),
-      -0.03em 0 var(--main-text-color),
-      0 0.03em var(--main-text-color),
-      0 -0.03em var(--main-text-color),
-      0.06em 0 var(--main-text-color),
-      -0.06em 0 var(--main-text-color),
-      0.09em 0 var(--main-text-color),
-      -0.09em 0 var(--main-text-color),
-      0.12em 0 var(--main-text-color),
-      -0.12em 0 var(--main-text-color),
-      0.15em 0 var(--main-text-color),
-      -0.15em 0 var(--main-text-color);
-  }
-} */
 
 a:link::selection,
 a:link::-moz-selection {
