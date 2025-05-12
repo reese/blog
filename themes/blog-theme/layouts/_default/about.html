@@ -1,19 +1,23 @@
 {{ define "main" }}
   {{ if .Params.featureImage }}
-  <div class="feature-image">
-    <img class="fullwidth" src="{{ .Params.featureImage }}" alt="{{ .Title | markdownify }}">
+  <div></div>
+  <div class="content">
+    <div class="feature-image">
+      <img class="fullwidth" src="{{ .Params.featureImage }}" alt="{{ .Title | markdownify }}">
+    </div>
+    {{ end }}
+    <h1>{{ .Title | markdownify }}</h1>
+
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    {{ if ne .Params.type "page" }}
+      <p><em><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> — {{ printf "Estimated reading time: %d minutes" .ReadingTime }}</em></p>
+    {{ end }}
+
+    <section>
+      {{ .Content }}
+    </section>
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </div>
-  {{ end }}
-  <h1>{{ .Title | markdownify }}</h1>
-
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  {{ if ne .Params.type "page" }}
-    <p><em><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> — {{ printf "Estimated reading time: %d minutes" .ReadingTime }}</em></p>
-  {{ end }}
-
-  <section>
-    {{ .Content }}
-  </section>
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <div></div>
 {{ end }}

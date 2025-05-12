@@ -118,7 +118,6 @@ html {
 
 body {
   width: 87.5%;
-  padding-left: 12.5%;
   margin-left: auto;
   margin-right: auto;
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD",
@@ -131,6 +130,21 @@ body {
 
 body a:hover {
   color: var(--hover-text-color);
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+
+main div {
+  flex: 1;
+}
+
+main div.content {
+  flex: 2;
+  max-width: 1200px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -162,7 +176,6 @@ h3 {
 hr {
   display: block;
   height: 1px;
-  width: 55%;
   border: 0;
   margin: 1em 0;
   padding: 0;
@@ -227,7 +240,6 @@ p {
 
 blockquote {
   font-size: 1.4rem;
-  width: 50%;
 }
 
 blockquote p {
@@ -249,13 +261,6 @@ blockquote p:has(cite) {
 cite {
   font-style: inherit;
   font-size: 1.25rem;
-}
-
-section > p,
-section > footer,
-section > table,
-section > div > ol {
-  width: 55%;
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
@@ -406,6 +411,8 @@ a:link::-moz-selection {
 /* figures, captions */
 img {
   max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 div.fullwidth,
@@ -495,11 +502,13 @@ span.newthought {
     padding-right: 8%;
   }
 
-  section > p,
-  section > footer,
-  section > table,
-  section > div > ol {
-    width: 55%;
+  main {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  main div {
+    flex: 0;
   }
 
   hr { width: 100%; }
@@ -573,10 +582,8 @@ span.newthought {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 12.5%;
   background-color: var(--main-bg-color);
-  width: 87.5%;
 }
 
 .site-title a {
@@ -625,7 +632,15 @@ span.newthought {
   margin: 0;
 }
 
+.social-icons img {
+  display: inline;
+}
+
 @media (max-width: 850px) {
+  .main-nav {
+    padding: 20px 0;
+  }
+
   .nav-links {
     flex-direction: column;
   }
@@ -766,7 +781,7 @@ a.stripe:hover {
 }
 
 .spoiler-alert {
-  width: 85%;
+  width: 95%;
   background-color: #ffcc00;
   color: #000;
   text-align: center;

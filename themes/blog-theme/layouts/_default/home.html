@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
-  <div>
+  <div></div>
+  <div class="content" style="flex: 6;">
     <h1><a class="no-underline" href="/tags/essays">Essays</a></h1>
     {{ range first 3 .Site.Taxonomies.tags.essays }}
     <div class="title-container">
@@ -9,8 +10,6 @@
       <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
-  </div>
-  <div>
     <h1><a class="no-underline" href="/tags/reviews">Reviews</a></h1>
     {{ range first 3 .Site.Taxonomies.tags.reviews }}
     <div class="title-container">
@@ -19,8 +18,6 @@
       <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
-  </div>
-  <div>
     <h1 class="no-underline"><a class="no-underline" href="/tags/travelogues">Travelogues</a></h1>
     {{ range first 3 .Site.Taxonomies.tags.travelogues }}
       <div class="title-container">
@@ -30,4 +27,5 @@
     </div>
     {{ end }}
   </div>
+  <div></div>
 {{ end }}
