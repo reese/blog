@@ -55,8 +55,6 @@ But the desert’s hostility is what makes it a wonder. It is unlike anywhere el
 
 I believe I’ve finished my greatest bouts of desert driving, at least for a little while. I’m now in El Paso, and the nearby cities are much shorter drives than the long hauls taking me through the expanse of West Texas. Next up is some quick trips through White Sands, Guadalupe Mountains, and Carlsbad Caverns, all just an hour or two away from each other.
 
-{{< youtube 7YRWzxYS_nM >}}
-
 [^mph]: Having a healthy 80mph speed limit on an empty highway is a blessing. Anything slower would be maddening, the speed the only consolation for driving hundreds of miles in essentially a single straight line.
 
 [^prada]: The story of the Prada store is, in fact, _not_ long-lost: it was an [art installation](https://en.wikipedia.org/wiki/Prada_Marfa) erected in 2005. I pulled the fastest U-turn I’ve ever done as soon as I saw this place.
