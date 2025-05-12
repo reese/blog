@@ -12,4 +12,4 @@ On the [professional](https://www.linkedin.com/in/reese-w/) front, I've worn man
 
 ![A (not) very professional headshot of me holding on to a giant stuffed puppy dog.](./bad-headshot.jpeg)
 
-Questions? Complaints? Exclamations of mirth and merryment? Feel free to reach out to me: me@reesew.com
+Questions? Complaints? Exclamations of mirth and merriment? Feel free to reach out to me: me@reesew.com
