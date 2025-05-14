@@ -4,7 +4,6 @@ date = 2025-05-13T18:58:15-06:00
 description = ''
 slug = 'the-way-of-kings'
 tags = ['reviews']
-draft = true
 +++
 
 Brandon Sanderson has loomed at the periphery of my literary awareness for a few years now. An author selling these massive tomes for millions of diehard fans is always someone to cheer for in my mind, and The Stormlight Archive was suggested to me personally as perhaps his greatest accomplishment. Especially after seeing one of the [strangest and most un-generous articles](https://archive.is/A59bw) I’ve ever read targeted at him, I felt personally compelled to see what books could possibly generate this much discussion.
