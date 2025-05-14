@@ -753,6 +753,10 @@ a.stripe:hover {
   position: relative;
 }
 
+.spoiler-alert p {
+  text-align: center;
+}
+
 @media (max-width: 850px) {
   .spoiler-alert {
     width: 100%;
