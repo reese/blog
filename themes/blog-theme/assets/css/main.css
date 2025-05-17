@@ -5,8 +5,6 @@
   --main-text-color: #1C2321;
   --hover-text-color: #4A7856;
   --accent-color: #345830;
-  --stripe-color: #F7EBEC;
-  --stripe-hover-color: #635bff;
 }
 
 /*
@@ -26,8 +24,6 @@
     --main-text-color: #cfcfcf;
     --hover-text-color: #EE2E31;
     --accent-color: #EE2E31;
-    --stripe-color: #fff;
-    --stripe-hover-color: #635bff;
   }
 } */
 
@@ -156,7 +152,6 @@ h1 {
 }
 
 h2 {
-  font-style: italic;
   font-weight: 400;
   margin-top: 2.1rem;
   margin-bottom: 1.4rem;
@@ -165,7 +160,6 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
   font-weight: 400;
   font-size: 1.7rem;
   margin-top: 2rem;
