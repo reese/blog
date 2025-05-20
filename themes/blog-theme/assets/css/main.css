@@ -3,8 +3,8 @@
 :root {
   --main-bg-color: #fff;
   --main-text-color: #1C2321;
-  --hover-text-color: #4A7856;
-  --accent-color: #345830;
+  --hover-text-color: #9EB7E5;
+  --accent-color: #648DE5;
 }
 
 html {
@@ -110,6 +110,14 @@ article {
 section {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+section > p:first-child::first-letter {
+  color: var(--accent-color);
+  padding-right: 8px;
+
+  -webkit-initial-letter: 3;
+  initial-letter: 3;
 }
 
 p,
