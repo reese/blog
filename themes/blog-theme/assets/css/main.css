@@ -5,6 +5,7 @@
   --main-text-color: #1C2321;
   --hover-text-color: #9EB7E5;
   --accent-color: #648DE5;
+  --button-color: #90C290;
 }
 
 html {
@@ -522,6 +523,61 @@ span.newthought {
 /* END Utils */
 
 /* BEGIN one-offs */
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.home-header-text, .home-header-text p {
+  margin: auto;
+  text-align: center;
+}
+
+.home-header-text a {
+  color: var(--accent-color);
+  background: unset;
+  text-shadow: none;
+  text-decoration: dashed;
+}
+
+#bd-email {
+  padding: 12px;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 250px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#bd-submit {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#bd-submit:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+}
+
+#bd-submit:active {
+  transform: translateY(-2px);
+}
+
+.subscribe-form {
+  padding: 20px 0;
+  display: flex;
+}
+
 .draft-banner {
   background-color: #ffcc00;
   color: #000;

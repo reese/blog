@@ -2,6 +2,13 @@
   {{ .Content }}
   <div></div>
   <div class="content" style="flex: 6;">
+    <div class="home-hero">
+      <div class="home-header-text">
+        <h1>Hey there — I'm <a href="/about">Reese</a>.</h1>
+        <p>I write about <a href="/tags/travelogues">travel</a>, <a href="/tags/reviews">books</a>, and having a good time while we can.</p>
+        <!-- {{ partial "subscribe-button.html" }} -->
+      </div>
+    </div>
     <h1><a class="no-underline" href="/tags/essays">Essays</a></h1>
     {{ range first 3 .Site.Taxonomies.tags.essays }}
     <div class="title-container">
