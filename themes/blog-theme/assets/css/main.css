@@ -202,68 +202,18 @@ figure.fullwidth figcaption {
   margin-right: 24%;
 }
 
-/* Links: replicate underline that clears descenders */
 a:link,
 a:visited {
   color: inherit;
+  text-decoration-thickness: from-font;
 }
 
 .no-underline:link {
-  background: unset;
-  text-shadow: unset;
-}
-
-a:link, .hover-underline:hover {
-  color: var(--main-text-color);
   text-decoration: none;
-  background:
-    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
-    -webkit-linear-gradient(var(--hover-text-color), var(--hover-text-color)),
-    -webkit-linear-gradient(currentColor, currentColor);
-  background: linear-gradient(var(--hover-text-color), var(--hover-text-color)),
-    linear-gradient(var(--hover-text-color), var(--hover-text-color)),
-    linear-gradient(currentColor, currentColor);
-  -webkit-background-size:
-    0.05em 1px,
-    0.05em 1px,
-    1px 1px;
-  -moz-background-size:
-    0.05em 1px,
-    0.05em 1px,
-    1px 1px;
-  background-size:
-    0.05em 1px,
-    0.05em 1px,
-    1px 1px;
-  background-repeat: no-repeat, no-repeat, repeat-x;
-  background-position:
-    0% 93%,
-    100% 93%,
-    0% 93%;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  a:link, .hover-underline:hover {
-    background-position-y: 87%, 87%, 87%;
-  }
-}
-
-a:link::selection,
-a:link::-moz-selection {
-  text-shadow:
-    0.03em 0 #b4d5fe,
-    -0.03em 0 #b4d5fe,
-    0 0.03em #b4d5fe,
-    0 -0.03em #b4d5fe,
-    0.06em 0 #b4d5fe,
-    -0.06em 0 #b4d5fe,
-    0.09em 0 #b4d5fe,
-    -0.09em 0 #b4d5fe,
-    0.12em 0 #b4d5fe,
-    -0.12em 0 #b4d5fe,
-    0.15em 0 #b4d5fe,
-    -0.15em 0 #b4d5fe;
-  background: #b4d5fe;
+a.hover-underline:hover {
+  text-decoration: underline;
 }
 
 /* figures, captions */
@@ -407,10 +357,6 @@ span.newthought {
   img {
     width: 100%;
   }
-
-  .twitter-tweet {
-    margin-left: 0;
-  }
 }
 
 /* BEGIN Nav */
@@ -446,7 +392,6 @@ span.newthought {
 }
 
 .nav-links li a {
-  text-decoration: none;
   font-size: 1.5rem;
   color: var(--main-text-color);
   font-weight: bold;
@@ -577,26 +522,6 @@ span.newthought {
 /* END Utils */
 
 /* BEGIN one-offs */
-a.stripe {
-  color: var(--stripe-color);
-  font-weight: 600;
-  text-decoration: none;
-  background: linear-gradient(to right, var(--stripe-color) 50%, transparent 50%);
-  background-size: 10px 2px; /* Adjust this for dash length and gap */
-  background-position: bottom left;
-  background-repeat: repeat-x;
-  padding-bottom: 0.5px;
-  background-position-x: 2px;
-}
-
-a.stripe:hover {
-  color: var(--stripe-hover-color);
-}
-
-.twitter-tweet {
-  margin-left: 6.25%;
-}
-
 .draft-banner {
   background-color: #ffcc00;
   color: #000;
