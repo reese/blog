@@ -3,7 +3,6 @@ enableEmoji = true
 enableRobotsTXT = true
 languageCode = 'en-us'
 title = 'Reese Williams'
-theme = 'blog-theme'
 [params]
   siteDescription = 'The homepage of Reese Williams: essays, travel, and general skullduggery.'
 
