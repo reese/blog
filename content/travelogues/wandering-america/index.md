@@ -6,7 +6,7 @@ slug = 'wandering-america'
 tags = ['travelogues', 'Wandering America']
 +++
 
-I’m on the road again — this time exploring these great United States, and particularly the National Parks.
+I am back on the road — this time exploring these great United States, and particularly the National Parks.
 
 I have a natural inclination to wander. It’s great to spend a lot of time in a single place, to get to know its rhythms and routines, but I always feel a little spark in my chest when I get back on the move. This morning I started off down the highway, and about twenty minutes in I looked out at the tall grass along the roadside, bending in rolling waves against the wind. My body relaxed, my vision opened up to the whole landscape. Everything was right where it should be.
 
