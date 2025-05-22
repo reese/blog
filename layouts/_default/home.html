@@ -9,30 +9,21 @@
         <!-- {{ partial "subscribe-button.html" }} -->
       </div>
     </div>
-    <h1><a class="no-underline" href="/tags/essays">Essays</a></h1>
-    {{ range first 3 .Site.Taxonomies.tags.essays }}
+    <hr/>
+    <h1>Latest</h1>
+    {{ range first 10 .Site.RegularPages }}
     <div class="title-container">
-      <span>{{ .Date | time.Format ":date_medium" }}</span>
-      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
+      <div class="title-date-line">
+        <h2 class="list-title"><a class="no-underline" href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
+        <div class="dots"></div>
+        <span class="post-date">{{ .Date | time.Format "Jan 2006" }}</span>
+      </div>
       <p class="title-description">{{ .Description }}</p>
     </div>
     {{ end }}
-    <h1><a class="no-underline" href="/tags/reviews">Reviews</a></h1>
-    {{ range first 3 .Site.Taxonomies.tags.reviews }}
-    <div class="title-container">
-      <span>{{ .Date | time.Format ":date_medium" }}</span>
-      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
-      <p class="title-description">{{ .Description }}</p>
+    <div class="view-all">
+      <a href="/posts" class="view-all-link">View All Posts →</a>
     </div>
-    {{ end }}
-    <h1 class="no-underline"><a class="no-underline" href="/tags/travelogues">Travelogues</a></h1>
-    {{ range first 3 .Site.Taxonomies.tags.travelogues }}
-      <div class="title-container">
-      <span>{{ .Date | time.Format ":date_medium" }}</span>
-      <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
-      <p class="title-description">{{ .Description }}</p>
-    </div>
-    {{ end }}
   </div>
   <div></div>
 {{ end }}

@@ -517,7 +517,66 @@ span.newthought {
 }
 
 .title-container {
-  margin-left: 30px;
+  margin: 0 30px 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.title-date-line {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+
+.list-title {
+  margin: 0;
+  padding-right: 0.5rem;
+  max-width: 500px;
+}
+
+.list-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.list-title a:hover {
+  text-decoration: underline;
+}
+
+.dots {
+  flex: 1;
+  height: 1rem;
+  margin: 0 0.5rem;
+  border-bottom: 2.5px dotted #ccc;
+}
+
+.post-date {
+  font-size: 18px;
+}
+
+.view-all {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.view-all-link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .title-date-line {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dots {
+    display: none;
+  }
+  
+  .post-date {
+    font-size: 1rem;
+  }
 }
 
 /* END Utils */
