@@ -12,4 +12,11 @@ On the [professional](https://www.linkedin.com/in/reese-w/) front, I've worn man
 
 ![A (not) very professional headshot of me holding on to a giant stuffed puppy dog.](./bad-headshot.jpeg)
 
+I'm also elsewhere on the internet! I'm not particularly active in most of these other places and prefer to keep my stuff here, but feel free to follow:
+
+- [Instagram](https://instagram.com/the.reese.williams)
+- [Goodreads](https://goodreads.com/reesew)
+- [Github](https://github.com/reese)
+- [Bluesky](https://bsky.app/profile/reesew.com)
+
 Questions? Complaints? Exclamations of mirth and merriment? Feel free to reach out to me: me@reesew.com
