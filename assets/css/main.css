@@ -5,7 +5,6 @@
   --main-text-color: #1C2321;
   --hover-text-color: #5976DF;
   --accent-color: #648DE5;
-  --button-color: #90C290;
 }
 
 html {
@@ -600,6 +599,17 @@ span.newthought {
   text-decoration: dashed;
 }
 
+.home-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-footer p, .home-footer span, .subscribe-form {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+
 #bd-email {
   padding: 12px;
   margin: auto;
@@ -611,7 +621,7 @@ span.newthought {
 }
 
 #bd-submit {
-  background-color: var(--button-color);
+  background-color: var(--accent-color);
   color: white;
   border: none;
   border-radius: 4px;
