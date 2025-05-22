@@ -4,7 +4,7 @@
     <h1>{{ .Title | markdownify }}</h1>
     {{ .Content }}
     {{ range where .Site.RegularPages "Type" "!=" "page" }}
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h3>
       <p>{{ .Description }}</p>
     {{ end }}
   </div>

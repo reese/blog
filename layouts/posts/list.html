@@ -1,11 +1,11 @@
 {{ define "main" }}
   <div></div>
   <div class="content" style="flex: 6;">
-    <h1>All Posts</h1>
+    <h2>All Posts</h2>
     {{ range first 10 .Site.RegularPages }}
       <div class="title-container">
         <div class="title-date-line">
-          <h2 class="list-title"><a class="no-underline" href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h2>
+          <h3 class="list-title"><a class="no-underline" href="{{ .RelPermalink }}">{{ .LinkTitle | markdownify }}</a></h3>
           <div class="dots"></div>
           <span class="post-date">{{ .Date | time.Format "Jan 2006" }}</span>
         </div>
