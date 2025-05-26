@@ -156,6 +156,13 @@ blockquote p:has(cite) {
   font-size: 1.25rem;
 }
 
+.quote-highlight p {
+  text-align: center;
+  text-wrap: balance;
+  font-size: xx-large;
+  line-height: 150%;
+}
+
 cite {
   font-style: inherit;
   font-size: 1.25rem;
