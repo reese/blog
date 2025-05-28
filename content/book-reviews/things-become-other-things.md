@@ -64,19 +64,3 @@ And so Mod balances these two worlds, the memories in his mind binding together 
 And it's through all of these lenses -- abundance, loss, decay, penance -- that Mod connects his past and present. The monotony of the walk, one foot in front of the other, gives rise to new worlds, to hope and joy and a deep, wide love. I went to an event for this book's release, and the final question of the night from the audience was "What's the secret to an interesting life?"
 
 Craig smiled and leaned in. "_Full days_."
-
-<!-- > When all you feel are deficiencies, accepting love from a person or even a place is like trying to fart yourself to the moon.
-
----
-
-> The whole thing, an ascetic practice. I even shave my head like some performative mendicant, one who lives off stories as alms.
-
----
-
-> I can write all this down and you still won't understand.
-
----
-
-> As a trade, he tells me that his beautiful wife is dead. He misses her _tonkatsu_ pork chops. He uses her shampoo on his head of thick curls. Still whispers goodnight to her as he shuts the inn up for the day. The more he speaks, the more he drinks. He sidles up, thigh-against-thigh, holds forth at length. Outside, the rain comes down in sheets. Fills the room with storm energy. You got a real shit sandwich for weather, he says with a savage grin, pouring himself another drink.
-
-> The owner has seen much, moves in unexpected ways, carries someone else's name. His wife is gone. His head smells of flowers. Whiskey on the breath, he laughs loud and hard and has traveled far from who he once was. -->
