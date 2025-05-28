@@ -4,7 +4,6 @@ date = 2025-05-27
 description = 'Mountain walks, abundance, pizza toast'
 slug = 'things-become-other-things'
 tags = ['reviews']
-draft = true
 +++
 
 {{< quote-highlight >}}
