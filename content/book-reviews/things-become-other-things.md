@@ -49,7 +49,7 @@ Throughout the book, we meet a wide cast of characters. Some we glimpse for just
 
 Brief conversations like this -- in the car, ordering food, walking past a rice field -- illuminate a group that, despite its decline, is supported and seen. Their lives can be hard, absolutely. Once-bustling _kissas_ are now empty (save for Mod with a plate of pizza toast), fishermen's hauls get smaller every year. But there's never a sense of not-enough. The inn owners still feed Craig huge stacks of pancakes and send him off with five loaves of bread, small shops get picked up by the family's next generation. Things continue on, become other things.
 
-If only Bryan could have seen all of this. Maybe, Mod writes, their lives would have been different. The sense of scarcity so absent from Craig's walk was by contrast a defining characteristic of his childhood. He recalls fights, drugs, the boys' desire to buy a gun. He recalls one of his classmates: "We knew a kid who got a plastic sandwhich bag thick with hash for Christmas, carried and unveiled it proudly. I visited his house once. They owned no furniture."
+If only Bryan could have seen all of this. Maybe, Mod writes, their lives would have been different. The sense of scarcity so absent from Craig's walk was by contrast a defining characteristic of his childhood. He recalls fights, drugs, the boys' desire to buy a gun. He recalls one of his classmates: "We knew a kid who got a plastic sandwich bag thick with hash for Christmas, carried and unveiled it proudly. I visited his house once. They owned no furniture."
 
 {{< quote-highlight >}}
 
