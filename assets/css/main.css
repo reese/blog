@@ -37,7 +37,7 @@ main div {
 }
 
 main div.content {
-  flex: 2;
+  flex: 2.5;
   max-width: 1200px;
   padding-bottom: 20px;
 }
@@ -163,6 +163,7 @@ blockquote p:has(cite) {
   font-style: italic;
   line-height: 150%;
   padding: 40px 0;
+  margin: auto;
 }
 
 cite {
@@ -298,7 +299,7 @@ span.newthought {
   height: 100%;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   body {
     width: 84%;
     padding-left: 8%;
@@ -427,7 +428,7 @@ span.newthought {
   display: inline;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .main-nav {
     padding: 20px 0;
   }
@@ -467,7 +468,7 @@ span.newthought {
   width: 100%;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .site-footer-container {
     width: 100%;
   }
@@ -480,7 +481,7 @@ span.newthought {
   justify-content: flex-end;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .social-icons {
     flex-direction: column;
   }
@@ -692,7 +693,7 @@ span.newthought {
   text-align: center;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .spoiler-alert {
     width: 100%;
   }
