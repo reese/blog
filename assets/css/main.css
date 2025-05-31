@@ -468,12 +468,6 @@ span.newthought {
   justify-content: flex-end;
 }
 
-@media (max-width: 900px) {
-  .social-icons {
-    flex-direction: column;
-  }
-}
-
 .social-icons li {
   list-style-type: none;
 }
