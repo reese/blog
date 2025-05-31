@@ -171,19 +171,6 @@ cite {
   font-size: 1.25rem;
 }
 
-/* 50 + 5 == 55, to be the same width as paragraph */
-section > dl,
-section > ol,
-section > ul {
-  width: 50%;
-  -webkit-padding-start: 5%;
-}
-
-/* dt:not(:first-child),
-li:not(:first-child) {
-    margin-top: 0.25rem;
-} */
-
 figure {
   padding: 0;
   border: 0;
@@ -655,6 +642,12 @@ span.newthought {
 .subscribe-form {
   padding: 20px 0;
   display: flex;
+}
+
+.subscribe-cta {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
 }
 
 .draft-banner {

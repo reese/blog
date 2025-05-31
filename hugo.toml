@@ -26,6 +26,10 @@ title = 'Reese Williams'
     name = "Travel"
     url = "/tags/travelogues/"
     weight = 4
+[[menu.main]]
+    name = "Newsletter"
+    url = "/newsletter/"
+    weight = 5
 
 [markup.goldmark.renderer]
 unsafe= true
