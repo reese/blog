@@ -59,6 +59,6 @@ The older of them thrust his arm to the side, _KkTschzzzzzzz_. This time he had 
 
 ---
 
-These images stick themselves in my mind. Sometimes I imagine myself seeing like the Tralfamadorians from _Slaughterhouse-Five_, seeing all time as all time: "They can see how permanent all the moments are, and they can look at any moment that interests them. It is an illusion we have here on Earth that one moment follows another one, like beads on a string, and that once a moment is gone it is gone forever."
+These images stick themselves in my mind. Sometimes I imagine myself seeing like the eidetic Tralfamadorians from _Slaughterhouse-Five_, seeing all time as all time: "They can see how permanent all the moments are, and they can look at any moment that interests them. It is an illusion we have here on Earth that one moment follows another one, like beads on a string, and that once a moment is gone it is gone forever."
 
 But I'm glad that I don't see this way. I'm glad that each moment exists as a flash, not bound to a known end. I've never understood why people read the plots of movies before they watch it. Moments like these are precious: uncut diamonds.
