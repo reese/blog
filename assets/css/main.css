@@ -600,7 +600,7 @@ span.newthought {
   margin: auto;
   border-radius: 4px;
   border: 1px solid #ddd;
-  width: 200px;
+  width: 100%;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -630,6 +630,7 @@ span.newthought {
 .subscribe-form {
   padding: 20px 0;
   display: flex;
+  width: 100%;
 }
 
 .subscribe-cta {
