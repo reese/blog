@@ -195,10 +195,6 @@ figcaption {
   max-width: 40%;
 }
 
-figure.fullwidth figcaption {
-  margin-right: 24%;
-}
-
 a:link,
 a:visited {
   color: inherit;
@@ -218,11 +214,6 @@ img {
   max-width: 100%;
   display: block;
   margin: auto;
-}
-
-div.fullwidth,
-table.fullwidth {
-  width: 100%;
 }
 
 div.feature-image img {
@@ -252,38 +243,9 @@ pre > code {
   display: block;
 }
 
-pre.fullwidth > code {
-  width: 90%;
-}
-
-.fullwidth {
-  padding-top: 10px;
-  width: 100vw;
-  max-width: none;
-  height: auto;
-  position: relative;
-  transform: translateX(-12.5%);
-  margin-right: -15%;
-}
-
 span.newthought {
   font-variant: small-caps;
   font-size: 1.2em;
-}
-
-.iframe-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-
-.iframe-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 @media (max-width: 900px) {
@@ -318,16 +280,9 @@ span.newthought {
     max-width: 90%;
   }
 
-  figcaption,
-  figure.fullwidth figcaption {
+  figcaption {
     margin-right: 0%;
     max-width: none;
-  }
-
-  .fullwidth {
-    /* Body left-padding is reduced to 8% */
-    transform: translateX(-8%);
-    margin-right: -10%;
   }
 
   blockquote {
@@ -400,15 +355,6 @@ span.newthought {
 
 .right-nav-container {
   display: flex;
-}
-
-.right-nav-container > div > .social-icons {
-  padding-left: 10px;
-}
-
-.right-nav-container .social-icons {
-  padding: 0;
-  margin: 0;
 }
 
 .social-icons img {
