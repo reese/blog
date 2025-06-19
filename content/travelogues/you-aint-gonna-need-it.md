@@ -19,7 +19,7 @@ There's a phrase that originated in software development: [You Ain't Gonna Need 
 
 But lest you think this doesn't apply to your luxury beach vacation, consider how much better the whole thing would be if you could waltz off the plane without waiting for your luggage, how simple your day would be when you don't have to think about what to wear. Fewer options means fewer decisions.
 
-It's not like bringing your whole wardrobe matters anyways. You're travelling, you're never going to see these people again. Other people in whatever city or resort you're visiting are focused on their own lives and aren't looking at you, and _even if they were_, it's not like you'll see them again. You're allowed to wear the same shirt twice.
+It's not like bringing your whole wardrobe matters anyways. You're traveling, you're never going to see these people again. Other people in whatever city or resort you're visiting are focused on their own lives and aren't looking at you, and _even if they were_, it's not like you'll see them again. You're allowed to wear the same shirt twice.
 
 Aside from overthinking, another reason we overpack is that we forget. We forget the last trip we took, or the one before that (or the one before _that_) where we had to wait for an hour while baggage was delayed at the airport, or where we had to sit on our suitcase just to get the zipper to close. We forget all those moments against the backdrop of a lovely vacation, and we doom ourselves to repeat this cycle again and again.
 
