@@ -1,13 +1,12 @@
 +++
 title = "You Ain't Gonna Need It"
-date = 2025-06-18
+date = 2025-06-23
 description = 'Pack light, then pack again even lighter'
 slug = 'you-aint-gonna-need-it'
 tags = ['travelogues']
-draft = true
 +++
 
-When I share with people that I travel for months at a time out of a backpack, the response generally hovers somewhere between light amusement and Lovecraftian horror. It sets a constraint in a space where many people want to be unconstrained. _I'm travelling, it should be relaxed._ And that's precisely why you should pack light: the last thing you want is to be soaked with sweat from lugging around a heavy suitcase, wasting time redistributing clothes to stay under the 50 pound weight limit your airline enforces, or spending the days before your departure planning every outfit and worrying about every possible scenario.
+When I share with people that I travel for months at a time out of a backpack, the response generally hovers somewhere between light amusement and Lovecraftian horror. It sets a constraint in a space where many people want to be unconstrained. _I'm travelling, it should be relaxed._ And that's precisely why you should pack light: the last thing you want is to be soaked with sweat from lugging around a heavy suitcase or awkwardly redistributing clothes to stay under the 50 pound weight limit your airline enforces.
 
 I'm guilty of being a chronic over-packer myself, always stuck with the recurring idea that _just maybe_ I'll need a down jacket in Hawaii or five extra pairs of underwear. It's symptomatic of my own runaway mind, constantly thinking through infinite what-if scenarios wherein I stain ten T-shirts in three days and thus absolutely must pack fifteen.
 
@@ -19,7 +18,9 @@ There's a phrase that originated in software development: [You Ain't Gonna Need 
 
 But lest you think this doesn't apply to your luxury beach vacation, consider how much better the whole thing would be if you could waltz off the plane without waiting for your luggage, how simple your day would be when you don't have to think about what to wear. Fewer options means fewer decisions.
 
-It's not like bringing your whole wardrobe matters anyways. You're traveling, you're never going to see these people again. Other people in whatever city or resort you're visiting are focused on their own lives and aren't looking at you, and _even if they were_, it's not like you'll see them again. You're allowed to wear the same shirt twice.
+It's not like bringing your whole wardrobe matters anyways. Think about it this way: what was your partner wearing yesterday? And the day before? What about your best friend? Your coworker? If you're anything like me, anything beyond a day (or truthfully, a few hours) is lost to the sands of time.
+
+And when you're traveling, this is only exacerbated. Other people in whatever city or resort you're visiting are focused on their own lives and aren't looking at you, and _even if they were_, it's not like you'll see them again. You're allowed to wear the same shirt twice.
 
 Aside from overthinking, another reason we overpack is that we forget. We forget the last trip we took, or the one before that (or the one before _that_) where we had to wait for an hour while baggage was delayed at the airport, or where we had to sit on our suitcase just to get the zipper to close. We forget all those moments against the backdrop of a lovely vacation, and we doom ourselves to repeat this cycle again and again.
 
