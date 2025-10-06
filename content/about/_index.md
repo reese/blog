@@ -15,6 +15,5 @@ I'm also elsewhere on the internet! I'm not particularly active in most of these
 - [Instagram](https://instagram.com/the.reese.williams)
 - [Goodreads](https://goodreads.com/reesew)
 - [Github](https://github.com/reese)
-- [Bluesky](https://bsky.app/profile/reesew.com)
 
 Questions? Complaints? Exclamations of mirth and merriment? Feel free to reach out to me: me@reesew.com
